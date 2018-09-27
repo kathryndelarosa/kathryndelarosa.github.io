@@ -97,7 +97,7 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
     margin:0;
 }
 
-#home, #about, #dramaturgy, #sound, #plays, #radio, #contact {padding:5em 0;width:100%;}
+#home, #about, #dramaturgy, #sound, #plays, #radio, #contact {padding:2.5em 0;width:100%;}
 
 #mainNav {
   line-height:4em;
