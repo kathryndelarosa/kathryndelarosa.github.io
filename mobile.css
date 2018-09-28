@@ -24,7 +24,7 @@ a.nah:link, a.nah:visited {
 
 a.nah:hover {
     text-decoration:underline;
-    opacity:1;
+    color:white;
 }
 
 h1 {
@@ -120,7 +120,7 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
 }
 
 #mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:1px solid #F2AE96;}
-#mainNav a:hover {color:#F2AE96;}
+#mainNav a:hover {color:#F2AE96;border-bottom:0px;}
 
 .tete {width:90%;margin:auto;}
 .bigboi {width:100%;margin:auto;}
