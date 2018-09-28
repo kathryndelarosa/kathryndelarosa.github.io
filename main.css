@@ -131,9 +131,4 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
 
 .caption {font-size:.75em;text-transform:uppercase;margin-top:3em;line-height:1.25;}
 
-#home {background-color:#5becff;color:#0c9feb;}
-#dramaturgy {background-color:#fb5db4;color:#fff;}
-#sound {color:#0c9feb;}
-#plays {background-color:black;color:#fff;}
-#radio {color:#fb0d43;}
 #contact {background-color:yellow;}
