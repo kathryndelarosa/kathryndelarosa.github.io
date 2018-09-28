@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body {
-    background-color:white;
-    color:#000;
+    background-color:##FDFBF9;
+    color:#52433e;
     font-family: 'Inconsolata', mono;
     font-size:16px;
     line-height:1.4em;
@@ -117,11 +117,10 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
     text-decoration:none;
     display:inline-block;
   }
-  a:hover {color: #4861A2;}
 }
 
-#mainNav a {margin:0 .5em 0;text-decoration:none;}
-#mainNav a:hover {background-color:yellow;opacity:1;}
+#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:3px solid #a36736;}
+#mainNav a:hover {background-color:#a36736;opacity:1;}
 
 .tete {width:80%;margin:auto;}
 .bigboi {width:90%;margin:auto;}
@@ -131,4 +130,4 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
 
 .caption {font-size:.75em;text-transform:uppercase;margin-top:3em;line-height:1.25;}
 
-#contact {background-color:yellow;}
+#contact {background-color:#a36736;}
