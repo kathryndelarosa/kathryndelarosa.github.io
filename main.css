@@ -15,7 +15,7 @@ a:link, a:visited {
 
 a:hover {
     text-decoration:none;
-    opacity:.5;
+    color:#a36736;
 }
 
 a.nah:link, a.nah:visited {
@@ -119,8 +119,8 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
   }
 }
 
-#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:3px solid #a36736;}
-#mainNav a:hover {background-color:#a36736;opacity:1;}
+#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:1px solid #a36736;}
+#mainNav a:hover {background-color:#a36736;opacity:1;color:#fff;}
 
 .tete {width:80%;margin:auto;}
 .bigboi {width:90%;margin:auto;}
@@ -130,4 +130,4 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
 
 .caption {font-size:.75em;text-transform:uppercase;margin-top:3em;line-height:1.25;}
 
-#contact {background-color:#a36736;}
+#contact {background-color:#a36736;color:white;}
