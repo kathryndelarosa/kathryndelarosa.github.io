@@ -109,6 +109,7 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
   top: 0em; 
   width:100%; 
     background-color:white;
+    border-bottom:1px solid #E3E1E0;
 }
 
 #mainNav {
