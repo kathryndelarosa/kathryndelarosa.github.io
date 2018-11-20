@@ -2,133 +2,55 @@
 /* CSS Document */
 
 body {
-    background-color:#FDFBF9;
-    color:#52433e;
-    font-family: 'Inconsolata', mono;
-    font-size:16px;
-    line-height:1.4em;
+    background-color:#0719DD;
+    color:#ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:500;
+    font-size:24px;
+    line-height:1.15em;
 }
 
 a:link, a:visited {
-    color:inherit;
-}
-
-a:hover {
+    color:#ffab6b;
     text-decoration:none;
-    color:#F2AE96;
+    border-bottom:1.5px solid #838CEE;
 }
 
-a.nah:link, a.nah:visited {
+a.icon:link, a.icon:visited {
+    color:#ffab6b;
     text-decoration:none;
+    font-size:.75em;
+    border-bottom:0px;
+    margin-right:.25em;
 }
 
-a.nah:hover {
-    text-decoration:underline;
-    color:white;
-}
-
-h1 {
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
-    text-align:left;
-    line-height:1.25;
-    padding-top:1em;  
-    font-size:3em;
-}
-
-h2 {
-    line-height:1.25;
-    font-size:2.5em;
-    text-align:left;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
-}
-
-h3 {
-    line-height:1.25;
-    font-size:2em;
-    text-align:left;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;    
-}
-
-h4 {
-    line-height:1;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
-    margin-top:0;
-}
-
-h5 {
-    font-size:1em;
-    text-transform: uppercase;
-}
-
-#turgy {
-    width:90%;
+#container {
+    width:70%;
     margin:auto;
 }
 
-.drama {
-    width:100%;
-}
-
-.pic {
-    width:60%;
+#lilbud {
+    width:50%;
     float:left;
+    margin:2em 0;
 }
 
-.info {
-    width:35%;
+#side {
+    font-family:'Karla', serif;
+    font-size:.6em;
+    line-height:1.35;
+    margin:2em 0;
+}
+
+span.sub {
+    font-family:'Karla', serif;
+    font-size:.6em;
+    line-height:1.75;
+    display:block;
+}
+
+#bigboi {
+    width:50%;
     float:left;
-    margin-left:2em;
+    margin:2em 0;
 }
-
-html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
-	height:auto;
-	min-height: 100vh;
-    width:100%;
-    margin:0;
-}
-
-#contact {
-	height:auto; 
-    width:100%;
-    margin:0;
-}
-
-#home, #about, #dramaturgy, #sound, #plays, #radio, #contact {padding:5em 0;width:100%;}
-
-#mainNav {
-  line-height:4em;
-  position:fixed; 
-  top: 0em; 
-  width:100%; 
-    background-color:white;
-    border-bottom:1px solid #E3E1E0;
-}
-
-#mainNav {
-  a, a:link, a:visited, a:hover, a:active {
-    color:#eee; 
-    text-decoration:none;
-    display:inline-block;
-  }
-}
-
-#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:1px solid #F2AE96;}
-#mainNav a:hover {color:#F2AE96;border-bottom:0px;}
-
-.tete {width:80%;margin:auto;}
-.bigboi {width:90%;margin:auto;}
-.lilbud {width:50%;margin:auto;}
-.lilcaption {width:60%;margin:auto;font-size:.75em;text-transform:uppercase;margin-bottom:3em;}
-.espace {width:100%;margin:auto;height:3em;clear:both;}
-
-.caption {font-size:.75em;text-transform:uppercase;margin-top:3em;line-height:1.25;}
-
-#contact {background-color:#F2AE96;color:white;}
