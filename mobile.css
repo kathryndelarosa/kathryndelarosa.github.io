@@ -21,3 +21,11 @@ body {
     margin:1em 0;
     display:block;
 }
+
+#side {
+    font-size:.5em;
+}
+
+span.sub {
+    font-size:.5em;
+}
