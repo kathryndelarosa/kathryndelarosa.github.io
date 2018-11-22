@@ -4,10 +4,9 @@
 body {
     background-color:#7D05FF;
     color:#ffffff;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight:500;
+    font-family: 'Cardo', serif;
     font-size:24px;
-    line-height:1.15em;
+    line-height:1.25em;
 }
 
 a:link, a:visited {
