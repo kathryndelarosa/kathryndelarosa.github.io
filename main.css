@@ -11,7 +11,6 @@ body {
 
 a:link, a:visited {
     color:#ff9ee7;
-    text-decoration:none;
     border-bottom:.1em solid #9644FF;
 }
 
@@ -24,7 +23,7 @@ a.icon:link, a.icon:visited {
 }
 
 #container {
-    width:70%;
+    width:68%;
     margin:auto;
 }
 
