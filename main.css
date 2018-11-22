@@ -4,13 +4,14 @@
 body {
     background-color:#7D05FF;
     color:#ffffff;
-    font-family: 'Cardo', serif;
+    font-family: 'EB Garamond', serif;
     font-size:24px;
     line-height:1.25em;
 }
 
 a:link, a:visited {
     color:#ff9ee7;
+    text-decoration:none; 
     border-bottom:.1em solid #9644FF;
 }
 
