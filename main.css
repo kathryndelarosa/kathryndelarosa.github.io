@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    background-color:#7D05FF;
+    background-color:#002C2B;
     color:#ffffff;
     font-family: 'EB Garamond', serif;
     font-size:24px;
@@ -10,13 +10,13 @@ body {
 }
 
 a:link, a:visited {
-    color:#ff96c8;
+    color:#FFBC11;
     text-decoration:none; 
-    border-bottom:.1em solid #9644FF;
+    border-bottom:.1em solid #076461;
 }
 
 a.icon:link, a.icon:visited {
-    color:#ff96c8;
+    color:#FFBC11;
     text-decoration:none;
     font-size:1em;
     border-bottom:0px;
