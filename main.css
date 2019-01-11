@@ -2,35 +2,27 @@
 /* CSS Document */
 
 body {
-<<<<<<< HEAD
-    background-color:#002C2B;
-=======
-    background-color:#53009c;
->>>>>>> parent of 6bd19ce... back to colors
+    background-color:#7D05FF;
     color:#ffffff;
     font-family: 'EB Garamond', serif;
     font-size:24px;
-    line-height:1.25em;
+@ -10,13 +10,13 @@ body {
 }
 
 a:link, a:visited {
-<<<<<<< HEAD
-    color:#FFBC11;
-    text-decoration:none; 
-    border-bottom:.1em solid #076461;
-}
-
-a.icon:link, a.icon:visited {
-    color:#FFBC11;
-=======
     color:#ff57cd;
     text-decoration:none; 
-    border-bottom:.1em solid #7D05FF;
+    border-bottom:.1em solid #9644FF;
 }
 
 a.icon:link, a.icon:visited {
     color:#ff57cd;
->>>>>>> parent of 6bd19ce... back to colors
+    text-decoration:none;
+    font-size:1em;
+    border-bottom:0px;
+
+a.icon:link, a.icon:visited {
+    color:#ff57cd;
     text-decoration:none;
     font-size:1em;
     border-bottom:0px;
