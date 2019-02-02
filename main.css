@@ -57,3 +57,11 @@ span.sub {
 h1 {
     font-family:'Karla', sans-serif;
 }
+
+.caption {
+    font-family: 'Karla', sans-serif;
+    font-size:.5em;
+    text-transform:uppercase;
+    text-align:right;
+    display:block;
+}
