@@ -2,21 +2,23 @@
 /* CSS Document */
 
 body {
-    background-color:#7D05FF;
+    background-color:#2f00e6;
     color:#ffffff;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cardo', serif;
     font-size:24px;
     line-height:1.25em;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i|Karla:400,400i');
+
 a:link, a:visited {
-    color:#ff96c8;
+    color:#ffa959;
     text-decoration:none; 
-    border-bottom:.1em solid #9644FF;
+    border-bottom:.1em solid #9780f3;
 }
 
 a.icon:link, a.icon:visited {
-    color:#ff96c8;
+    color:#ffa959;
     text-decoration:none;
     font-size:1em;
     border-bottom:0px;
