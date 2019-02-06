@@ -4,17 +4,19 @@
 body {
     background-color:#2f00e6;
     color:#ffffff;
-    font-family: 'Cardo', serif;
+    font-family: 'Spectral', serif;
+    font-weight:200;
     font-size:24px;
     line-height:1.25em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i|Karla:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Spectral:200,200i|Karla:400,400i');
 
 a:link, a:visited {
     color:#ffa959;
     text-decoration:none; 
-    border-bottom:.1em solid #9780f3;
+    border-bottom:.05em solid #9780f3;
+    padding-bottom:px; 
 }
 
 a.icon:link, a.icon:visited {
