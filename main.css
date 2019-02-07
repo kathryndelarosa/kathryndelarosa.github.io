@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    background-color:#7D05FF;
+    background-color:#193edd;
     color:#fff;
     font-family: 'Ehrhardt MT Std', serif;
     font-weight:200;
@@ -12,14 +12,14 @@ body {
 
 
 a:link, a:visited {
-    color:#e375ff;
+    color:#ffab6b;
     text-decoration:none; 
-    border-bottom:.1em solid #918BEC;
+    border-bottom:.1em solid #918bec;
     padding-bottom:px; 
 }
 
 a.icon:link, a.icon:visited {
-    color:#e375ff;
+    color:#ffab6b;
     text-decoration:none;
     font-size:1em;
     border-bottom:0px;
@@ -30,16 +30,16 @@ a.icon:link, a.icon:visited {
 
 @font-face {
     font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
-        url('EhrhardtMTStd-Regular.woff') format('woff');
+    src: url('/EhrhardtMTStd-Regular.woff2') format('woff2'),
+        url('/EhrhardtMTStd-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Italic.woff2') format('woff2'),
-        url('EhrhardtMTStd-Italic.woff') format('woff');
+    src: url('/EhrhardtMTStd-Italic.woff2') format('woff2'),
+        url('/EhrhardtMTStd-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
