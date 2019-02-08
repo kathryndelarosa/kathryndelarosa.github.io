@@ -4,7 +4,7 @@
 body {
     background-color:#193edd;
     color:#fff;
-    font-family: 'Ehrhardt MT Std', serif;
+    font-family: 'Cardo', serif;
     font-weight:200;
     font-size:24px;
     line-height:1.25em;
@@ -26,7 +26,7 @@ a.icon:link, a.icon:visited {
     margin-right:.25em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i|Karla:400,400i');
 
 @font-face {
     font-family: 'Ehrhardt MT Std';
