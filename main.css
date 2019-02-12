@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body {
-    background-color:#193edd;
-    color:#fff;
+    background-color:#fff;
+    color:#462A3E;
     font-family: 'Cardo', serif;
     font-weight:200;
     font-size:24px;
@@ -12,14 +12,14 @@ body {
 
 
 a:link, a:visited {
-    color:#ffab6b;
+    color:#462A3E;
     text-decoration:none; 
-    border-bottom:.1em solid #918bec;
+    border-bottom:.1em solid #ccc;
     padding-bottom:px; 
 }
 
 a.icon:link, a.icon:visited {
-    color:#ffab6b;
+    color:#462A3E;
     text-decoration:none;
     font-size:1em;
     border-bottom:0px;
@@ -45,12 +45,12 @@ a.icon:link, a.icon:visited {
 }
 
 #container {
-    width:68%;
+    width:80%;
     margin:2em auto;
 }
 
 #lilbud {
-    width:50%;
+    width:40%;
     float:left;
     margin:20;
 }
@@ -70,7 +70,7 @@ span.sub {
 }
 
 #bigboi {
-    width:50%;
+    width:60%;
     float:left;
     margin:0 0 2em;
 }
