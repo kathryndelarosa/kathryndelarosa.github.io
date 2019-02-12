@@ -14,8 +14,12 @@ body {
 a:link, a:visited {
     color:#462A3E;
     text-decoration:none; 
-    border-bottom:.1em solid #ccc;
+    border-bottom:.05em solid #462A3E;
     padding-bottom:px; 
+}
+
+a:hover {
+    background:#FAD5A9;
 }
 
 a.icon:link, a.icon:visited {
