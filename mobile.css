@@ -1,27 +1,8 @@
-@charset "utf-8";
-/* CSS Document */
-
-#container {
-    width:98%;
-    margin:auto;
+body {
+    font-size:14pt;
 }
 
-#lilbud {
-    width:100%;
-    display:block;
-    margin:1em 0;
-}
-
-#bigboi {
-    width:100%;
-    margin:1em 0;
-    display:block;
-}
-
-#side {
-    font-size:.58em;
-}
-
-span.sub {
-    font-size:.58em;
+#bigboi, #lilbud {
+    margin:0;
+    width:90%;
 }

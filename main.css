@@ -1,92 +1,63 @@
-@charset "utf-8";
-/* CSS Document */
-
 body {
-    background-color:#fff;
-    color:#462A3E;
-    font-family: 'Cardo', serif;
-    font-weight:200;
-    font-size:24px;
-    line-height:1.25em;
-}
-
-
-a:link, a:visited {
-    color:#462A3E;
-    text-decoration:none; 
-    border-bottom:.05em solid #462A3E;
-    padding-bottom:px; 
-}
-
-a:hover {
-    background:#FAD5A9;
-}
-
-a.icon:link, a.icon:visited {
-    color:#462A3E;
-    text-decoration:none;
-    font-size:1em;
-    border-bottom:0px;
-    margin-right:.25em;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i|Karla:400,400i');
-
-@font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('/EhrhardtMTStd-Regular.woff2') format('woff2'),
-        url('/EhrhardtMTStd-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('/EhrhardtMTStd-Italic.woff2') format('woff2'),
-        url('/EhrhardtMTStd-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-#container {
-    width:80%;
-    margin:2em auto;
-}
-
-#lilbud {
-    width:40%;
-    float:left;
-    margin:20;
-}
-
-#side {
-    font-family:'Karla', serif;
-    font-size:.6em;
-    line-height:1.35;
-    margin:0;
-}
-
-span.sub {
-    font-family:'Karla', serif;
-    font-size:.6em;
-    line-height:1.8;
-    display:block;
+    background-color:#F0E6F2;
+    color:#000;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 18pt;
+    line-height:1.3;
 }
 
 #bigboi {
-    width:60%;
+    width:54%;
+    margin:2em;
     float:left;
-    margin:0 0 2em;
 }
 
-h1 {
+#lilbud {
+    width:30%;
+    margin:2em;
+    float:left;
     font-family:'Karla', sans-serif;
 }
 
-.caption {
-    font-family: 'Karla', sans-serif;
-    font-size:.5em;
-    text-transform:uppercase;
-    text-align:right;
-    display:block;
+#ygod {
+    font-size:.8em;
 }
+
+a:link, a:active, a:visited {    color:inherit;
+    text-decoration:none;
+}
+
+a:hover {
+    opacity:.9;
+}
+
+a.icon:link {
+    font-size:.7em;
+    margin:0 .3em 0 0;
+}
+
+.tete {
+    font-family:'Karla', sans-serif;
+    font-size:1.1em;
+    font-weight:700;
+}
+
+.ptete {
+    font-family:'Karla', sans-serif;
+    font-size:1.1em;
+    font-weight:400;
+}
+
+.cou {
+    letter-spacing:.2em;
+    text-transform: uppercase;
+    font-size:.8em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.acc {
+    font-family:'Karla', sans-serif;
+    font-weight:700;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
