@@ -60,4 +60,10 @@ a.icon:link {
     font-weight:700;
 }
 
+h1 {
+    font-family:'Karla', sans-serif;
+    font-size:1.1em;
+    font-weight:700;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
