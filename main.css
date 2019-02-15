@@ -8,13 +8,13 @@ body {
 
 #bigboi {
     width:54%;
-    margin:2em;
+    margin:6em 2em;
     float:left;
 }
 
 #lilbud {
     width:30%;
-    margin:2em;
+    margin:6em 2em;
     float:left;
     font-family:'Karla', sans-serif;
 }
@@ -64,6 +64,10 @@ h1 {
     font-family:'Karla', sans-serif;
     font-size:1em;
     font-weight:700;
+}
+
+p {
+    margin:1.6em 0;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
