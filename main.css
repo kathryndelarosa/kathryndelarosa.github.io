@@ -51,7 +51,7 @@ a.icon:link {
 .cou {
     letter-spacing:.2em;
     text-transform: uppercase;
-    font-size:.8em;
+    font-size:.75em;
     font-family: 'Sorts Mill Goudy', serif;
 }
 
@@ -67,7 +67,7 @@ h1 {
 }
 
 p {
-    margin:1.6em 0;
+    margin:1.7em 0;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
