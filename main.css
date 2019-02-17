@@ -12,8 +12,12 @@ body {
     float:left;
 }
 
-#bigboi a {
-    border-bottom:.01em solid #c5b1c9;
+#lilbud a {
+    border-bottom:none;
+}
+
+#lilbud a:hover {
+    border-bottom:.01em solid #c5b1c9;    
 }
 
 #lilbud {
@@ -27,12 +31,16 @@ body {
     font-size:.8em;
 }
 
-a:link, a:active, a:visited {    color:inherit;
+a:link, a:active, a:visited {
+    color:inherit;
     text-decoration:none;
+    border-bottom:.01em solid #c5b1c9;
+
 }
 
 a:hover {
     opacity:.9;
+    border-bottom:0px;
 }
 
 a.icon:link {
@@ -80,6 +88,29 @@ h1 {
 
 p {
     margin:1.7em 0;
+}
+
+.item {
+    width:100%;
+}
+
+.item h1 {
+    font-family:'Karla', sans-serif;
+    font-weight:700;
+    font-size:.9em;
+    margin-bottom:.25em;
+}
+
+.item h2 {
+    letter-spacing:.2em;
+    text-transform: uppercase;
+    font-size:.6em;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin:0;
+}
+
+.item p {
+    margin:1em 0 2em;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
