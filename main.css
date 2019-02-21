@@ -113,4 +113,10 @@ p {
     margin:1em 0 2em;
 }
 
+#book {
+    font-family:'Karla', sans-serif;
+    font-size:.6em;
+    text-transform:uppercase;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
