@@ -72,24 +72,24 @@ h2 {
 
 @font-face {
     font-family: 'Untitled Sans';
-    src: url('UntitledSans-Light.woff2') format('woff2'),
-        url('UntitledSans-Light.woff') format('woff');
+    src: url('/fonts/UntitledSans-Light.woff2') format('woff2'),
+        url('/fonts/UntitledSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ogg';
-    src: url('Ogg-Roman.woff2') format('woff2'),
-        url('Ogg-Roman.woff') format('woff');
+    src: url('/fonts/Ogg-Roman.woff2') format('woff2'),
+        url('/fonts/Ogg-Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Untitled Sans';
-    src: url('UntitledSans-Bold.woff2') format('woff2'),
-        url('UntitledSans-Bold.woff') format('woff');
+    src: url('/fonts/UntitledSans-Bold.woff2') format('woff2'),
+        url('/fonts/UntitledSans-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
