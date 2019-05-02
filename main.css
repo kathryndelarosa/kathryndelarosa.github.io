@@ -85,3 +85,11 @@ h2 {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Untitled Sans';
+    src: url('UntitledSans-Bold.woff2') format('woff2'),
+        url('UntitledSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
