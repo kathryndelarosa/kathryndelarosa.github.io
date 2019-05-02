@@ -1,8 +1,12 @@
 body {
-    font-size:24px;
+    font-size:20px;
 }
 
 #bigboi, #lilbud {
     margin:0;
     width:95%;
+}
+
+h1, h2 {
+    font-size:.6em;
 }
