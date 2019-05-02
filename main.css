@@ -51,7 +51,7 @@ a.icon:link {
 h1 {
     font-family:'Untitled Sans', sans-serif;
     font-size:.35em;
-    font-weight:700;
+    font-weight:bold;
     text-transform:uppercase;
     margin:12em 0 1em;
 }
@@ -90,6 +90,6 @@ h2 {
     font-family: 'Untitled Sans';
     src: url('/fonts/UntitledSans-Bold.woff2') format('woff2'),
         url('/fonts/UntitledSans-Bold.woff') format('woff');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 }
