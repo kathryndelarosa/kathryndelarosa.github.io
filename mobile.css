@@ -1,13 +1,13 @@
 body {
-    font-size:20px;
+    font-size:16px;
 }
 
 #container {
-   width:100%;
+   width:90%;
 }
 
 #gauche {
-    width:90%;
+    width:96%;
     margin:2em auto;
     float:none;
     position:static;
