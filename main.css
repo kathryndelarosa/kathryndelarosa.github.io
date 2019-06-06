@@ -1,83 +1,105 @@
 body {
     background-color:#fff;
-    color:#333;
-    font-family: 'Untitled Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-    font-weight:300;
+    color:#000;
+    font-family: 'FK Grotesk';
+    font-size: 20px;
+    font-weight:normal;
     line-height:1.4;
 }
 
 a:link, a:active, a:visited {
     text-decoration:none;
-    color:inherit;
-}
-
-#container {
-    width:80%;
-    margin:2em auto;
-}
-
-#droite {
-    width:60%;
+    font-weight:400;
+    color:lightsteelblue;
 }
 
 a:hover {
-    opacity:.25;
+   text-decoration:underline;
 }
 
-a.icon:link {
-    font-size:.7em;
-    margin:0 .3em 0 0;
+.bigboi {
+    width:90%;
+    margin:2em auto;
 }
 
-.credit {
-    border-top:.01em solid #ddd;
-    padding:.2em 0em;
-    display:block   ;
+.lilbud {
+    width:90%;
+    margin:auto;
 }
 
-h1 {
-    font-family:'Untitled Sans', sans-serif;
-    font-size:.35em;
-    font-weight:bold;
-    text-transform:uppercase;
-    margin:12em 0 1em;
-}
 
-h2 {
-    font-family:'Untitled Sans', sans-serif;
-    font-size:.5em;
-    font-weight:400;
-    text-transform:;
+p {
     margin:2em 0;
 }
 
-.serf {
-    font-family: 'Ogg', serif;
+h1 {
+    font-family:'Canela', serif;
+    font-weight:100;
+    line-height: 1.1;
+    font-size:2.2em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Sorts+Mill+Goudy:400,400i');
+h2 {
+    font-size:1.5em;
+}
 
-@font-face {
-    font-family: 'Untitled Sans';
-    src: url('/fonts/UntitledSans-Light.woff2') format('woff2'),
-        url('/fonts/UntitledSans-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+h3 {
+    font-family:'Canela', serif;
+    font-weight:200;
+    line-height: 1.1;
+    font-size:1.5em;
+}
+
+h5 {
+    text-align:right;
+    font-weight:400;
+    font-size:.6em;
+}
+
+#gauche {
+    width:36%;
+    float:left;
+    margin:2em 0;
+}
+
+#droite {
+    width:55%;
+    float:right;
+    POSITION:fixed;
+    top:50%;
+    right:0;
+    margin-top:-20%;
+}
+
+#container {
+    width:92%;
+    margin:auto;
+}
+
+.mySlides {
+    display:none;
 }
 
 @font-face {
-    font-family: 'Ogg';
-    src: url('/fonts/Ogg-Roman.woff2') format('woff2'),
-        url('/fonts/Ogg-Roman.woff') format('woff');
+    font-family: 'FK Grotesk';
+    src: url('/fonts/FKGrotesk-Regular.woff2') format('woff2'),
+        url('/fonts/FKGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Untitled Sans';
-    src: url('/fonts/UntitledSans-Bold.woff2') format('woff2'),
-        url('/fonts/UntitledSans-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Canela';
+    src: url('/fonts/Canela-ThinItalic.woff2') format('woff2'),
+        url('/fonts/Canela-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Thin.woff2') format('woff2'),
+        url('/fonts/Canela-Thin.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
 }
