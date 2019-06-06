@@ -1,6 +1,6 @@
 body {
     background-color:#fff;
-    color:#000;
+    color:#333;
     font-family: 'FK Grotesk';
     font-size: 20px;
     font-weight:normal;
@@ -10,11 +10,11 @@ body {
 a:link, a:active, a:visited {
     text-decoration:none;
     font-weight:400;
-    color:lightsteelblue;
+    color:#C9B1D0;
 }
 
 a:hover {
-   text-decoration:underline;
+   text-decoration:line-through;
 }
 
 .bigboi {
@@ -35,25 +35,29 @@ p {
 h1 {
     font-family:'Canela', serif;
     font-weight:100;
-    line-height: 1.1;
+    line-height: 1.2;
     font-size:2.2em;
+    margin:2em 0;
 }
 
 h2 {
     font-size:1.5em;
+    margin:3em 0;
 }
 
 h3 {
     font-family:'Canela', serif;
-    font-weight:200;
-    line-height: 1.1;
+    font-weight:100;
+    line-height: 1.2;
     font-size:1.5em;
+    margin:1.5em 0;    
 }
 
 h5 {
     text-align:right;
     font-weight:400;
-    font-size:.6em;
+    font-size:.5em;
+    margin:6em 0;
 }
 
 #gauche {
