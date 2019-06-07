@@ -3,19 +3,21 @@ body {
 }
 
 #container {
-   width:90%;
-}
-
-#gauche {
-    width:96%;
-    margin:2em auto;
-    float:none;
-    position:static;
+   width:100%;
 }
 
 #droite {
     width:100%;
     margin:0;
     float:none;
-    position:static;
+    position:absolute;
+    top:0;
+}
+
+#gauche {
+    width:90%;
+    margin:2em auto;
+    float:none;
+    position:relative;
+    top:22em;
 }

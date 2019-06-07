@@ -17,16 +17,6 @@ a:hover {
    text-decoration:line-through;
 }
 
-.bigboi {
-    width:90%;
-    margin:2em auto;
-}
-
-.lilbud {
-    width:90%;
-    margin:auto;
-}
-
 
 p {
     margin:2em 0;
@@ -38,6 +28,7 @@ h1 {
     line-height: 1.2;
     font-size:2.2em;
     margin:2em 0;
+    width:95%;
 }
 
 h2 {
@@ -56,14 +47,13 @@ h3 {
 h5 {
     text-align:right;
     font-weight:400;
-    font-size:.5em;
+    font-size:.6em;
     margin:6em 0;
 }
 
 #gauche {
-    width:36%;
+    width:38%;
     float:left;
-    margin:2em 0;
 }
 
 #droite {
