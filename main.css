@@ -58,11 +58,10 @@ h5 {
 
 #droite {
     width:55%;
-    float:right;
     POSITION:fixed;
-    top:50%;
+    height: 100%;
+    top:0;
     right:0;
-    margin-top:-20%;
 }
 
 #container {
@@ -72,6 +71,10 @@ h5 {
 
 .mySlides {
     display:none;
+    top:50%;
+    right:0;
+    position:absolute;
+    margin-top:-35%;
 }
 
 @font-face {

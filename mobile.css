@@ -22,3 +22,9 @@ body {
     float:none;
     position:static;
 }
+
+.mySlides {
+    display:none;
+    position:static;
+    margin:0;
+}
