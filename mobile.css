@@ -3,28 +3,6 @@ body {
 }
 
 #container {
-   width:100%;
-    position:absolute;
-    top:0;
-    left:0;
-}
-
-#droite {
-    width:100%;
-    margin:0;
-    float:none;
-    position:static;
-}
-
-#gauche {
     width:90%;
-    margin:6em auto;
-    float:none;
-    position:static;
-}
-
-.mySlides {
-    display:none;
-    position:static;
-    margin:0;
+    margin:2em auto 4em;
 }

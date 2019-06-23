@@ -1,102 +1,44 @@
 body {
     background-color:#fff;
-    color:#333;
-    font-family: 'FK Grotesk';
+    color:#4f58ee;
+    font-family: 'Sabon', 'Garamond', serif;
     font-size: 20px;
-    font-weight:normal;
-    line-height:1.4;
+    line-height:;
+    text-align:center;
+    font-weight:300;
 }
 
 a:link, a:active, a:visited {
     text-decoration:none;
-    font-weight:400;
-    color:#C9B1D0;
+    color:inherit;
 }
 
 a:hover {
-   text-decoration:line-through;
-}
-
-
-p {
-    margin:2em 0;
-}
-
-h1 {
-    font-family:'Canela', serif;
-    font-weight:100;
-    line-height: 1.2;
-    font-size:2.2em;
-    margin:2em 0;
-    width:95%;
-}
-
-h2 {
-    font-size:1.5em;
-    margin:3em 0;
-}
-
-h3 {
-    font-family:'Canela', serif;
-    font-weight:100;
-    line-height: 1.2;
-    font-size:1.5em;
-    margin:1.5em 0;    
-}
-
-h5 {
-    text-align:right;
-    font-weight:400;
-    font-size:.6em;
-    margin:6em 0;
-}
-
-#gauche {
-    width:38%;
-    float:left;
-}
-
-#droite {
-    width:55%;
-    POSITION:fixed;
-    height: 100%;
-    top:0;
-    right:0;
+    color:#000;
+    border-bottom:.1em solid #4f58ee;
 }
 
 #container {
-    width:92%;
-    margin:auto;
+    width:70%;
+    margin:3em auto 6em;
 }
 
-.mySlides {
-    display:none;
-    top:50%;
-    right:0;
-    position:absolute;
-    margin-top:-35%;
+p.big {
+    font-size:1.75em;
 }
 
 @font-face {
-    font-family: 'FK Grotesk';
-    src: url('/fonts/FKGrotesk-Regular.woff2') format('woff2'),
-        url('/fonts/FKGrotesk-Regular.woff') format('woff');
+    font-family: 'Sabon';
+    src: url('/fonts/SabonRoman.woff2') format('woff2'),
+        url('/fonts/SabonRoman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Canela';
-    src: url('/fonts/Canela-ThinItalic.woff2') format('woff2'),
-        url('/fonts/Canela-ThinItalic.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Sabon';
+    src: url('/fonts/SabonItalic.woff2') format('woff2'),
+        url('/fonts/SabonItalic.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'Canela';
-    src: url('/fonts/Canela-Thin.woff2') format('woff2'),
-        url('/fonts/Canela-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
 }
