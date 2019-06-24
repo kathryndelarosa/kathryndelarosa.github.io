@@ -1,8 +1,13 @@
 body {
     font-size:20px;
+    line-height:1.1;
 }
 
 #container {
-    width:96%;
-    margin:2em auto 4em;
+    width:90%;
+    margin:2em auto;
+}
+
+p.big {
+    font-size:2em;
 }
