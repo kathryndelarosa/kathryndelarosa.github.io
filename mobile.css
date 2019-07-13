@@ -7,3 +7,7 @@ body {
     width:90%;
     margin:2em auto;
 }
+
+p.big {
+    font-size:1.8em;
+}
