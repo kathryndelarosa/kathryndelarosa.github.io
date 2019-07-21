@@ -44,23 +44,4 @@ p.big {
     display:block;
 }
 
-p.smol {
-    font-size:.75em;
-    font-weight:bold;
-    margin:2em 0;
-}
-
-h1 {
-    font-size:4em;
-    line-height.85;
-    margin-top:0;
-    color:#4f58ee;
-}
-
-h2 {
-    font-size:.8em;
-    font-weight:normal;
-    margin:-2em 0 3em;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Libre Bakerville:400,400i,700&display=swap');
