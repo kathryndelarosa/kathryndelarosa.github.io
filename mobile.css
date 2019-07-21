@@ -1,13 +1,29 @@
 body {
-    font-size:20px;
-    line-height:1.1;
+    font-size:12px;
 }
 
 #container {
     width:90%;
-    margin:2em auto;
+    margin:3em auto;
 }
 
-p.big {
-    font-size:1.8em;
+#nav {
+    float:none;
+    position:inherit;
+    text-align:center;
+    margin:6em 0;
+    padding:0;
+    width:100%;
+}
+
+#nav a {
+    display:inline;
+    margin:1em;
+}
+
+#cont {
+    float:none;
+    position:inherit;
+    width:100%;  
+    margin:0 0 6em;
 }
