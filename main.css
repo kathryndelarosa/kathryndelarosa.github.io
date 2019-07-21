@@ -14,7 +14,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     cursor:crosshair;
-    text-decoration:line-through;
+    text-decoration:underline;
 }
 
 #container {
@@ -31,6 +31,10 @@ a:hover {
 
 #nav a {
     display:block;
+}
+
+#nav a:hover {
+    text-decoration:line-through;
 }
 
 #cont {
