@@ -48,4 +48,8 @@ p.big {
     display:block;
 }
 
+p.mid {
+    font-size:1.4em;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Libre Bakerville:400,400i,700&display=swap');
