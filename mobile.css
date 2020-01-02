@@ -1,29 +1,61 @@
 body {
     font-size:16px;
+    line-height: 1.6;
 }
 
 #container {
-    width:90%;
-    margin:3em auto;
+    width:100%;
+    margin:2em auto 4em;
+}
+
+.bigboi, .lilbud {
+    margin:0 auto;
+    width:95%;
+}
+
+.tobygoofy {
+    width:100%;
+    margin:0 auto;
+}
+
+h1 {
+    font-size:1.5em;
+}
+
+h2 {
+    font-size:.8em;
+}
+
+h3 {
+    font-size:.6em;
 }
 
 #nav {
-    float:none;
-    position:inherit;
+    margin:3em auto;
     text-align:center;
-    margin:6em 0;
-    padding:0;
+}
+
+a.nav, .ici {
+    font-size:1.25em;
+}
+
+.gauche, .droite {
+    width:100%;
+    display:block;
+}
+
+#headshot {
+    width:100%;
+    margin:3em auto;
+}
+
+img.headshot {
+    display:block;
+    text-align:center;
+    margin:.5em 0;
     width:100%;
 }
 
-#nav a {
-    display:inline;
-    margin:.5em;
-}
-
-#cont {
-    float:none;
-    position:inherit;
-    width:100%;  
-    margin:0 0 6em;
+#tete {
+    display:none;
 }
