@@ -1,61 +1,23 @@
 body {
-    font-size:16px;
-    line-height: 1.6;
+    font-size:20px;
 }
 
 #container {
     width:100%;
-    margin:2em auto 4em;
 }
 
-.bigboi, .lilbud {
-    margin:0 auto;
-    width:95%;
-}
-
-.tobygoofy {
-    width:100%;
-    margin:0 auto;
-}
-
-h1 {
-    font-size:1.5em;
-}
-
-h2 {
-    font-size:.8em;
-}
-
-h3 {
-    font-size:.6em;
-}
-
-#nav {
-    margin:3em auto;
-    text-align:center;
-}
-
-a.nav, .ici {
-    font-size:1.25em;
-}
-
-.gauche, .droite {
+#kaliwa {
     width:100%;
     display:block;
+    margin:2em 0;
 }
 
-#headshot {
+#kanan {
     width:100%;
-    margin:3em auto;
-}
-
-img.headshot {
     display:block;
-    text-align:center;
-    margin:.5em 0;
-    width:100%;
+    margin:4em 0;
 }
 
-#tete {
-    display:none;
+a.nav:link {
+    display:auto;
 }
