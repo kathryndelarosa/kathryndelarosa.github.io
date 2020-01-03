@@ -1,6 +1,6 @@
 body {
     font-size:18px;
-    line-height:1.7;
+    line-height:1.8;
 }
 
 #container {
@@ -16,7 +16,7 @@ body {
 #kanan {
     width:100%;
     display:block;
-    margin:4em 0;
+    margin:2em 0;
 }
 
 a.nav:link {
