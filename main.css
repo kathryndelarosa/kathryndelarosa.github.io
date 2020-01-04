@@ -28,7 +28,7 @@ a.nav:link, a.nav:active, a.nav:visited {
     text-transform:lowercase;
     font-size:.75em;
     border:.1em solid black;
-    padding:1em;
+    padding:1.2em;
     display:inline-block;
     margin:.5em 0;
     background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
