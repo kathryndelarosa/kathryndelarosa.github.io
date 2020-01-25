@@ -18,8 +18,39 @@
     </head>
     
 <body>
-    <div id="container">
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
 
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="/news">work</a>
+            <a href="/plays">plays</a>
+            <a href="/astro">astrology</a>
+            <a href="/where">find me</a>
+        </div>
+
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->  
+    
+    <script>
+        /* Open */
+        function openNav() {
+            document.getElementById("myNav").style.display = "block";
+        }
+
+        /* Close */
+        function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+        }
+        
+    </script>
+    
+    <div id="vessel">
+        
         <div id="kanan">
             <img src="hujiselfie.JPG" width="100%">
         </div>
