@@ -26,7 +26,7 @@ a.nav:link, a.nav:active, a.nav:visited {
     font-style:italic;
     letter-spacing:.1em;
     text-transform:lowercase;
-    font-size:1.2em;
+    font-size:.9em;
     border:.1em solid black;
     padding:1.2em;
     display:inline-block;
