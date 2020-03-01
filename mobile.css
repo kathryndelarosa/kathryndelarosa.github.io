@@ -19,6 +19,10 @@ body {
     margin:2em 0;
 }
 
+.topnav {
+    margin:0;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     border:none;
