@@ -22,3 +22,15 @@ body {
 a.nav:link {
     display:auto;
 }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    border:none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-image: none;
+    border:none;
+    opacity: .5;
+}

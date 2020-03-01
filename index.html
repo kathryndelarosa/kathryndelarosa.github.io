@@ -13,63 +13,56 @@
         <link rel="stylesheet" href="main.css" type="text/css" />
         <link rel="stylesheet" href="mobile.css"  type="text/css" media="(max-width:33rem)"/>
         <link rel="icon" type="image/png" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,200i,700,700i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,200i,500,500i,700,700i&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
     </head>
     
 <body>
-    <!-- The overlay -->
-    <div id="myNav" class="overlay">
+        <div id="vessel">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-            <a href="/news">work</a>
-            <a href="/plays">plays</a>
-            <a href="/astro">astrology</a>
-            <a href="/where">find me</a>
-        </div>
-
+    <div class="topnav" id="myTopnav">
+        <a href="/" class="active">Me</a>
+        <a href="/news">Work</a>
+        <a href="/plays">Plays</a>
+        <a href="/astro">🔮</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
     
-    <!-- Use any element to open/show the overlay navigation menu -->  
-    
     <script>
-        /* Open */
-        function openNav() {
-            document.getElementById("myNav").style.display = "block";
-        }
-
-        /* Close */
-        function closeNav() {
-            document.getElementById("myNav").style.display = "none";
-        }
-        
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
     </script>
-    
-    <div id="vessel">
         
         <div id="kanan">
             <img src="hujiselfie.JPG" width="100%">
         </div>
         
         <div id="kaliwa">
-            <h1>Oh hey! It's me, Kathryn de la Rosa.</h1>
+            <h1>Hey! It's me, Kathryn de la Rosa.</h1>
             <p>I’m a genderqueer Pilipina dramaturg & playwright born and bred in Kentucky, currently <a href="https://www.actorstheatre.org/bios/kathryn-de-la-rosa/" target="_blank">an apprentice</a> at Actors Theatre of Louisville.</p>
             <p>I like working on new plays, adaptations, and verbatim and verse drama. I write plays about identity and place, resistance and healing, spirituality and magic — the contradictions and conjunctions that disrupt power, binaries and division.</p>
             <p>I’m a jack-of-all-trades (emphasis on master of none): I coded this website with my bare hands, lived past lives as a radio producer and sound  designer, and seriously study and practice astrology.</p>
             <p>I graduated from Indiana University with a BA in theater and journalism. I’m available for writing, production dramaturgy, script consultation, audio and digital projects, and am always down to talk <a href="https://podcasts.apple.com/us/podcast/reputation/id1477980798?i=1000457583747" target="_blank">Taylor Swift</a>.</p>
             
             <p>
-                <a href="/news" class="nav">Current projects</a><br>
-                <a href="/plays" class="nav">Plays</a><br>
-                <a href="/astro" class="nav">Astrology</a><br>
-                <a href="/where" class="nav">Where to find me</a><br>
+                <a href="mailto:delarosakathryn@gmail.com" class="butt" target="_blank">drop a line!</a>
             </p>
         </div>
         
+            <div id="paa">
+                <a href="https://twitter.com/kdlrose" target="blank">Twitter</a> <a href="https://instagram.com/kdlrose" target="blank">Instagram</a> <a href="https://tinyletter.com/kathryndelarosa" target="blank">Tinyletter</a>
+            </div>
 
     </div>
 </body>
