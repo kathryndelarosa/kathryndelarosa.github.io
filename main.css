@@ -131,7 +131,6 @@ h2 {
 
 .topnav a:hover.active {
     opacity:1;
-    color:#fff;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -142,7 +141,7 @@ h2 {
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a {display: none;padding:.5em;}
-    .topnav a:hover.active {color:#000;opacity:.5;}
+    .topnav a:hover.active {opacity:.5;}
     .topnav a.icon {
     float: right;
     display: block;
