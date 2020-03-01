@@ -10,13 +10,13 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Public+Sans:200,200i,600i,700,700i&display=swap');
 
 a:link, a:active, a:visited {
-    color:#000;
+    color:#ff99dd;
     border-bottom:.02em solid #feceee;
     text-decoration: none;
 }
 
 a:hover {
-    color:#ff99dd;
+    opacity:.5;
 }
 
 a.butt:link, a.butt:active, a.butt:visited {
@@ -35,7 +35,7 @@ a.butt:link, a.butt:active, a.butt:visited {
 }
 
 a.butt:hover {
-    color:#fff;
+    opacity:1;
 }
 
 
@@ -70,6 +70,7 @@ a.butt:hover {
     margin:0 .5em;
     text-transform:lowercase;
     font-size:1.2em;
+    color:#000;
 }
 
 #paa a:hover {
