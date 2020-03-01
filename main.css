@@ -99,24 +99,23 @@ h2 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #fff;
-  overflow: hidden;
-    padding:1em 0;
+    overflow: hidden;
+    margin:1em 0;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #000;
-  text-align: center;
-  text-decoration: none;
-  font-size: .7em;
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-size: .7em;
     font-weight:700;
     text-transform:uppercase;
-    padding:.5em 1em;
-    margin-right:1em;
-    display:inline-block;
     border:.1em solid #fff;
+    margin-right:1em;
 }
 
 /* Change the color of links on hover */
@@ -125,6 +124,7 @@ h2 {
     border:.1em solid #000;
 }
 
+/* Add an active class to highlight the current page */
 .topnav a.active {
     background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
     border:.1em solid #000;
@@ -137,7 +137,7 @@ h2 {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
