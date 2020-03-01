@@ -114,12 +114,18 @@ h2 {
     font-weight:700;
     text-transform:uppercase;
     padding:.5em 1em;
+    margin-right:1em;
     display:inline-block;
     border:.1em solid #fff;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
+    background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
+    border:.1em solid #000;
+}
+
+.topnav a.active {
     background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
     border:.1em solid #000;
 }
