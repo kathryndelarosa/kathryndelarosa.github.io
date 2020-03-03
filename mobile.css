@@ -42,6 +42,7 @@ body {
 .topnav a:hover {
     background-image: none;
     border:none;
+    opacity:1;
 }
 
 .topnav a.active {
