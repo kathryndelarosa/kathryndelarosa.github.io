@@ -31,17 +31,17 @@ body {
 .topnav a {
     border:none;
     font-weight:700;
-    margin:0 .75em;
+    margin:0;
     text-transform:lowercase;
-    font-size:1em;
+    font-size:1.12em;
     letter-spacing:.1em;
+    padding:.85em 1.5em;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
     background-image: none;
     border:none;
-    opacity: .5;
 }
 
 .topnav a.active {
