@@ -49,3 +49,7 @@ body {
     background-image: none;
     border:none;
 }
+
+.topnav a.active:hover {
+    opacity:1;
+}
