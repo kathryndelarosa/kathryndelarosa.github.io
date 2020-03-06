@@ -1,27 +1,22 @@
 body {
-    font-size:17px;
+    font-size:18px;
     line-height:1.8;
 }
 
-#vessel {
-    width:96%;
-    margin:6em auto;
+#container {
+    width:90%;
 }
 
 #kaliwa {
     width:100%;
     display:block;
-    margin:1em 0 6em;
+    margin:2em 0;
 }
 
 #kanan {
     width:100%;
     display:block;
-    margin:0;
-}
-
-#paa {
-    margin:3em 0;
+    margin:2em 0;
 }
 
 .topnav {
