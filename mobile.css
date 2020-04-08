@@ -1,10 +1,10 @@
 body {
-    font-size:16px;
+    font-size:14px;
 }
 
 #container {
-    width:96%;
-    margin:7em 0;
+    width:92%;
+    margin:7em auto;
 }
 
 #kaliwa {
@@ -62,7 +62,7 @@ a.nav:link {
 }
 
 #cup {
-    width:86%;
+    width:92%;
 }
 
 #ulo {
