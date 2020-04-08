@@ -1,60 +1,75 @@
 body {
-    font-size:17px;
-    line-height:1.8;
+    font-size:16px;
 }
 
-#vessel {
+#container {
     width:96%;
-    margin:6em auto;
+    margin:7em 0;
 }
 
 #kaliwa {
     width:100%;
     display:block;
-    margin:1em 0 6em;
 }
 
 #kanan {
     width:100%;
     display:block;
+}
+
+a.nav:link {
+    display:auto;
+}
+
+.bio {
+    font-size: 1.5em;    
+}
+
+#tatlo {
     margin:0;
 }
 
-#paa {
-    margin:3em 0;
+#anak1 {
+    width:100%;
+    display:block;
 }
 
-.topnav {
+#anak2 {
+    width:100%;
+    display:block;
+    margin:0;
+}
+
+#anak3 {
+    width:100%;
+    display:block;
+}
+
+#palabas {
+    width:100%;
+}
+
+#col1 {
+    width:100%;
+    display:block;
+    margin:0;
+}
+
+#col2 {
+    width:100%;
+    display:block;
     margin:0;
 }
 
 #cup {
-    width:100%;
+    width:86%;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    border:none;
-    font-weight:700;
-    margin:0;
-    text-transform:lowercase;
-    font-size:1.12em;
-    letter-spacing:.1em;
-    padding:.85em 1.5em;
+#ulo {
+    font-size:.8em;
+    position:fixed;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-image: none;
-    border:none;
-    opacity:1;
-}
-
-.topnav a.active {
-    background-image: none;
-    border:none;
-}
-
-.topnav a.active:hover {
-    opacity:1;
+#ulo a {
+    margin:2em 1em;
 }
