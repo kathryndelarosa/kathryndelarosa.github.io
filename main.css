@@ -47,25 +47,28 @@ h1 {
 
 #container {
     width:80%;
-    margin:9em auto;
+    margin:6em auto;
 }
 
 #kaliwa {
     width:25%;
     float:left;
+    margin:3em 0;
 }
 
 #kanan {
     width:70%;
     float:right;
+    margin:3em 0;
 }
 
 #mukha {
     margin:3em 0;
+    font-size:.9em;
 }
 
 .bio {
-    font-size: 2em;    
+    font-size: 2.1em;    
 }
 
 #tatlo {
@@ -91,7 +94,7 @@ h1 {
 
 #palabas {
     width:70%;
-    margin:3em auto;
+    margin:9em auto;
 }
 
 #col1 {
