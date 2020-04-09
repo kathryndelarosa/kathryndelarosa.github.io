@@ -9,11 +9,13 @@ body {
 #kaliwa {
     width:100%;
     display:block;
+    margin-bottom:0;
 }
 
 #kanan {
     width:100%;
     display:block;
+    margin-top:0;
 }
 
 a.nav:link {
