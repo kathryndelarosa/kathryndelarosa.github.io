@@ -1,6 +1,6 @@
 body {
-    background-color:#FADCCF;
-    color:#000;
+    background-color:#000;
+    color:#fff;
     font-family: 'Baskervville', serif;
     font-size: 13px;
     line-height:1.4;
@@ -17,7 +17,7 @@ body {
 }
 
 a:link, a:active, a:visited {
-    color:#000;
+    color:#fff;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 #kanan {
-    width:70%;
+    width:65%;
     float:right;
     margin:3em 0;
 }
@@ -113,8 +113,8 @@ h1 {
     overflow: hidden;
     width:100%;
     position:absolute;
-    background-color:#FADCCF;
-    border-bottom:.02em solid #000;
+    background-color:#000;
+    border-bottom:.02em solid #fff;
     top:0;
     left:0;
     letter-spacing: .05em;
