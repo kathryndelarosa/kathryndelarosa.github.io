@@ -35,16 +35,6 @@ h1 {
     letter-spacing: .05em;
 }
 
-#palabas h1 {
-    font-size:1em;
-    line-height: 1.2;
-    font-family:'FK Grotesk';
-    text-transform:uppercase;
-    font-weight:700;
-    margin:3em 0 1.5em;
-    letter-spacing: .05em;
-}
-
 #container {
     width:80%;
     margin:6em auto;
@@ -97,16 +87,10 @@ h1 {
     margin:9em auto;
 }
 
-#col1 {
-    width:45%;
-    float:left;
-    margin:0 5% 0 0;
-}
-
-#col2 {
-    width:45%;
-    float:right;
-    margin:0 0 0 5%;
+td {
+    width:50%;
+    padding:.5em 1em;
+    vertical-align: top;
 }
 
 #ulo {

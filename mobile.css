@@ -50,16 +50,14 @@ a.nav:link {
     width:100%;
 }
 
-#col1 {
-    width:100%;
+table, tr {
     display:block;
-    margin:0;
 }
 
-#col2 {
+td {
     width:100%;
     display:block;
-    margin:0 0 6em 0;
+    padding:.25em 0;
 }
 
 #cup {
