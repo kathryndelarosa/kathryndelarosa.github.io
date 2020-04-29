@@ -1,6 +1,6 @@
 body {
-    background-color:#000;
-    color:#fff;
+    background-color:#D3B5DB;
+    color:#000;
     font-family: 'Baskervville', serif;
     font-size: 13px;
     line-height:1.4;
@@ -17,12 +17,13 @@ body {
 }
 
 a:link, a:active, a:visited {
-    color:#fff;
+    color:#000;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration:line-through;
+    color:#ff0055;
 }
 
 h1 {
@@ -83,8 +84,9 @@ h1 {
 }
 
 #palabas {
-    width:70%;
+    width:80%;
     margin:9em auto;
+    font-size:1.2em;
 }
 
 td {
@@ -97,8 +99,8 @@ td {
     overflow: hidden;
     width:100%;
     position:absolute;
-    background-color:#000;
-    border-bottom:.02em solid #fff;
+    background-color:#D3B5DB;
+    border-bottom:.02em solid #000;
     top:0;
     left:0;
     letter-spacing: .05em;
@@ -117,6 +119,7 @@ td {
 
 #ulo a:hover {
     text-decoration:line-through;
+    color:#C0E668;
 }
 
 #cup {
