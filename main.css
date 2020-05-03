@@ -120,6 +120,7 @@ a:hover.bayan {
     outline: none;
     transition: 0.4s;
     padding:0;
+    font-family:'Sabont LT Std', serif;
 }
 
 .active, .accordion:hover {
