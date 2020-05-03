@@ -45,7 +45,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     color:#a748c3;
-    border-bottom:.1em solid #a748c3;
+    border-bottom:.07em solid #a748c3;
 }
 
 .purple {
