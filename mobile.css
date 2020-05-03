@@ -1,5 +1,5 @@
 body {
-    font-size:13px;
+    font-size:14px;
 }
 
 #container {
@@ -20,8 +20,4 @@ td.un, td.deux, td.trois {
 
 #laki {
     font-size:2.5em;
-}
-
-.wee {
-    font-size:.75em;
 }
