@@ -93,7 +93,7 @@ h1 {
 
 table {
     width:100%;
-    
+
 }
 
 td {
@@ -107,4 +107,28 @@ a.bayan {
 
 a:hover.bayan {
     border-bottom:none;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #a748c3;
+    font-size:2em;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    padding:0;
+}
+
+.active, .accordion:hover {
+    color: #000;
+}
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin:.5em 0 1em;
 }
