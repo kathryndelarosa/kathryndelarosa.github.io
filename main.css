@@ -102,11 +102,14 @@ td {
 }
 
 a.bayan {
-    font-size:5em;
+    font-size:3em;
+    color:#a748c3;
+    font-weight:bold;
 }
 
 a:hover.bayan {
     border-bottom:none;
+    color:#000;
 }
 
 .accordion {
