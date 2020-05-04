@@ -136,3 +136,13 @@ a:hover.bayan {
     overflow: hidden;
     margin:0;
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #a748c3;
+}
+
+::selection {
+  color: #fff;
+  background: #a748c3;
+}
