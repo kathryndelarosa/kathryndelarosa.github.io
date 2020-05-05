@@ -75,13 +75,6 @@ a:hover {
     font-size:1.5em;
 }
 
-#contacte {
-    display: block;
-    margin:3em 0;
-    font-size:1.5em;
-    width:50%;
-}
-
 h1 {
     font-size:1em;
     color:#a748c3;
@@ -97,12 +90,19 @@ h1 {
 
 table {
     width:100%;
-
+    padding:0;
+    margin:0;
 }
 
 td {
     padding:0;
     width:50%;
+    margin:0;
+}
+
+tr {
+    margin:0;
+    padding:0;
 }
 
 td.left {
