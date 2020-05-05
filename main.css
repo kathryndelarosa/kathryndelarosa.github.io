@@ -71,7 +71,7 @@ a:hover {
 
 .liit {
     display: block;
-    margin:3em auto;
+    margin:2em auto;
     font-size:1.5em;
 }
 
@@ -91,6 +91,10 @@ h1 {
     font-size:.75em;
 }
 
+.wain {
+    font-size:.6em;
+}
+
 table {
     width:100%;
 
@@ -99,6 +103,18 @@ table {
 td {
     padding:0;
     width:50%;
+}
+
+td.left {
+    padding:0 3% 0 0;
+    width:44%;
+    vertical-align: top;
+}
+
+td.right {
+    padding:0 0 0 3%;
+    width:44%;
+    vertical-align: top;
 }
 
 a.bayan {

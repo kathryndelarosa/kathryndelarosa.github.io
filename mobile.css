@@ -3,13 +3,14 @@ body {
 }
 
 #container {
-    margin:3em auto;
+    margin:auto;
     width:96%;
 }
 
-td {
+td.left, td.right {
     display:block;
     width:100%;
+    padding:0;
 }
 
 #contacte {
