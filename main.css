@@ -1,43 +1,13 @@
 body {
     background-color:#fff;
     color:#000;
-    font-family: 'Sabon LT Std', serif;
+    font-family: 'Cardo', serif;
     font-size: 16px;
     line-height:1.2;
     text-transform:lowercase;
 }
 
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Bold.woff2') format('woff2'),
-        url('SabonLTStd-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-BoldItalic.woff2') format('woff2'),
-        url('SabonLTStd-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Roman.woff2') format('woff2'),
-        url('SabonLTStd-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Italic.woff2') format('woff2'),
-        url('SabonLTStd-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&display=swap');
 
 a:link, a:active, a:visited {
    color:#000;
