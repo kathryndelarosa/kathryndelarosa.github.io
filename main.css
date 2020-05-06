@@ -95,7 +95,7 @@ a.bayan {
 }
 
 a:hover.bayan {
-    border-bottom:none;
+    text-decoration: none;
     color:#000;
 }
 
