@@ -2,7 +2,7 @@ body {
     background-color:#fff;
     color:#000;
     font-family: 'Cardo', serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height:1.25;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔮</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
@@ -38,13 +38,13 @@ a:hover {
 .laki {
     display:block;
     margin:1em 0;
-    font-size:3.25em;
+    font-size:3.75em;
 }
 
 .liit {
     display: block;
     margin:2em auto;
-    font-size:1.5em;
+    font-size:1.75em;
 }
 
 h1 {
@@ -90,7 +90,7 @@ td.right {
 }
 
 a.bayan {
-    font-size:3em;
+    font-size:3.5em;
     color:#a748c3;
 }
 
