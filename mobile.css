@@ -53,6 +53,10 @@ h1 {
     display:block;
 }
 
+.mid {
+    width:100%;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     border:none;
