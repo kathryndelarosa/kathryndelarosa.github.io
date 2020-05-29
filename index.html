@@ -15,12 +15,19 @@
         <link rel="icon" type="image/png" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+        
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     </head>
     
 <body>
     
+    <div id="tiddie">
+        <a href="/" target="_blank"><b>Kathryn<br>de la Rosa</b></a>
+    </div>
+    
     <div class="topnav" id="myTopnav">
-        <a href="/">Info</a>
+        <a href="/">Home</a>
+        <a href="/info">Info</a>
         <a href="/plays">Plays</a>
         <a href="/work">Work</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
@@ -41,50 +48,36 @@ function myFunction() {
     <div id="map">
         <a href="/">🐊 Info</a>
         <a href="/plays">🖋 Plays</a>
-        <a href="/work">🔮 Work</a>
+        <a href="/work">🔮 Projects</a>
         <a href="mailto:delarosakathryn@gmail.com">💌 Email</a>
     </div>
     
-    <div id="container">
-        
-        <div class="laki">
-            <p><span class="birb">Kathryn de la Rosa</span> [they/she] is a queer Pilipina writer, dramaturg and digital creator born and raised in Kentucky. Jack-of-all-trades making podcasts and coding websites. Recently apprenticed at Actors Theatre of Louisville. BA/BAJ Indiana University.</p>
-        </div>
-        
-        <div class="liit" align="center">
-            <table>
-                <tr>
-                    <td class="contact">
-                        <p>email</p>
-                        <a href="mailto:delarosakathryn@gmail.com" target="_blank">delarosakathryn@gmail.com</a>
-                    </td>
-                    <td class="contact">
-                        <p>twitter</p>
-                        <a href="https://twitter.com/kdlrose" target="_blank">@kdlrose</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        
-        <div class="liit">
-            <table class="aboot">
-                <td class="aboot1">
-                    <h1>about</h1>
-                    <p class="bird">I live and create at the intersection of diaspora and provinciality. I’m drawn to work that engages a diversity of place, race, and ideas, toward liberation from capital, colonialism and the state. I write plays set in Kentucky, Indiana and the Philippines, with love and complication. I believe in regional theater, and support and develop new plays by QPOC and rural writers.</p>
-                </td>
-                <td class="aboot2">
-                    <h1>download</h1>
-                    <p class="wee"><a href="https://docs.google.com/document/u/1/d/1CcHQIds0yJQFbfJnVkx1spm0wq4kZKYi-HJOgVdaPQM/edit?usp=sharing" target="_blank">Curriculum Vitae</a> / <a href="/kdlr – resume.pdf" target="_blank">Resume</a></p>
-                    <h1>core services</h1>
-                    <p class="wee">Production Dramaturgy, Script Reading & Consultation, Audio Production, Copywriting & Editing, Print & Collateral Design, Front-End Web Design, Social Curation</p>
-                    <h1>in the loop</h1>
-                    <p class="wee">Based in Louisville, Kentucky. Also on <a href="https://instagram.com/kdlrose" target="_blank">Instagram</a> + <a href="https://tinyletter.com/kathryndelarosa" target="_blank">Tinyletter</a>.</p>
-                </td>
-            </table>
-        </div>
-        
+    <div id="carousel">
+    <div class="w3-content w3-section">
+        <img class="mySlides" src="/media/1_coven.jpg" style="width:100%">
+        <img class="mySlides" src="/media/5_mountain.jpg" style="width:100%">
+        <img class="mySlides" src="/media/3_wolves.jpg" style="width:100;">
+        <img class="mySlides" src="/media/4_bonnets.jpg" style="width:100;">
+        <img class="mySlides" src="/media/2_mountain.jpg" style="width:100;">
     </div>
-    
+    </div>
 </body>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>    
     
 </html>

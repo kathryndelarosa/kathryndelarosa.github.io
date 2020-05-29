@@ -1,48 +1,33 @@
 body {
-    font-size:13px;
+    font-size:20px;
 }
 
 #container {
-    margin:6em auto;
+    margin:15em auto;
     width:96%;
 }
 
-table, tr {
-    width:100%;
-    margin:auto;
-}
-
-td.contact {
-    width:100%;
-    display:block;
-}
-
 .laki {
-    font-size:2.5em;
+    font-size:1em;
 }
 
 .liit {
     width:100%;
-    font-size:1.3em;
-}
-
-.wee {
     font-size:1em;
-}
-
-td.aboot1, td.aboot2 {
-    width:100%;
-    padding:0;
-    display:block;
 }
 
 h1 {
     font-size:1em;
+    text-transform:uppercase;
 }
 
 .bebe {
-    font-size:2em;
+    font-size:1em;
     width:100%;
+}
+
+#tiddie {
+    font-size:2em;
 }
 
 #map {
@@ -53,15 +38,13 @@ h1 {
     display:block;
 }
 
-.mid {
-    width:100%;
-}
-
 /* Style the links inside the navigation bar */
 .topnav a {
     border:none;
     font-family:'Space Grotesk', sans-serif;
     color:#000;
+    line-height:1.3;
+    font-size:1.5em;
 }
 
 /* Change the color of links on hover */
@@ -83,4 +66,22 @@ h1 {
 .topnav a.icon {
     margin:1em;
     display:block;
+}
+
+.mySlides {
+    display:none;
+    top:50%;
+    right:0;
+    position:absolute;
+    margin-top:-33%;
+    width:50%;
+}
+
+#carousel {
+    z-index:-1;
+    margin:auto;
+    width:100%;
+    POSITION:absolute;
+    height: 100%;
+    right:0;
 }
