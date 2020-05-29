@@ -4,7 +4,7 @@ body {
 
 #container {
     margin:12em auto;
-    width:96%;
+    width:100%;
 }
 
 .laki {
@@ -27,7 +27,26 @@ h1 {
 }
 
 #tiddie {
+    display:none;
+}
+
+#tit {
+    position:fixed;
+    z-index: 998;
+    top:.5em;
+    left:.5em;
     font-size:2.5em;
+    text-align:left;
+    font-weight:bold;
+    line-height:1;
+    display:block;
+    font-size:1.5em;
+}
+
+#tit a {
+    font-family:'Space Grotesk', serif;
+    border-bottom:none;
+    color:#000;
 }
 
 #map {
@@ -64,7 +83,7 @@ h1 {
 }
 
 .topnav a.icon {
-    margin:1em;
+    margin:.5em;
     display:block;
 }
 

@@ -35,16 +35,16 @@ a:hover {
     top:50%;
     right:0;
     position:absolute;
-    margin-top:-33%;
+    margin-top:-35%;
     width:50%;
 }
 
-#carousel {
+ #carousel {
     z-index:-1;
     margin:auto;
-    width:75%;
+    width:80%;
     POSITION:absolute;
-    margin-left:14%;
+    margin-left:10%;
     height: 100%;
 }
 
@@ -67,6 +67,10 @@ a:hover {
     font-family:'Space Grotesk', serif;
     border-bottom:none;
     color:#000;
+}
+
+#tit {
+    display:none;
 }
 
 #map {
@@ -134,41 +138,6 @@ h2 {
     font-family:'Cormorant', serif;
     font-size:1.2em;
     line-height:1.2;
-}
-
-/* KICK ME UNDER THE TABLE ALL YOU WANT I WON'T SHUT UP I WON'T SHUT UP */
-
-table {
-    width:100%;
-}
-
-td.contact {
-    width:50%;
-    vertical-align: top;
-    text-align:center;
-}
-
-td.contact a {
-    font-size:1em;
-}
-
-table.aboot {
-    width:100%;
-    text-align:left;
-    vertical-align: top;
-}
-
-td.aboot1 {
-    width:50%;
-    text-align:left;
-    padding-right: 3em;
-    vertical-align: top;
-}
-
-td.aboot2 {
-    width:20%;
-    text-align:left;
-    vertical-align: top;
 }
 
 /* Add a black background color to the top navigation */
