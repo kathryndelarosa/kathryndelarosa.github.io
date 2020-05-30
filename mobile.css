@@ -39,14 +39,14 @@ h1 {
 
 .topnav {
     display:block;
-    opacity:.75;
+    opacity:.9
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     border:none;
     font-family:'Space Grotesk', sans-serif;
-    color:#4bc3dd;
+    color:#F1846F;
     line-height:1.3;
     font-size:1.5em;
 }
