@@ -1,6 +1,6 @@
 body {
-    background-color:#fbe4e1;
-    color:#000;
+    background-color:#fff;
+    color:#A748C3;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 24px;
     line-height:1.4;
@@ -9,10 +9,10 @@ body {
 }
 
 a:link, a:active, a:visited {
-    color:#000;
+    color:#A748C3;
     text-decoration: none;
     font-family:'Cormorant', serif;
-    border-bottom:.02em solid #000;
+    border-bottom:.02em solid #A748C3;
     font-weight:400;
     font-size:1.2em;
     line-height:1;
@@ -35,16 +35,15 @@ a:hover {
     top:50%;
     right:0;
     position:absolute;
-    margin-top:-35%;
+    margin-top:-34%;
     width:50%;
 }
 
  #carousel {
     z-index:-1;
-    margin:auto;
-    width:80%;
+    width:76%;
     POSITION:absolute;
-    margin-left:10%;
+    margin-left:12%;
     height: 100%;
 }
 
@@ -55,8 +54,8 @@ a:hover {
 #tiddie {
     position:fixed;
     z-index: 998;
-    top:.5em;
-    left:.5em;
+    top:.1em;
+    left:.25em;
     font-size:2.5em;
     text-align:left;
     font-weight:bold;
@@ -67,7 +66,7 @@ a:hover {
 #tiddie a {
     font-family:'Space Grotesk', serif;
     border-bottom:none;
-    color:#000;
+    color:#A748C3;
 }
 
 #tit {
@@ -77,9 +76,9 @@ a:hover {
 #map {
     position:fixed;
     z-index: 999;
-    top:1em;
-    right:1em;
-    font-size:1.5em;
+    top:1.25em;
+    right:1.75em;
+    font-size:1.1em;
     text-align:right;
 }
 
@@ -88,7 +87,7 @@ a:hover {
     border-bottom:none;
     display:block;
     line-height: 1.2;
-    color:#000;
+    color:#A748C3;
 }
 
 /* BABY WE'RE THE NEW ROMANTICS COME ON COME ALONG WITH ME */
@@ -156,7 +155,7 @@ h2 {
 .topnav a {
     float: left;
     display: block;
-    color: #000;
+    color: #A748C3;
     text-align: center;
     text-decoration: none;
     font-size:2em;
