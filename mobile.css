@@ -28,7 +28,7 @@ h1 {
 
 #tiddie {
     font-size:2em;
-    top:.5em;
+    top:.25em;
     left:.25em;
     width:60%;
 }
@@ -39,14 +39,14 @@ h1 {
 
 .topnav {
     display:block;
-    opacity:.9
+    opacity:.96;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     border:none;
     font-family:'Space Grotesk', sans-serif;
-    color:#F1846F;
+    color:#ECDDF6;
     line-height:1.3;
     font-size:1.5em;
 }

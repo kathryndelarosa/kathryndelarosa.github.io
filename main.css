@@ -1,6 +1,6 @@
 body {
-    background-color:#3946F5;
-    color:#fff;
+    background-color:#EAACE5;
+    color:#5e357c;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 24px;
     line-height:1.4;
@@ -9,10 +9,10 @@ body {
 }
 
 a:link, a:active, a:visited {
-    color:#fff;
+    color:#5e357c;
     text-decoration: none;
     font-family:'Cormorant', serif;
-    border-bottom:.02em solid #F1846F;
+    border-bottom:.02em solid #5e357c;
     font-weight:400;
     font-size:1.2em;
     line-height:1;
@@ -20,7 +20,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     border-bottom:none;
-    color:#FCE283;
+    color:#000;
 }
 
 
@@ -67,7 +67,7 @@ a:hover {
 #tiddie a {
     font-family:'Space Grotesk', serif;
     border-bottom:none;
-    color:#FCE283;
+    color:#357C5E;
 }
 
 #tit {
@@ -78,7 +78,7 @@ a:hover {
     position:fixed;
     z-index: 999;
     top:1.25em;
-    right:1.75em;
+    right:2em;
     font-size:1.1em;
     text-align:right;
 }
@@ -88,7 +88,7 @@ a:hover {
     border-bottom:none;
     display:block;
     line-height: 1.2;
-    color:#F1846F;
+    color:#ECDDF6;
 }
 
 /* BABY WE'RE THE NEW ROMANTICS COME ON COME ALONG WITH ME */
@@ -156,7 +156,7 @@ h2 {
 .topnav a {
     float: left;
     display: block;
-    color: #F1846F;
+    color: #5e357c;
     text-align: center;
     text-decoration: none;
     font-size:2em;
@@ -182,7 +182,7 @@ h2 {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a {display: none;margin:0 1em;}
+    .topnav a {display: none;padding:0 .5em;}
     .topnav a:hover.active {opacity:.5;}
     .topnav a.icon {
     float: right;
@@ -192,7 +192,7 @@ h2 {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed;top:0;right:0;background-color:#fff;padding:3em 0;height:100%;}
+  .topnav.responsive {position: fixed;top:0;right:0;background-color:#000;padding:3em 0;height:100%;}
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
