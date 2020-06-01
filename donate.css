@@ -31,12 +31,11 @@ a.butt:link, a.butt:visited {
     margin:3em 0;
 }
 
-
 a.butt:hover {
     background-color:white;
 }
 
-a.dumb:link {
+a.dumb:link, a.dumb:visited {
     display:inline-block;
     font-size:.75em;
     color:#fff;
