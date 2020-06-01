@@ -41,12 +41,12 @@ a.dumb:link, a.dumb:visited {
     color:#fff;
     margin:6em 0;
     font-style:italic;
-    border-bottom:.25em solid yellow;
+    border-bottom:.1em solid yellow;
 }
 
 a.dumb:hover {
     color:yellow;
-    border-bottom:.25em solid black;
+    border-bottom:.1em solid black;
 }
 
 h1 {
