@@ -21,7 +21,7 @@ a:hover {
     color:yellow;
 }
 
-a.butt:link {
+a.butt:link, a.butt:visited {
     display:inline-block;
     text-transform:uppercase;
     font-size:.75em;
