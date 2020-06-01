@@ -1,24 +1,24 @@
 body {
-    background-color:#000;
-    color:#fff;
+    background-color:black;
+    color:white;
     font-family: 'Cormorant', serif;
     font-size: 24px;
     line-height:1.6;
     font-weight:400;
     text-align:center;
-    padding:3em 0;
+    padding:1em 0;
 }
 
 a:link, a:active, a:visited {
-    color:#fff;
+    color:white;
     text-decoration: none;
     font-size:1.2em;
     line-height:1;
 }
 
 a:hover {
-    border-bottom:none;
     color:yellow;
+    border-bottom:.1em solid yellow
 }
 
 a.butt:link, a.butt:visited {
@@ -27,7 +27,7 @@ a.butt:link, a.butt:visited {
     font-size:.75em;
     padding:1em;
     background-color:yellow;
-    color:#000;
+    color:black;
     margin:3em 0;
 }
 
@@ -38,7 +38,7 @@ a.butt:hover {
 a.dumb:link, a.dumb:visited {
     display:inline-block;
     font-size:.75em;
-    color:#fff;
+    color:white;
     margin:6em 0;
     font-style:italic;
     border-bottom:.1em solid yellow;
