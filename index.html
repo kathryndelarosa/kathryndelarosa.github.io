@@ -2,15 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>YELLOW PERIL SUPPORTS BLACK POWER</title>
+        <title>Kathryn de la Rosa</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="YELLOW PERIL SUPPORTS BLACK POWER">
+        <meta name="description" content="Kathryn de la Rosa is a dramaturg, playwright & astrologer.">
         <meta name="author" content="Kathryn de la Rosa">
         
         <!-- coded by kathryn de la rosa -->
 
-        <link rel="stylesheet" href="donate.css" type="text/css" />
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <link rel="stylesheet" href="mobile.css"  type="text/css" media="(max-width:33rem)"/>
         <link rel="icon" type="image/png" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
@@ -20,31 +21,65 @@
     
 <body>
     
-    <p>
-        <a href="https://actionnetwork.org/fundraising/louisville-community-bail-fund" target="_blank">Louisville Community Bail Fund</a><br>
-        <a href="https://secure.actblue.com/donate/bail_funds_george_floyd" target="_blank">***Split a donation between 38 community bail funds***</a><br>
-        <a href="https://secure.givelively.org/donate/the-bail-project" target="_blank">The Bail Project</a><br>
-        <a href="https://www.paypal.me/neleftcoalition" target="_blank">Nebraska Left Coalition (Omaha Bail Fund)</a><br>
-        <a href="https://actionnetwork.org/fundraising/support-justiceforgeorgefloyd-protesters-in-atlanta/" target="_blank">Atlanta Solidarity Fund</a><br>
-        <a href="https://rvabailfund.org/donate" target="_blank">Richmond Bail Fund</a><br>
-        <a href="https://chicagobond.org/donate/" target="_blank">Chicago Comunity Bond Fund</a><br>
-        <a href="https://nashvillebailfund.org/" target="blank">Nashville Community Bail Fund</a><br>
-        <a href="https://fundly.com/coloradofreedom?form=popup#" target="_blank">Colorado Freedom Fund</a><br>
-        <a href="https://www.legalaiddc.org/donate-to-legal-aid/" target="_blank">Legal Aid Society DC</a><br>
-        <a href="http://brooklynbailfund.org/" target="_blank">Brooklyn Bail Fund</a><br>
-        <a href="https://www.libertyfund.nyc/" target="_blank">The Liberty Fund (NYC)</a><br>
-        <a href="https://rally.org/ARCbailfund" target="_blank">Bay Area Anti-Repression Committee Bail Fund</a><br>
-        <a href="http://siliconvalleydsa.org/donations/" target="_blank">Oakland + San Jose Bail Fund</a><br>
-        <a href="https://docs.google.com/spreadsheets/d/1p7QxOvtvRfHUoMWib8coGHSS8szENXzSjIZKpvp-gtA" target="_blank" class="butt">Funds doc &rarr;</a>
-        <a href="https://docs.google.com/spreadsheets/u/0/d/1ZIvDZpHqvNZkf8dGFXVjfk-Wq0Y9FTG410NJbH_8K8M/htmlview" target="_blank" class="butt">Another funds doc &rarr;</a>
-     </p>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
     
-    <p>
-        <a href="https://www.directrelief.org/" target="_blank">Direct Relief</a><br>
-        <a href="https://www.gofundme.com/f/urgent-fundraising-appeal-in-response-to-covid-19" target="_blank">Kadamay COVID Relief Fund</a><br>
-    </p>
+    <div id="tiddie">
+        <a href="/"><b>Kathryn de la Rosa</b></a>
+    </div>
     
+    <div class="topnav" id="myTopnav">
+        <a href="/">Home</a>
+        <a href="/info">Info</a>
+        <a href="/plays">Plays</a>
+        <a href="/work">Work</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+    </div>
+
+    <div id="map">
+        <a href="/info">🐊 Info</a>
+        <a href="/plays">🖋 Plays</a>
+        <a href="/work">🔮 Projects</a>
+        <a href="mailto:delarosakathryn@gmail.com">💌 Email</a>
+        <a href="https://twitter.com/kdlrose" target="_blank">🦉 Twitter</a>
+        <a href="https://open.spotify.com/user/1292022740?si=a8aZLDH_Rn-YAuexDj68LQ" target="_blank">✨ Spotify</a>
+    </div>
     
-</body>  
+    <div id="carousel">
+    <div class="w3-content w3-section">
+        <img class="mySlides" src="/media/1_coven.jpg" style="width:100%">
+        <img class="mySlides" src="/media/5_mountain.jpg" style="width:100%">
+        <img class="mySlides" src="/media/3_wolves.jpg" style="width:100;">
+        <img class="mySlides" src="/media/4_bonnets.jpg" style="width:100;">
+        <img class="mySlides" src="/media/2_mountain.jpg" style="width:100;">
+    </div>
+    </div>
+</body>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>    
     
 </html>
