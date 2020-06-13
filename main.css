@@ -2,8 +2,8 @@ body {
     background-color:#f0dcdc;
     color:#441f2f;
     font-family: 'Nib Pro', serif;
-    font-size: 24px;
-    line-height:1.4;
+    font-size: 26px;
+    line-height:1.5;
     font-weight:400;
     text-align:center;
 }
@@ -76,7 +76,7 @@ a:hover {
     z-index: 999;
     top:1.25em;
     right:2em;
-    font-size:1.1em;
+    font-size:1.2em;
     text-align:right;
 }
 
@@ -114,10 +114,11 @@ a:hover {
 /* HEADINGS AND SPANS IDK LIKE SOMEONE HELP ME BE CREATIVE HERE */
 
 h1 {
-    font-size:1.5em;
+    font-size:1.25em;
     font-family:'Space Grotesk', sans-serif;
     font-weight:400;
     margin:3em 0 1em;
+    text-transform:uppercase;
 }
 
 h2 {
