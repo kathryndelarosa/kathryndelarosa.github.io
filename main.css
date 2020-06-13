@@ -1,7 +1,7 @@
 body {
-    background-color:#EAACE5;
-    color:#5e357c;
-    font-family: 'Space Grotesk', sans-serif;
+    background-color:#f0dcdc;
+    color:#441f2f;
+    font-family: 'Nib Pro', serif;
     font-size: 24px;
     line-height:1.4;
     font-weight:400;
@@ -9,18 +9,15 @@ body {
 }
 
 a:link, a:active, a:visited {
-    color:#5e357c;
+    color:#441f2f;
     text-decoration: none;
-    font-family:'Cormorant', serif;
-    border-bottom:.02em solid #5e357c;
+    border-bottom:.02em solid #441f2f;
     font-weight:400;
-    font-size:1.2em;
-    line-height:1;
 }
 
 a:hover {
     border-bottom:none;
-    color:#000;
+    color:#e1a912;
 }
 
 
@@ -67,7 +64,7 @@ a:hover {
 #tiddie a {
     font-family:'Space Grotesk', serif;
     border-bottom:none;
-    color:#357C5E;
+    color:#e1a912;
 }
 
 #tit {
@@ -88,7 +85,7 @@ a:hover {
     border-bottom:none;
     display:block;
     line-height: 1.2;
-    color:#ECDDF6;
+    color:#e1629a;
 }
 
 /* BABY WE'RE THE NEW ROMANTICS COME ON COME ALONG WITH ME */
@@ -118,8 +115,8 @@ a:hover {
 
 h1 {
     font-size:1.5em;
-    font-family:'Cormorant', serif;
-    font-weight:300;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:400;
     margin:3em 0 1em;
 }
 
@@ -127,25 +124,14 @@ h2 {
     font-size:1em;
     font-weight:600;
     margin: 3em 0 1em;
+    font-family:'Space Grotesk', sans-serif;
 }
 
 h3 {
     font-size:.75em;
     text-transform:uppercase;
-    font-family:'Cormorant', serif;
+    font-family:'Space Grotesk', sans-serif;
     margin:6em 0 0;
-}
-
-.birb {
-    font-family:'Cormorant', serif;
-    font-size:1.2em;
-    line-height:1em;
-}
-
-.bird {
-    font-family:'Cormorant', serif;
-    font-size:1.2em;
-    line-height:1.2;
 }
 
 /* Add a black background color to the top navigation */
@@ -249,6 +235,22 @@ h3 {
     src: url('SpaceGrotesk-Light.woff2') format('woff2'),
         url('SpaceGrotesk-Light.woff') format('woff');
     font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nib Pro';
+    src: url('NibPro-Italic.woff2') format('woff2'),
+        url('NibPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nib Pro';
+    src: url('NibPro-Regular.woff2') format('woff2'),
+        url('NibPro-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
