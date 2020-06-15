@@ -38,9 +38,9 @@ a.hermes:hover {
 #tete {
     width:100%;
     display:block;
-    font-size:1.2em;
-    font-weight:600;
-    font-family:'Public Sans';
+    font-size:1.4em;
+    font-weight:bold;
+    font-family:'Venus URW';
 }
 
 #tete a {
@@ -97,7 +97,6 @@ h1 {
 }
 
 #centre h2 {
-    font-family:'Public Sans', sans-serif;
     font-size:1em;
     margin:3em 0 1em;
     font-weight:600;
@@ -105,10 +104,10 @@ h1 {
 }
 
 h2 {
-    font-family:'Public Sans', sans-serif;
-    font-size:.7em;
+    font-family:'Venus URW', sans-serif;
+    font-size:.9em;
     margin:2em 0 .5em;
-    font-weight:600;
+    font-weight:bold;
 }
 
 @font-face {
@@ -125,6 +124,15 @@ h2 {
     src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
         url('EhrhardtMTStd-Regular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Venus URW';
+    src: url('VenusURW-Bol.woff2') format('woff2'),
+        url('VenusURW-Bol.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
