@@ -22,6 +22,15 @@ a.mercury:hover {
     border:none;
 }
 
+a.hermes:link, a.hermes:active, a.hermes:visited {
+    color:#fff;
+    border:none;
+}
+
+a.hermes:hover {
+    border-bottom:.1em solid #EE6FA4;
+}
+
 #container {
     margin:5%;
 }
