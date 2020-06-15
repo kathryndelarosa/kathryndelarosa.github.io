@@ -13,7 +13,7 @@ body {
     width:100%;
     display:block;
     float:none;
-    padding:0;
+    margin:20% 0;
 }
 
 #centre {
@@ -42,4 +42,8 @@ td#moon {
 td#map {
     text-align:right;
     width:50%;
+}
+
+h1 {
+    font-size:1.5em;
 }
