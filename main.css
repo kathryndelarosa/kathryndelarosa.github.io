@@ -1,7 +1,7 @@
 body {
-   background: rgb(249,214,199);
-background: linear-gradient(225deg, rgba(249,214,199,1) 0%, rgba(194,134,242,1) 91%);
-    color:#fff;
+   background: rgb(229,152,232);
+background: linear-gradient(30deg, rgba(229,152,232,1) 0%, rgba(187,227,251,1) 30%, rgba(234,247,177,1) 60%, rgba(239,132,193,1) 100%);
+    color:#000;
     font-family: 'Ehrhardt MT Std';
     font-weight:400;
     font-size: 24px;
@@ -9,7 +9,7 @@ background: linear-gradient(225deg, rgba(249,214,199,1) 0%, rgba(194,134,242,1) 
 }
 
 a:link, a:active, a:visited {
-    color:#fff;
+    color:#000;
     text-decoration: none;
     border-bottom:.1em solid #EE6FA4;
 }
@@ -23,7 +23,7 @@ a.mercury:hover {
 }
 
 a.hermes:link, a.hermes:active, a.hermes:visited {
-    color:#fff;
+    color:#000;
     border:none;
 }
 
