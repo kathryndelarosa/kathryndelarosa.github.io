@@ -1,34 +1,81 @@
 body {
-   background: rgb(249,214,199);
-background: linear-gradient(225deg, rgba(249,214,199,1) 0%, rgba(194,134,242,1) 91%);
-    color:#fff;
-    font-family: 'Ehrhardt MT Std';
-    font-weight:400;
-    font-size: 24px;
+    background: #fff;
+    color:#000;
+    font-family: 'GT America', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight:300;
+    font-size: 20px;
     line-height:1.5;
 }
 
+::selection {
+  background: #e2beff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #e2beff; /* Gecko Browsers */
+}
+
 a:link, a:active, a:visited {
-    color:#fff;
+    color:#000;
     text-decoration: none;
-    border-bottom:.1em solid #EE6FA4;
+    border-bottom:.1em solid #e2beff;
+}
+
+a:hover {
+    color:#e2beff;
+    border-bottom:none;
 }
 
 a.mercury:link, a.mercury:active, a.mercury:visited {
-    color:#E85490;
+    font-weight:500;
+    background-color:#e2beff;
+    padding:.1em;
 }
 
 a.mercury:hover {
     border:none;
+    color:black;
+    background-color:inherit;
 }
 
-a.hermes:link, a.hermes:active, a.hermes:visited {
-    color:#fff;
+span.lilac {
+    background-color:#e2beff;
+    padding:.1em;
+}
+
+button {
+    background-color:#e2beff;
+    padding:.1em;
     border:none;
+    padding:none;
+    margin:none;
+    display:inline;
+    font-size:1em;
+    font-family: 'GT America', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight:300;
 }
 
-a.hermes:hover {
-    border-bottom:.1em solid #EE6FA4;
+button:hover span {
+    background-color:#e2beff;
+    padding:.1em;
+    display:none;
+ }
+  
+button:hover:before {
+    content:"(siya/ᜐᜒᜌ)";
+ }
+
+h1 {
+    font-weight:300;
+}
+
+h2 {
+    font-weight:500;
+    font-size:.9em;
+    margin:2em 0 1em;
+}
+
+b {
+    font-weight:500;
 }
 
 #container {
@@ -38,9 +85,7 @@ a.hermes:hover {
 #tete {
     width:100%;
     display:block;
-    font-size:1.4em;
-    font-weight:bold;
-    font-family:'Venus URW';
+    font-size:1.25em;
 }
 
 #tete a {
@@ -49,31 +94,40 @@ a.hermes:hover {
 
 table {
     width:100%;
+    text-transform:uppercase;
 }
 
 td {
-    width:33%;
+    width:50%;
 }
 
-td#moon {
-    text-align:center;
-    font-size:2em;
+td#nom {
+    font-weight:500;
 }
 
 td#map {
     text-align:right;
 }
 
+#map a {
+    margin:0 .5em;
+}
+
+#mob {
+    display:none;
+}
+
 #gauche {
-    width:30%;
+    width:25%;
     float:left;
     margin:5% 0;
 }
 
 #droite {
-    width:60%;
+    width:65%;
     float:right;
     margin:5% 0;
+    font-size:1.25em;
 }
 
 #centre {
@@ -85,12 +139,6 @@ td#map {
     font-size:1.25em;
 }
 
-h1 {
-    font-size:2em;
-    line-height:1.2;
-    font-weight:400;
-}
-
 #centre h1 {
     text-align:center;
     margin:1.5em 0 .5em;
@@ -99,47 +147,62 @@ h1 {
 #centre h2 {
     font-size:1.2em;
     margin:3em 0 1em;
-    font-weight:600;
     text-align:center;
 }
 
-h2 {
-    font-family:'Venus URW', sans-serif;
-    font-size:.9em;
-    margin:2em 0 .5em;
-    font-weight:bold;
+@font-face {
+    font-family: 'GT America';
+    src: url('GTAmerica-Light.woff2') format('woff2'),
+        url('GTAmerica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Italic.woff2') format('woff2'),
-        url('EhrhardtMTStd-Italic.woff') format('woff');
-    font-weight: normal;
+    font-family: 'GT America';
+    src: url('GTAmerica-MediumItalic.woff2') format('woff2'),
+        url('GTAmerica-MediumItalic.woff') format('woff');
+    font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
-        url('EhrhardtMTStd-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'GT America';
+    src: url('GTAmerica-Medium.woff2') format('woff2'),
+        url('GTAmerica-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Venus URW';
-    src: url('VenusURW-Bol.woff2') format('woff2'),
-        url('VenusURW-Bol.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'GT America';
+    src: url('GTAmerica-LightItalic.woff2') format('woff2'),
+        url('GTAmerica-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
     font-display: swap;
 }
 
-.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
-.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-section,.w3-code {
+    margin-top:16px!important;
+    margin-bottom:16px!important;
+}
 
-img.mySlides {width:100%;}
+.w3-content,.w3-auto{
+    margin-left:auto;margin-right:auto
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+.w3-content {
+    max-width:980px
+}
+
+.w3-auto {
+    max-width:1140px
+}
+
+img.mySlides {
+    width:100%;
+}
