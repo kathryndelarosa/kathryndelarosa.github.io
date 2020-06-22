@@ -56,13 +56,17 @@ button {
 
 button:hover span {
     background-color:#e2beff;
-    padding:.1em;
+    padding:0em;
     display:none;
  }
   
 button:hover:before {
     content:"(siya/ᜐᜒᜌ)";
  }
+
+wee {
+    font-size:.9em;
+}
 
 h1 {
     font-weight:300;
