@@ -106,6 +106,10 @@ td {
     width:50%;
 }
 
+tr {
+    vertical-align: top;
+}
+
 td#nom {
     font-weight:500;
 }
@@ -140,12 +144,40 @@ td#map {
     margin:10% auto;
 }
 
+
+#menu {
+    width:80%;
+    margin:10% auto;
+}
+
+#menu h1 {
+    margin:1.5em 0 .25em;
+    font-size:1.25em;
+}
+
+#menu h2 {
+    font-size:.8em;
+    margin:1em 0;
+    text-transform:uppercase;
+    background-color:#e2beff;
+    padding:.1em;
+    display:inline;
+}
+
+table#menu {
+    text-transform:none;
+    width:100%;
+}
+
+td.menu {
+    padding:0 3%;
+}
+
 #droite p {
     font-size:1.25em;
 }
 
 #centre h1 {
-    text-align:center;
     margin:1.5em 0 .5em;
 }
 
