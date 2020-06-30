@@ -159,9 +159,7 @@ td#map {
     font-size:.8em;
     margin:1em 0;
     text-transform:uppercase;
-    background-color:#e2beff;
-    padding:.1em;
-    display:inline;
+    text-align:left;
 }
 
 table#menu {
@@ -179,6 +177,7 @@ td.menu {
 
 #centre h1 {
     margin:1.5em 0 .5em;
+    text-align:center;
 }
 
 #centre h2 {
