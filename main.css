@@ -1,5 +1,7 @@
 body {
-    background: #eee;
+    background-color:#EAE8E6;
+    background-image:url(/media/bgtile.png);
+    background-attachment: fixed;
     color:#333;
     font-family: 'Cormorant', serif;
     font-size: 22px;
@@ -23,14 +25,27 @@ a:hover {
 	background-position: 0;
 }
 
-#droite {
+#gauche {
     background-color:#fff;
     padding:5%;
     width:40%;
     position:absolute;
     top:0;
-    right:0;
+    left:0;
     overflow: auto;
+}
+
+#droite {
+    padding:0 10%;
+    width:30%;
+    position:fixed;
+    top:0;
+    right:0;
+    height:100vh;
+}
+
+#droite img {
+    height:100%;
 }
 
 #map {

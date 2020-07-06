@@ -3,7 +3,7 @@ body {
     line-height:1.2x;
 }
 
-#droite {
+#gauche {
     display:block;
     float:none;
     height:auto;
