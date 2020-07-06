@@ -113,13 +113,12 @@ h4 {
 }
 
 table {
-    border-bottom:.05em solid #ccc;
     margin:20% 0;
 }
 
 td {
     display:block;
-    border-top:.05em solid #ccc;
+    border-top:.05em solid #ddd;
     padding:5%;
 }
 
