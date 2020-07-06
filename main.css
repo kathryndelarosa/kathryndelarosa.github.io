@@ -53,6 +53,7 @@ a:hover {
     font-size:.8em;
     border-bottom:.05em solid #eee;
     padding:0 0 3%;
+    color:#ccc;
 }
 
 #map a {
@@ -70,6 +71,11 @@ a:hover {
     background-position-y: 0;
     background-repeat: no-repeat;
     transition: background-position .25s ease-in-out;
+}
+
+span.ici {
+    padding: 0.2em;
+    margin: -0.1em .5em;
 }
 
 #pied {
