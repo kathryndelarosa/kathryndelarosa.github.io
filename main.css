@@ -25,22 +25,20 @@ a:hover {
 
 #map {
     display:block;
-    font-size:.75em;
-    border-bottom:.05em solid #ddd;
-    padding:0 0 5%;
+    font-size:.8em;
+    border-bottom:.05em solid #eee;
+    padding:0 0 3%;
 }
 
 #map a {
-    padding:0;
-    margin:0;
+    padding: 0.2em;
+    margin: -0.1em .5em;
     box-decoration-break: none;
     -webkit-box-decoration-break: none;
     background-image: none;
 }
 
 #map a:hover {
-    padding: 0.1em;
-    margin: -0.1em;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
     background-image: linear-gradient(transparent 0, rgba(215,251,190,1) 0);
@@ -54,7 +52,7 @@ a:hover {
     font-size:.9em;
     text-align:right;
     margin:20% 0 0;
-    border-top:.05em solid #ddd;
+    border-top:.05em solid #eee;
     padding:5% 0;
 }
 
@@ -114,11 +112,12 @@ h4 {
 
 table {
     margin:20% 0;
+    border-bottom:.05em solid #eee;
 }
 
 td {
     display:block;
-    border-top:.05em solid #ddd;
+    border-top:.05em solid #eee;
     padding:5%;
 }
 

@@ -13,8 +13,11 @@ body {
 }
 
 #map, #pied {
-    font-size.9em;
     text-align:center;
     text-transform:uppercase;
     letter-spacing:.1em;
+}
+
+#map {
+    padding:0 0 5%;
 }
