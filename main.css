@@ -112,6 +112,11 @@ h4 {
 table {
     margin:20% 0;
     border-bottom:.05em solid #eee;
+    width:100%;
+}
+
+table.clips {
+    margin:0 0 20%;
 }
 
 td {
