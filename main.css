@@ -149,3 +149,7 @@ td {
 td:hover {
     background-color:#fafafa;
 }
+
+ul {
+    list-style-type: circle;
+}
