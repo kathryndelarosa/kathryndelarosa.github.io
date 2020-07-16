@@ -35,19 +35,6 @@ a:hover {
     overflow: auto;
 }
 
-#droite {
-    padding:0 10%;
-    width:30%;
-    position:fixed;
-    top:0;
-    right:0;
-    height:100vh;
-}
-
-#droite img {
-    height:100%;
-}
-
 #map {
     display:block;
     font-size:.8em;
