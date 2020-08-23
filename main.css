@@ -10,7 +10,7 @@
 
 body {
     background-color: #fff;
-    animation: FadeIn 1.5s ease-in-out forwards;
+    animation: FadeIn 3s ease-in-out forwards;
     color:#000;
     font-family: 'Univers LT Std', sans-serif;
     font-size: 38px;
@@ -93,7 +93,7 @@ a.butt:link, a.butt:active, a.butt:visited {
     border:.05em solid #000;
     border-radius:2em;
     display:inline-block;
-    padding:.25em .5em 0 .5em;
+    padding:.25em;
     color:#000;
     text-decoration: none;
 }
@@ -181,11 +181,15 @@ figure {
     margin:auto;
 }
 
+figure img {
+    width:100%;
+}
+
 figcaption {
     text-align:left;
     font-size:.5em;
 }
 
-img {
-    width:100%;
+img.symbol {
+    height:.7em;
 }

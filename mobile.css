@@ -1,8 +1,6 @@
 body {
     font-size:22px;
     line-height:1.2;
-    background-color:#ff0000;
-    animation:none;
 }
 
 span#desknav {
@@ -52,4 +50,17 @@ figure {
 
 figcaption {
     font-size:.8em;
+}
+
+a.butt:link, a.butt:active, a.butt:visited {
+    text-transform:lowercase;
+    font-weight:900;
+    border: none;
+    font-size:1.1em;
+    padding:0;
+    margin:0 .1em;
+}
+
+a.butt:hover {
+    opacity:0;
 }
