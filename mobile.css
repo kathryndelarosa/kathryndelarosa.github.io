@@ -64,3 +64,7 @@ a.butt:link, a.butt:active, a.butt:visited {
 a.butt:hover {
     opacity:0;
 }
+
+.big, .pettybouge {
+    line-height:1.25;
+}

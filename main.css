@@ -90,12 +90,13 @@ a:hover {
 a.butt:link, a.butt:active, a.butt:visited {
     text-transform:uppercase;
     font-size:.8em;
-    border:.05em solid #000;
+    border:.075em solid #000;
     border-radius:2em;
     display:inline-block;
-    padding:.25em;
+    padding:.25em .5em .1em;
     color:#000;
     text-decoration: none;
+    line-height:1;
 }
 
 a.butt:hover {
@@ -162,23 +163,24 @@ h1 {
     font-size:1.1em;
     line-height:.8em;
     margin:1.5em 0 .5em;
+    font-weight:300;
 }
 
 .pettybouge {
     font-family:'Times Now', serif;
-    font-size:2em;
+    font-size:2.5em;
     line-height:1em;
 }
 
 .big {
-    font-size:1.8em;
+    font-size:2em;
     line-height:1em;
 }
 
 figure {
     text-align:center;
-    width:40%;
-    margin:auto;
+    width:45%;
+    margin:2em auto;
 }
 
 figure img {
@@ -192,4 +194,8 @@ figcaption {
 
 img.symbol {
     height:.7em;
+}
+
+img#wallpaperamIMage {
+    display:none;
 }
