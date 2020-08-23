@@ -50,8 +50,8 @@ a {
 
 @font-face {
     font-family: 'Univers LT Std';
-    src: url('UniversLTStd-XBlack.woff2') format('woff2'),
-        url('UniversLTStd-XBlack.woff') format('woff');
+    src: url('UniversLTStd-Black.woff2') format('woff2'),
+        url('UniversLTStd-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
