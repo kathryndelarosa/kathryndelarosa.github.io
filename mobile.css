@@ -1,22 +1,54 @@
 body {
-    font-size:20px;
-    line-height:1.2x;
+    font-size:22px;
+    line-height:1.2;
+    background-color:#ef4a45;
 }
 
-#gauche {
+span#desknav {
+    display:none;
+}
+
+#mobnav {
     display:block;
-    float:none;
-    height:auto;
-    overflow:visible;
-    padding:5%;
-    width:90%;
 }
 
-#map, #pied {
-    text-align:center;
+#highlights {
+    display:none;
 }
 
-#map {
-    padding:0 0 3%;
-    font-size:.77em;
+.bloque {
+    margin:15% 0 5%;
+}
+
+#chez {
+    margin:15% 0 5%;
+}
+
+
+#pied {
+    margin:15% 0 0;
+}
+
+a.yuge:link {
+    font-size:3.5em;
+}
+
+.pettybouge {
+    font-size:1.5em;
+}
+
+.big {
+    font-size:1.25em;
+}
+
+.bb {
+    font-size:.7em;
+}
+
+figure {
+    width:100%;
+}
+
+figcaption {
+    font-size:.8em;
 }
