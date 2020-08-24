@@ -116,7 +116,7 @@ a.yuge:link, a.yuge:active, a.yuge:visited {
 .serf {
     font-family:'Times Now', serif;
     font-size:1.1em;
-    line-height:.9em;
+    line-height:1em;
 }
 
 .bb {
@@ -160,16 +160,18 @@ span#desknav {
 
 h1 {
     font-family:'Times Now', serif;
-    font-size:1.1em;
+    font-size:2.5em;
+    line-height:1em;
+    font-weight:300;   
+    margin:.25em 0;
+}
+
+h2 {
+    font-family:'Times Now', serif;
+    font-size:1.25em;
     line-height:.8em;
     margin:1.5em 0 .5em;
     font-weight:300;
-}
-
-.pettybouge {
-    font-family:'Times Now', serif;
-    font-size:2.5em;
-    line-height:1em;
 }
 
 .big {
