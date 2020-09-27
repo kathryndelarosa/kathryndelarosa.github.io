@@ -1,70 +1,15 @@
 body {
-    font-size:22px;
-    line-height:1.2;
+    font-size:24px;
+    margin:3%;
 }
 
-span#desknav {
-    display:none;
-}
-
-#mobnav {
-    display:block;
-}
-
-#highlights {
-    display:none;
-}
-
-.bloque {
-    margin:15% 0 5%;
-}
-
-#chez {
-    margin:15% 0 5%;
-}
-
-
-#pied {
-    margin:15% 0 0;
-}
-
-a.yuge:link {
-    font-size:3.5em;
-}
-
-.pettybouge {
-    font-size:1.5em;
-}
-
-.big {
-    font-size:1.25em;
-}
-
-.bb {
-    font-size:.7em;
-}
-
-figure {
+.tab {
     width:100%;
+    display:block;
+    margin-bottom:3em;
 }
 
-figcaption {
-    font-size:.8em;
-}
-
-a.butt:link, a.butt:active, a.butt:visited {
-    text-transform:lowercase;
-    font-weight:900;
-    border: none;
-    font-size:1.1em;
-    padding:0;
-    margin:0 .1em;
-}
-
-a.butt:hover {
-    opacity:0;
-}
-
-.big, .pettybouge {
-    line-height:1.25;
+.tabcontent {
+    width:100%;
+    display:block;
 }

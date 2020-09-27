@@ -12,11 +12,11 @@ body {
     background-color: #fff;
     animation: FadeIn 3s ease-in-out forwards;
     color:#000;
-    font-family: 'Univers LT Std', sans-serif;
-    font-size: 38px;
+    font-family: 'Times Now', serif;
+    font-size: 34px;
     font-weight:300;
-    line-height:1.14;
-    padding:1%;
+    line-height:1.2;
+    padding:2%;
     cursor: url(/rubywoo_30px.png) 30 30, auto;
     cursor: -webkit-image-set(
     url(/rubywoo_30px.png) 1x,
@@ -30,33 +30,6 @@ a {
     url(/rubywoo_30px.png) 1x,
     url(/rubywoo_60px.png) 2x 
     ), auto !important;
-}
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('UniversLTStd-Light.woff2') format('woff2'),
-        url('UniversLTStd-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('UniversLTStd-LightObl.woff2') format('woff2'),
-        url('UniversLTStd-LightObl.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('UniversLTStd-Black.woff2') format('woff2'),
-        url('UniversLTStd-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -77,118 +50,89 @@ a {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Times Now';
+    src: url('TimesNow-SemiBold.woff2') format('woff2'),
+        url('TimesNow-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('TimesNow-SemiBoldItalic.woff2') format('woff2'),
+        url('TimesNow-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
 
 a:link, a:active, a:visited {
-    color: #000;
+    color: inherit;
     text-decoration: none;
 }
 
 a:hover {
-	opacity:0;
+    color:#ff0000;
 }
 
-a.butt:link, a.butt:active, a.butt:visited {
-    text-transform:uppercase;
-    font-size:.7em;
-    border:.09em solid #000;
-    border-radius:2em;
-    display:inline-block;
-    padding:.25em .5em .1em;
-    color:#000;
-    text-decoration: none;
-    line-height:1;
+p {
+	margin:0 0 1.25em;
 }
 
-a.butt:hover {
-    color:#fff;
-    background-color:#000;
-    opacity:1;
+.hang {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
 }
 
-a.yuge:link, a.yuge:active, a.yuge:visited {
-    font-size:2.5em;
-    color:#000;
-    text-decoration: none;
-    font-weight:900;
-    line-height:.9;
+.hang:hover {
+    color:#ff0000;
 }
 
-.serf {
+.hang a:hover {
+    text-decoration:line-through;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 50%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 1em;
     font-family:'Times Now', serif;
-    font-size:1.1em;
-    line-height:1em;
+    font-weight:inherit;
+    margin-left:-2%;
 }
 
-.bb {
-    text-transform:uppercase;
-    font-size:.5em;
+.tab button:hover {
+    color: #ff0000;
 }
 
-#tete {
-    position:fixed;
-    display:block;
+.tab button.active {
+    font-style:italic;
 }
 
-.bloque {
-    display:block;
-    margin:7% auto;
-}
-
-#chez {
-    display:block;
-    margin:7% 0;
-    width:90%;
-}
-
-#highlights {
-    display:block;
-}
-
-#pied {
-    display:block;
-    margin:7% auto 0;
-}
-
-span#desknav {
-    display:inline;
-}
-
-#mobnav {
-    display:none;
-    margin:7% auto;
-}
-
-h1 {
-    font-family:'Times Now', serif;
-    font-size:2.5em;
-    line-height:1em;
-    font-weight:300;   
-    margin:.25em 0;
-}
-
-h2 {
-    font-family:'Times Now', serif;
-    font-size:1.25em;
-    line-height:.8em;
-    margin:1.5em 0 .5em;
-    font-weight:300;
-}
-
-.pettybouge {
-    font-family:'Times Now', serif;
-    font-size:2.5em;
-    line-height:1em;
-}
-
-.big {
-    font-size:2em;
-    line-height:1em;
+.tabcontent {
+    float: left;
+    width: 50%;
+    border-left: none;
+    height:auto;
 }
 
 figure {
     text-align:center;
-    width:45%;
-    margin:2em auto;
+    width:100%;
+    margin:1.25em auto;
 }
 
 figure img {
@@ -197,13 +141,6 @@ figure img {
 
 figcaption {
     text-align:left;
-    font-size:.5em;
-}
-
-img.symbol {
-    height:.7em;
-}
-
-img#wallpaperamIMage {
-    display:none;
+    font-size:.75em;
+    margin-bottom:1.25em;
 }
