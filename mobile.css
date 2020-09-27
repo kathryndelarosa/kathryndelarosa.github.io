@@ -9,6 +9,11 @@ body {
     margin-bottom:3em;
 }
 
+.tab button {
+    padding:0;
+    width:100%;
+}
+
 .tabcontent {
     width:100%;
     display:block;
