@@ -1,12 +1,13 @@
 body {
     font-size:24px;
-    margin:3%;
+    padding:3%;
 }
 
 .tab {
     width:100%;
     display:block;
     margin-bottom:3em;
+    height:auto;
 }
 
 .tab button {

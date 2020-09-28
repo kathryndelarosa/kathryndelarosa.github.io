@@ -17,7 +17,9 @@ body {
     font-weight:300;
     line-height:1.2;
     padding:2%;
-    cursor: url(/media/rubywoo_30px.png) 30 30, auto;
+    position:absolute;
+    clear:both;
+    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
     cursor: -webkit-image-set(
     url(/media/rubywoo_30px.png) 1x,
     url(/media/rubywoo_60px.png) 2x 
@@ -25,7 +27,7 @@ body {
 }
 
 a {
-    cursor: url(/media/rubywoo_30px.png) 30 30, auto !important;
+    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
     cursor: -webkit-image-set(
     url(/media/rubywoo_30px.png) 1x,
     url(/media/rubywoo_60px.png) 2x 
@@ -57,6 +59,11 @@ a:link, a:active, a:visited {
 
 a:hover {
     color:#ff0000;
+    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
+    cursor: -webkit-image-set(
+    url(/media/rubywoo_30px.png) 1x,
+    url(/media/rubywoo_60px.png) 2x 
+    ), auto !important;
 }
 
 p {
@@ -76,13 +83,11 @@ p {
     text-decoration:line-through;
 }
 
-/* Style the tab */
 .tab {
   float: left;
   width: 50%;
 }
 
-/* Style the buttons inside the tab */
 .tab button {
     display: block;
     background-color:inherit;
@@ -98,6 +103,11 @@ p {
 
 .tab button:hover {
     color: #ff0000;
+    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
+    cursor: -webkit-image-set(
+    url(/media/rubywoo_30px.png) 1x,
+    url(/media/rubywoo_60px.png) 2x 
+    ), auto !important;
 }
 
 .tab button.active {
