@@ -17,25 +17,25 @@ body {
     font-weight:300;
     line-height:1.2;
     padding:2%;
-    cursor: url(/rubywoo_30px.png) 30 30, auto;
+    cursor: url(/media/rubywoo_30px.png) 30 30, auto;
     cursor: -webkit-image-set(
-    url(/rubywoo_30px.png) 1x,
-    url(/rubywoo_60px.png) 2x 
+    url(/media/rubywoo_30px.png) 1x,
+    url(/media/rubywoo_60px.png) 2x 
     ), auto;
 }
 
 a {
     cursor: url(/rubywoo_30px.png) 30 30, auto !important;
     cursor: -webkit-image-set(
-    url(/rubywoo_30px.png) 1x,
-    url(/rubywoo_60px.png) 2x 
+    url(/media/rubywoo_30px.png) 1x,
+    url(/media/rubywoo_60px.png) 2x 
     ), auto !important;
 }
 
 @font-face {
     font-family: 'Times Now';
-    src: url('TimesNow-SemiLightItalic.woff2') format('woff2'),
-        url('TimesNow-SemiLightItalic.woff') format('woff');
+    src: url('/fonts/TimesNow-SemiLightItalic.woff2') format('woff2'),
+        url('/fonts/TimesNow-SemiLightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -43,28 +43,10 @@ a {
 
 @font-face {
     font-family: 'Times Now';
-    src: url('TimesNow-SemiLight.woff2') format('woff2'),
-        url('TimesNow-SemiLight.woff') format('woff');
+    src: url('fonts/TimesNow-SemiLight.woff2') format('woff2'),
+        url('fonts/TimesNow-SemiLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('TimesNow-SemiBold.woff2') format('woff2'),
-        url('TimesNow-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('TimesNow-SemiBoldItalic.woff2') format('woff2'),
-        url('TimesNow-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
     font-display: swap;
 }
 
