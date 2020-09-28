@@ -12,7 +12,7 @@ body {
     background-color: #fff;
     animation: FadeIn 3s ease-in-out forwards;
     color:#000;
-    font-family: 'Times Now', serif;
+    font-family: 'Times Now', 'Times New Roman', serif;
     font-size: 34px;
     font-weight:300;
     line-height:1.2;
