@@ -25,7 +25,7 @@ body {
 }
 
 a {
-    cursor: url(/rubywoo_30px.png) 30 30, auto !important;
+    cursor: url(/media/rubywoo_30px.png) 30 30, auto !important;
     cursor: -webkit-image-set(
     url(/media/rubywoo_30px.png) 1x,
     url(/media/rubywoo_60px.png) 2x 
