@@ -86,6 +86,7 @@ p {
 .tab {
   float: left;
   width: 50%;
+  display:inline-block;
 }
 
 .tab button {
@@ -119,6 +120,7 @@ p {
     width: 50%;
     border-left: none;
     height:auto;
+    display:inline-block;
 }
 
 figure {
