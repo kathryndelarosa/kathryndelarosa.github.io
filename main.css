@@ -115,7 +115,7 @@ p {
 }
 
 .tabcontent {
-    float: left;
+    float: right;
     width: 50%;
     border-left: none;
     height:auto;
