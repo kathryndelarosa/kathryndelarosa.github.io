@@ -1,138 +1,92 @@
-@keyframes FadeIn {
-  from {
-    background-color: #ff0000;
-  }
-  
-  to {
-    background-color: #ffffff;
-  }
-}
-
-body {
-    background-color: #fff;
-    animation: FadeIn 3s ease-in-out forwards;
-    color:#000;
-    font-family: 'Times Now', 'Times New Roman', serif;
-    font-size: 34px;
-    font-weight:300;
-    line-height:1.2;
-    padding:2%;
-    position:absolute;
-    clear:both;
-    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
-    cursor: -webkit-image-set(
-    url(/media/rubywoo_30px.png) 1x,
-    url(/media/rubywoo_60px.png) 2x 
-    ), auto;
-}
-
-a {
-    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
-    cursor: -webkit-image-set(
-    url(/media/rubywoo_30px.png) 1x,
-    url(/media/rubywoo_60px.png) 2x 
-    ), auto !important;
-}
-
 @font-face {
-    font-family: 'Times Now';
-    src: url('/fonts/TimesNow-SemiLightItalic.woff2') format('woff2'),
-        url('/fonts/TimesNow-SemiLightItalic.woff') format('woff');
+    font-family: 'GT Alpina';
+    src: url('/fonts/GTAlpina-ExtLightItalic.woff2') format('woff2'),
+        url('/fonts/GTAlpina-ExtLightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-SemiLight.woff2') format('woff2'),
-        url('fonts/TimesNow-SemiLight.woff') format('woff');
+    font-family: 'GT Alpina';
+    src: url('/fonts/GTAlpina-ExtLight.woff2') format('woff2'),
+        url('/fonts/GTAlpina-ExtLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Akkurat';
+    src: url('/fonts/Akkurat-Light.woff2') format('woff2'),
+        url('/fonts/Akkurat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --bg-color: #f6f6f6;
+    --bg-text:#444444;
+    --rose:#F2ACB9;
+    --violet:#BF53B6;
+    --bleu:#7ECCEE;
+    --burnt:#E1806C;
+    --sage:#A8DC7D;
+  }
+  
+
+body {
+    background-color:var(--bg-color);
+    color:var(--bg-text);
+    font-family: 'Akkurat', sans-serif;
+    font-weight:300;
+    font-size: 24px;
+    line-height:1.4;
+    padding:3% 24% 3% 6%;
+    text-align:left;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🪐 </text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
 a:link, a:active, a:visited {
     color: inherit;
-    text-decoration: none;
 }
 
 a:hover {
-    color:#ff0000;
-    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
-    cursor: -webkit-image-set(
-    url(/media/rubywoo_30px.png) 1x,
-    url(/media/rubywoo_60px.png) 2x 
-    ), auto !important;
+    text-decoration:none;
 }
 
-p {
-	margin:0 0 1.25em;
+h1 {
+    font-family:'GT Alpina', serif;
+    font-weight:300;
+    margin:1.5em 0 .75em;
+    font-size:2em;
+    justify-content: center;
+    line-height:1.2;
 }
 
-.hang {
-    padding-left: 1.5em;
-    text-indent: -1.5em;
+h2 {
+    font-family:'GT Alpina', serif;
+    font-weight:300;
+    font-size:1.2em;
 }
 
-.hang:hover {
-    color:#ff0000;
+em {
+    font-family:'GT Alpina', serif;
+    font-weight:300;
 }
 
-.hang a:hover {
-    text-decoration:line-through;
+a.nav:link, a.nav:active, a.nav:visited {
+    color: inherit;
+    text-decoration:none;
+    border:.07em solid var(--bg-text);
+    border-radius:1em;
+    padding:.2em .7em;
+    margin:0 .25em 0 0;
+    font-size:.9em;
 }
 
-.tab {
-  float: left;
-  width: 50%;
-}
-
-.tab button {
-    display: block;
-    background-color:inherit;
-    color: black;
-    border: none;
-    outline: none;
-    text-align: left;
-    font-size: 1em;
-    font-family:'Times Now', serif;
-    font-weight:inherit;
-    padding:0;
-}
-
-.tab button:hover {
-    color: #ff0000;
-    cursor: url(/media/rubywoo_30px.png) 15 15, auto;
-    cursor: -webkit-image-set(
-    url(/media/rubywoo_30px.png) 1x,
-    url(/media/rubywoo_60px.png) 2x 
-    ), auto !important;
-}
-
-.tab button.active {
-    font-style:italic;
-}
-
-.tabcontent {
-    float: right;
-    width: 50%;
-    border-left: none;
-    height:auto;
-}
-
-figure {
-    text-align:center;
-    width:100%;
-    margin:1.25em auto;
-}
-
-figure img {
-    width:100%;
-}
-
-figcaption {
-    text-align:left;
-    font-size:.75em;
-    margin-bottom:1.25em;
+a.nav:hover {
+    background-color: var(--bg-text);
+    color:var(--bg-color);
 }

@@ -3,19 +3,6 @@ body {
     padding:3%;
 }
 
-.tab {
-    width:100%;
-    display:block;
-    margin-bottom:3em;
-    height:auto;
-}
-
-.tab button {
-    padding:0;
-    width:100%;
-}
-
-.tabcontent {
-    width:100%;
-    display:block;
+h2 {
+    font-size:1em;
 }
