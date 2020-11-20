@@ -26,8 +26,8 @@
 }
 
 :root {
-    --bg-color: #f6f6f6;
-    --bg-text:#444444;
+    --bg-color: #151515;
+    --main-text:#f6f6f6;
     --rose:#F2ACB9;
     --violet:#BF53B6;
     --bleu:#7ECCEE;
@@ -38,11 +38,11 @@
 
 body {
     background-color:var(--bg-color);
-    color:var(--bg-text);
+    color:var(--main-text);
     font-family: 'Akkurat', sans-serif;
     font-weight:300;
     font-size: 24px;
-    line-height:1.4;
+    line-height:1.5;
     padding:2% 24% 2% 6%;
     text-align:left;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🪐 </text></svg>") 16 0,auto; /*!emojicursor.app*/
@@ -50,10 +50,53 @@ body {
 
 a:link, a:active, a:visited {
     color: inherit;
+    text-decoration:none;
+    border-bottom:.06em solid var(--main-text);
 }
 
 a:hover {
+    color:var(--bg-color);
+    background-color:var(--main-text);
+}
+
+a.bleu:link, a.bleu:active, a.bleu:visited {
+    color: inherit;
     text-decoration:none;
+    border-bottom:.06em solid var(--bleu);
+}
+
+a.bleu:hover {
+    background-color:var(--bleu);
+}
+
+a.violet:link, a.violet:active, a.violet:visited {
+    color: inherit;
+    text-decoration:none;
+    border-bottom:.06em solid var(--violet);
+}
+
+a.violet:hover {
+    background-color:var(--violet);
+}
+
+a.burnt:link, a.burnt:active, a.burnt:visited {
+    color: inherit;
+    text-decoration:none;
+    border-bottom:.06em solid var(--burnt);
+}
+
+a.burnt:hover {
+    background-color:var(--burnt);
+}
+
+a.sage:link, a.sage:active, a.sage:visited {
+    color: inherit;
+    text-decoration:none;
+    border-bottom:.06em solid var(--sage);
+}
+
+a.sage:hover {
+    background-color:var(--sage);
 }
 
 h1 {
