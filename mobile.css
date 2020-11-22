@@ -3,6 +3,10 @@ body {
     padding:3%;
 }
 
+h1 {
+    font-size:1.75em;
+}
+
 h2 {
     font-size:1em;
 }
