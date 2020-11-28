@@ -1,12 +1,25 @@
 body {
-    font-size:24px;
-    padding:3%;
+    font-size:18px;
 }
 
-h1 {
-    font-size:1.75em;
+#vessel {
+    padding:1%;
 }
 
-h2 {
-    font-size:1em;
+#bayan {
+    padding:1%;
+}
+
+td {
+    display:block;
+    width:100%;
+    padding:2% 0;
+}
+
+figure {
+    width: 100%;
+}
+
+#openbtn {
+    padding:0% 4%;
 }
