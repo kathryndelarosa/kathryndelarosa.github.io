@@ -66,7 +66,7 @@ p {
 a:link, a:active, a:visited {
     color: inherit;
     text-decoration:none;
-    border-bottom:.07em solid var(--gray-3);
+    border-bottom:.07em solid var(--gray-4);
 }
 
 a:hover {
@@ -133,7 +133,7 @@ h3 { /* play titles */
 
 h4 { /* subtitle */
     font-family:'IBM Plex Mono', monospace;
-    font-weight:400;
+    font-weight:300;
     color:var(--gray-2);
     font-size:1.2em;
     text-transform:uppercase;
