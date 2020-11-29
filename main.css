@@ -7,29 +7,11 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Adobe Caslon Pro';
-    src: url('/fonts/ACaslonPro-Regular.woff2') format('woff2'),
-        url('/fonts/ACaslonPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Adobe Caslon Pro';
-    src: url('/fonts/ACaslonPro-Italic.woff2') format('woff2'),
-        url('/fonts/ACaslonPro-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Libre+Caslon+Text:ital@0;1&display=swap');
 
 :root {
     --hwhite:#ffffff;
-    --gray-1:#444444;
+    --gray-1:#4f4f4f;
     --gray-2:#222222;
     --gray-3:#888888;
     --gray-4:#cccccc;
@@ -70,11 +52,15 @@
 body {
     background-color:var(--hwhite);
     color:var(--gray-1);
-    font-family: 'Adobe Caslon Pro', serif;
-    font-size: 21px;
-    line-height:1.6;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 18px;
+    line-height:1.8;
     text-align:left;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌽</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+p {
+    margin:1.8em 0;
 }
 
 a:link, a:active, a:visited {
@@ -121,7 +107,7 @@ figcaption {
 h1 {
     font-family:'Larsseit';
     font-weight:700;
-    font-size:2.25em;
+    font-size:2.7em;
     font-style:italic;
     letter-spacing:.05em;
     margin:2.25em 0 1em;
@@ -131,41 +117,45 @@ h1 {
 h2 {
     font-family:'IBM Plex Mono', monospace;
     font-weight:600;
-    font-size:1em;
+    font-size:1.2em;
     font-style:italic;
     margin:4em 0 1.5em;
+    line-height:1.6;
 }
 
-h3 {
+h3 { /* play titles */
     font-family:'IBM Plex Mono', monospace;
     font-weight:600;
-    font-size:1em;
+    font-size:1.2em;
     margin:2.5em 0 1.5em;
+    line-height:1.6;
 }
 
-h4 {
+h4 { /* subtitle */
     font-family:'IBM Plex Mono', monospace;
     font-weight:400;
     color:var(--gray-2);
-    font-size:1em;
+    font-size:1.2em;
     text-transform:uppercase;
     margin:-1.5em 0 2em;
+    line-height:1.6;
 }
 
-h5 {
+h5 { /* casting breakdowns */
     font-family:'IBM Plex Mono', monospace;
-    font-weight:400;
+    font-weight:300;
     color:var(--gray-3);
-    font-size:.8em;
+    font-size:1em;
     font-style:italic;
     margin:-1.5em 0 1.5em;
 }
 
 .sub {
     font-family:'IBM Plex Mono', monospace;
-    font-weight:400;
+    font-weight:300;
     color:var(--gray-3);
     font-size:1em;
+    font-style:italic;
 }
 
 a.nav:link, a.nav:active, a.nav:visited {
@@ -207,7 +197,7 @@ a.nav:hover {
     padding: 0.1em;
     text-decoration: none;
     font-family:'IBM Plex Mono', monospace;
-    font-weight:400;
+    font-weight:300;
     font-size:1.25em;
     color:var(--gray-4);
     display: block;
