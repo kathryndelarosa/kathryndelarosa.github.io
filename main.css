@@ -34,7 +34,7 @@ h1 {
 
 h2 {
     font-weight:normal;
-    margin:2em 0 1em;
+    margin:0 0 1em;
     font-size:1.4em;
     font-family:'Inter', sans-serif;
 }
@@ -69,7 +69,7 @@ figcaption {
 }
 
 #tete {
-    margin:4% 13%;
+    margin:4% 13% 6%;
     width:74%;
     display:inline-block;
     clear:both;
@@ -129,7 +129,7 @@ td.wee {
 }
 
 .brick {
-    margin:3% 13%;
+    margin:0 13% 5%;
     display:inline-block;
     clear:both;
 }
