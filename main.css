@@ -1,7 +1,7 @@
 :root {
-    --bg:#ffec8d;
-    --txt:#13322B;
-    --hov:#f9654b;
+    --bg:#fff2e2;
+    --txt:#000baa;
+    --hov:#ff2e00;
   }
 
 body {
@@ -74,14 +74,14 @@ figcaption {
     display:inline-block;
     clear:both;
     font-size:2.6em;
+    text-align:center;
 }
 
 a.nav:link, a.nav:active, a.nav:visited {
     font-weight:bold;
     text-transform:uppercase;
-    width:30%;
+    width:32%;
     display:inline-block;
-    padding:1%;
     margin:0;
     text-align:center;
     border-bottom:none;
