@@ -2,7 +2,7 @@ body {
     font-size:18px;
 }
 
-.brick {
+.brick, .astro {
     margin:10% auto;
     width:96%;
 }
@@ -21,14 +21,14 @@ td {
 
 #tete {
     margin:10% auto 0;
-    width:100%;
+    width:96%;
     font-size:1.5em;
     text-align:center;
 }
 
 a:link.nav {
     padding:0;
-    width:32%;
+    width:30%;
 }
 
 td.cov, td.desc {

@@ -34,7 +34,7 @@ h1 {
 
 h2 {
     font-weight:normal;
-    margin:0 0 1em;
+    margin:1em 0;
     font-size:1.4em;
     font-family:'Inter', sans-serif;
 }
@@ -43,6 +43,14 @@ h3 {
     text-transform:uppercase;
     font-weight:bold;
     margin:0 0 1em;
+}
+
+h4 {
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:3em 0 1em;
+    border-bottom:.2em solid var(--txt);
+    padding-bottom:.5em;
 }
 
 img {
@@ -59,19 +67,10 @@ figure img {
     width:100%;
 }
 
-figcaption {
-    font-family:'IBM Plex Mono', monospace;
-    font-weight:400;
-    color:var(--gray-2);
-    font-size:.7em;
-    text-transform:uppercase;
-    margin-bottom:1em;
-}
-
 #tete {
-    margin:4% 13% 6%;
-    width:74%;
-    display:inline-block;
+    margin:5% auto;
+    width:75%;
+    display:block;
     clear:both;
     font-size:2.6em;
     text-align:center;
@@ -92,10 +91,10 @@ a.nav:hover {
 }
 
 table#chez {
-    margin:0 10% 6%;
-    display:inline-block;
+    margin:;
+    display:block;
     clear:both;
-    width:80%;
+    width:100%;
     text-align:center;
     border-collapse: collapse;
     font-weight:500;
@@ -129,10 +128,19 @@ td.wee {
 }
 
 .brick {
-    margin:0 13% 5%;
+    margin:2% 13% 4%;
     display:inline-block;
+    width:74%;
     clear:both;
 }
+
+.byboring {
+    margin:0 10% 5%;
+    display:inline-block;
+    width:80%;
+    clear:both;
+}
+
 
 .kaliwa {
     width:64%;
@@ -159,11 +167,6 @@ td.wee {
     font-family:'IBM Plex Mono', monospace;
 }
 
-table {
-    width:100%;
-    border-bottom:none;
-}
-
 td.services {
     border-bottom:.05em solid var(--txt);
     display:block;
@@ -172,6 +175,7 @@ td.services {
 
 table.play {
     margin:2em 0;
+    width:100%;
 }
 
 td.cov {
@@ -197,4 +201,10 @@ td.cov img {
 
 #mob {
     display:none;
+}
+
+.astro {
+    display:block;
+    width:70%;
+    margin:5% auto 10%;
 }
