@@ -69,17 +69,17 @@ figure img {
 
 #tete {
     margin:5% auto;
-    width:75%;
+    width:80%;
     display:block;
     clear:both;
-    font-size:2.6em;
+    font-size:2.8em;
     text-align:center;
 }
 
 a.nav:link, a.nav:active, a.nav:visited {
     font-weight:bold;
     text-transform:uppercase;
-    width:32%;
+    width:24%;
     display:inline-block;
     margin:0;
     text-align:center;
@@ -204,7 +204,7 @@ td.cov img {
 }
 
 .astro {
-    display:block;
+    display:inline-block;
     width:70%;
-    margin:5% auto 10%;
+    margin:2% 15% 10%;
 }
