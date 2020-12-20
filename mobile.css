@@ -22,13 +22,13 @@ td {
 #tete {
     margin:10% auto 0;
     width:96%;
-    font-size:1.25em;
+    font-size:1.5em;
     text-align:center;
 }
 
 a:link.nav {
     padding:0;
-    width:22%;
+    width:30%;
 }
 
 td.cov, td.desc {
