@@ -65,3 +65,7 @@ h1 {
     font-weight:600;
     margin:20% 0 10%;
 }
+
+.astro {
+    columns:1;
+}
