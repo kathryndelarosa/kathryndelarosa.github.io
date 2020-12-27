@@ -190,12 +190,22 @@ table.play {
 td.cov {
     width:50%;
     padding:0;
+    vertical-align:top;
 }
 
 td.desc {
     width:50%;
-    padding:0 5%;
+    padding:0 0 0 5%;
     vertical-align:top;
+}
+
+table.astro {
+    width:100%;
+}
+
+td.logy {
+    width:50%;
+    padding:0 5% 0 0;
 }
 
 td.cov img {
@@ -210,16 +220,6 @@ td.cov img {
 
 #mob {
     display:none;
-}
-
-.astro {
-    display:block;
-    width:80%;
-    margin:2% auto;
-    columns:2;
-    font-size:.9em;
-    vertical-align:top;
-    column-gap:5%;
 }
 
 table {
