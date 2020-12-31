@@ -2,70 +2,12 @@ body {
     font-size:18px;
 }
 
-.brick, .astro {
-    margin:7% auto;
-    width:96%;
-}
-
-.kaliwa, .kanan {
+.brick, .band {
     width:100%;
-    display:block;
-    margin:0 auto 15%;
 }
 
 td {
     display:block;
     width:100%;
-    padding:2% 0;
-}
-
-#tete {
-    margin:10% auto 0;
-    width:96%;
-    font-size:1.5em;
-    text-align:center;
-}
-
-a:link.nav {
     padding:0;
-    width:30%;
-}
-
-td.cov, td.desc, td.logy {
-    display:block;
-    width:100%;
-    padding:2% 0;
-}
-
-h2 {
-    text-align:center;
-}
-
-table#chez {
-    display:none;
-}
-
-#mob {
-    margin:20% auto;
-    width:90%;
-    display:block;
-    text-align:center;
-    font-size:1.2em;
-    font-weight:600;
-    line-height:1.2;
-}
-
-#mob img {
-    border-radius: 50%;
-    width:70%;
-}
-
-h1 {
-    font-size:2.5em;
-    font-weight:600;
-    margin:20% 0 10%;
-}
-
-.astro {
-    columns:1;
 }
