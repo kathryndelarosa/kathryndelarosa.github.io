@@ -2,7 +2,7 @@ body {
     font-size:18px;
 }
 
-.brick, .band {
+.brick, .band, .mid {
     width:100%;
 }
 
@@ -10,4 +10,8 @@ td {
     display:block;
     width:100%;
     padding:0;
+}
+
+.band {
+    margin-top:20%;
 }

@@ -1,13 +1,12 @@
 :root {
     --bg:#fff;
     --txt:#000;
-    --hov:#ff0000;
-    --acc1:#fef5af;
-    --acc2:#fecdc8;
-    --acc3:#a5d4ee;
-    --acc4:#acb4ff;
-    --acc5:#daf3d9;
-    --acc6:#ffbc89;
+    --rouge:#F2ACB9;
+    --orange:#FDBE87;
+    --jaune:#fef5af;
+    --vert:#daf3d9;
+    --bleu:#ABCAE9;
+    --violet:#A5B0E3;
   }
 
 @font-face {
@@ -53,7 +52,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     border-bottom:none;
-    color:var(--acc4);
+    color:var(--jaune);
 }
 
 span.tnr {
@@ -83,7 +82,7 @@ h3 {
     font-family:'Times Now', 'Times New Roman', serif;
     font-weight:300;
     font-size:1.5em;
-    line-height:1.1;
+    line-height:1.3;
     text-align:center;
     margin:1.5em 0;
 }
@@ -146,14 +145,9 @@ td {
     display:block;
 }
 
-table#astro {
-    display:block; 
-    border-collapse:collapse;
-}
-
 td.logy {
     border:.05em solid var(--txt);
-    padding:4% 3%;
+    padding:4%;
     border-collapse:collapse;
 }
 
@@ -179,7 +173,7 @@ a.stack:link, a.stack:active, a.stack:visited {
 
 a.stack:hover {
     color:var(--txt);
-    background-color:var(--acc6);
+    background-color:var(--rouge);
 }
 
 img {
