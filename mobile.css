@@ -12,6 +12,30 @@ td {
     padding:0;
 }
 
+td.logy {
+    width:94%;
+    display:block;
+    padding:3%;
+    border-collapse:collapse;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+table.play {
+    border-collapse:collapse;
+}
+
 .band {
     margin-top:20%;
+}
+
+#bar {
+    text-transform:uppercase;
+    font-size:.9em;
+}
+
+.planet {
+    display:none;
 }
