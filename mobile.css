@@ -1,9 +1,9 @@
 body {
-    font-size:18px;
+    text-align:center;
 }
 
 .brick, .band, .mid {
-    width:100%;
+    width:95%;
 }
 
 td {
@@ -33,7 +33,7 @@ table.play {
 
 #bar {
     text-transform:uppercase;
-    font-size:.9em;
+    font-size:1em;
 }
 
 .planet {

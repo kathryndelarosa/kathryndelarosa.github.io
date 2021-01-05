@@ -51,8 +51,10 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-    border-bottom:none;
-    color:var(--jaune);
+    text-decoration: underline;
+    text-decoration-style:wavy;
+    text-decoration-thickness: .05em;
+    color:var(--txt);
 }
 
 span.tnr {
@@ -110,13 +112,6 @@ h4 {
 #bar a {
     margin:0 .5em;
     font-family:'arial';
-}
-
-#bar a:hover {
-    text-decoration: underline;
-    text-decoration-style:wavy;
-    text-decoration-thickness: .05em;
-    color:var(--txt);
 }
 
 .planet {
