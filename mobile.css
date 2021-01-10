@@ -1,5 +1,6 @@
 body {
-    text-align:center;
+    text-align:justify;
+    font-size:17px;
 }
 
 .brick, .band, .mid {
