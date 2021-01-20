@@ -1,12 +1,7 @@
 :root {
-    --bg:#fff;
+    --bg:#00d695;
     --txt:#000;
-    --rouge:#F2ACB9;
-    --orange:#FDBE87;
-    --jaune:#fef5af;
-    --vert:#daf3d9;
-    --bleu:#ABCAE9;
-    --lav:#AF95D3;
+    --hov:#0000ff;
   }
 
 @font-face {
@@ -27,163 +22,143 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Times Now';
+    src: url('fonts/TimesNow-BoldItalic.woff2') format('woff2'),
+        url('fonts/TimesNow-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('fonts/TimesNow-Bold.woff2') format('woff2'),
+        url('fonts/TimesNow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
     background-color:var(--bg);
     color:var(--txt);
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
-    line-height:1.625;
+    font-family: 'Times Now', 'Times New Roman', serif;
+    font-weight:300;
+    font-size: 21px;
+    line-height:1.25;
     text-align:left;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌽</text></svg>") 16 0,auto; /*!emojicursor.app*/
-}
-
-p {
-    margin:1.5em 0;
 }
 
 a:link, a:active, a:visited {
     color: inherit;
     text-decoration:none;
-    font-family:'Times Now', 'Times New Roman', serif;
-    font-weight:300;
-    font-size:1.1em;
-    line-height:1;
+    border-bottom:.01em solid var(--txt);
 }
 
 a:hover {
+    border-bottom:none;
+    color:var(--hov);
+}
+
+a.wiggly:link, a.wiggly:active, a.wiggly:visited {
+    color: inherit;
+    text-decoration:none;
+    border-bottom:none;
+}
+
+a.wiggly:hover {
     text-decoration: underline;
     text-decoration-style:wavy;
-    text-decoration-thickness: .05em;
-    color:var(--txt);
-}
-
-span.tnr {
-    font-family:'Times Now', 'Times New Roman', serif;
-    font-size:1.1em;
-}
-
-h1 {
-    font-family:'Times Now', 'Times New Roman', serif;
-    font-weight:300;
-    font-size:3.25em;
-    line-height:1.1;
-    text-align:center;
-    margin:1em 0;
-}
-
-h2 {
-    font-family:'Times Now', 'Times New Roman', serif;
-    font-weight:300;
-    font-size:2.25em;
-    line-height:1.1;
-    text-align:center;
-    margin:2em 0;
-}
-
-h3 {
-    font-family:'Times Now', 'Times New Roman', serif;
-    font-weight:300;
-    font-size:1.5em;
-    line-height:1.3;
-    text-align:center;
-    margin:1.5em 0;
-}
-
-h4 {
-    text-align:center;
-    font-style:italic;
-    font-size:.9em;
-    font-weight:300;
-    margin:-1em 0 1.5em;
-}
-
-#bar {
-    width:100%;
-    position:fixed;
-    top:0;
-    left:0;
-    border-bottom:.05em solid var(--txt);
-    text-align:center;
-    font-size:1.25em;
-    padding:.5em 0;
-    background-color: var(--bg);
-}
-
-#bar a {
-    margin:0 .5em;
-    font-family:'arial';
-}
-
-.planet {
-    font-size:.8em;
-}
-
-.band {
-    width:100%;
-    padding:5% 0 0;
-    margin:5% 0;
-    display:block;
-}
-
-table {
-    width:100%;
-    padding:0;
-    margin:0;
-    display:inline-block;
-    clear:both;
-}
-
-td {
-    width:40%;
-    padding:0 5%;
+    text-decoration-thickness: .01em;
+    color:var(--hov);
 }
 
 .brick {
-    width:56%;
-    padding:4% 0;
-    margin:4% auto;
-    display:block;
+    width:98%;
+    margin:6% 1% 3%;
+    display:inline-block;
 }
 
-.mid {
-    width:72%;
-    padding:4% 0;
-    margin:4% auto;
-    display:block;
+p {
+    margin:0;
 }
 
-td.logy {
-    border:.05em solid var(--txt);
-    padding:4%;
-    border-collapse:collapse;
+h1 {
+    font-size:1em;
+    margin:0;
+    font-weight:bold;
 }
 
-table.play {
-    display:block; 
-    border-collapse:collapse;
-    margin:3% 0;
+/***NAVIGATION***/
+
+#barre {
+    position:fixed;
+    width:96%;
+    top:0;
+    left:0;
+    margin:1% 2%;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:500;
+    font-size:1.1em;
 }
 
-td.logy {
-    border:.05em solid var(--txt);
-    padding:4% 3%;
-    border-collapse:collapse;
+#barre a {
+    color: inherit;
+    text-decoration:none;
+    border-bottom:none;
+    margin:0 10% 0 0;
 }
 
-a.stack:link, a.stack:active, a.stack:visited {
-    border:.05em solid var(--txt);
-    display:block;
-    font-family:'Arial', sans-serif;
-    padding:4% 3%;
-    margin:0 0 -.05em;
+#barre a:hover {
+    color:var(--hov);
+    border-bottom:.01em solid var(--hov);
 }
 
-a.stack:hover {
-    color:var(--txt);
-    background-color:var(--rouge);
+/*** HOME PAGE ***/
+
+#chonk {
+    width:75%;
+    float:left;
+    font-size:2em;
 }
 
-img {
-    border:.05em solid var(--txt);
-    width:100%;
+#card {
+    float:right;
+    width:20%;
+}
+
+#card p {
+    margin:.5em 0 1em;
+}
+
+#recent {
+    width:60%;
+    float:left;
+}
+
+#clients {
+    width:25%;
+    float:left;
+}
+
+/***A STROLOTURGY ***/
+
+#scoot {
+    width:60%;
+    float:right;
+    font-size:1.5em;
+    text-align:center;
+}
+
+#offerings {
+    float:left;
+    width:35%;
+    margin-right:5%;
+}
+
+#scoot h1 {
+    margin:1.5em 0 0;
 }

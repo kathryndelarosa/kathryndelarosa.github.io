@@ -1,42 +1,21 @@
 body {
-    text-align:justify;
-    font-size:17px;
+    font-size:19px;
 }
 
-.brick, .band, .mid {
-    width:95%;
-}
-
-td {
-    display:block;
+#chonk, #card, #recent, #clients, #offerings, #scoot {
     width:100%;
-    padding:0;
-}
-
-td.logy {
-    width:94%;
     display:block;
-    padding:3%;
-    border-collapse:collapse;
+    margin:3% 0;
 }
 
-table {
-    border-collapse:collapse;
+.brick {
+    margin:10% 1%;
 }
 
-table.play {
-    border-collapse:collapse;
+#barre {
+    text-align:center;
 }
 
-.band {
-    margin-top:20%;
-}
-
-#bar {
-    text-transform:uppercase;
-    font-size:1em;
-}
-
-.planet {
-    display:none;
+#barre a {
+    margin:0 5%;
 }
