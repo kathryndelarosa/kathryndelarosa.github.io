@@ -1,7 +1,7 @@
 :root {
-    --bg:#00d695;
+    --bg:#d1a49e;
+    --hov:#171C8F;
     --txt:#000;
-    --hov:#0000ff;
   }
 
 @font-face {
@@ -40,6 +40,10 @@
     font-display: swap;
 }
 
+em {
+    font-weight:300;
+    font-family:'Times Now';
+}
 
 body {
     background-color:var(--bg);
@@ -55,30 +59,28 @@ body {
 a:link, a:active, a:visited {
     color: inherit;
     text-decoration:none;
-    border-bottom:.01em solid var(--txt);
+    border-bottom:none;
 }
 
 a:hover {
-    border-bottom:none;
     color:var(--hov);
+    border-bottom:.01em solid var(--hov);
 }
 
-a.wiggly:link, a.wiggly:active, a.wiggly:visited {
+a.vis:link, a.vis:active, a.vis:visited {
     color: inherit;
     text-decoration:none;
-    border-bottom:none;
+    border-bottom:.01em solid var(--txt);
 }
 
-a.wiggly:hover {
-    text-decoration: underline;
-    text-decoration-style:wavy;
-    text-decoration-thickness: .01em;
+a.vis:hover {
+    border-bottom:none;
     color:var(--hov);
 }
 
 .brick {
     width:98%;
-    margin:6% 1% 3%;
+    margin:4% 1% 2%;
     display:inline-block;
 }
 
@@ -92,6 +94,13 @@ h1 {
     font-weight:bold;
 }
 
+h2 {
+    font-size:1em;
+    margin:0;
+    font-weight:300;
+    font-style:italic;
+}
+
 /***NAVIGATION***/
 
 #barre {
@@ -99,7 +108,7 @@ h1 {
     width:96%;
     top:0;
     left:0;
-    margin:1% 2%;
+    margin:1% 1.5%;
     font-family:'Space Grotesk', sans-serif;
     font-weight:500;
     font-size:1.1em;
