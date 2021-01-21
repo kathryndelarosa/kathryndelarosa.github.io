@@ -168,6 +168,19 @@ h2 {
     margin-right:5%;
 }
 
-#scoot h1 {
+#scoot, .skarpy h1 {
+    margin:1.5em 0 0;
+}
+
+/*** SERVICES ***/
+
+#skarpy {
+    width:75%;
+    float:left;
+    font-size:1.5em;
+}
+
+
+#skarpy h1 {
     margin:1.5em 0 0;
 }

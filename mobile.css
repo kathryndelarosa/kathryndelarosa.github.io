@@ -2,7 +2,7 @@ body {
     font-size:19px;
 }
 
-#chonk, #card, #recent, #clients, #offerings, #scoot {
+#chonk, #card, #recent, #clients, #offerings, #scoot, #skarpy {
     width:100%;
     display:block;
     margin:3% 0;
@@ -18,9 +18,9 @@ body {
     margin:0;
     padding:2% 0;
     background-color:var(--bg);
-    opacity:.9;
-    border-bottom:.05em solid var(--txt);
-    font-size:.9em;
+    opacity:.8;
+    border-bottom:.01em solid var(--txt);
+    font-size:.8em;
 }
 
 #barre a {
