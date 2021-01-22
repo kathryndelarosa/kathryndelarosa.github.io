@@ -20,9 +20,17 @@ body {
     background-color:var(--bg);
     opacity:.8;
     border-bottom:.01em solid var(--txt);
-    font-size:.8em;
+    font-family:'Times Now', 'Times New Roman', Times, serif;
 }
 
 #barre a {
     margin:0 5%;
+}
+
+a#jup {
+    display:inline;
+}
+
+a#kdlr {
+    display:none;
 }

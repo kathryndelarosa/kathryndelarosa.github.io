@@ -1,7 +1,7 @@
 :root {
-    --bg:#ddddda;
+    --bg:#dddadd;
     --hov:#e462ed;
-    --txt:#7222dd;
+    --txt:#8c22dd;
   }
 
 @font-face {
@@ -80,7 +80,7 @@ a.vis:hover {
 
 .brick {
     width:98%;
-    margin:4% 1% 2%;
+    margin:5% 1% 1%;
     display:inline-block;
 }
 
@@ -126,10 +126,18 @@ h2 {
     border-bottom:.01em solid var(--hov);
 }
 
+a#jup {
+    display:none;
+}
+
+a#kdlr {
+    display:inline;
+}
+
 /*** HOME PAGE ***/
 
 #chonk {
-    width:75%;
+    width:72%;
     float:left;
     font-size:2em;
 }
@@ -149,7 +157,7 @@ h2 {
 }
 
 #clients {
-    width:25%;
+    width:24%;
     float:left;
 }
 
@@ -175,7 +183,7 @@ h2 {
 /*** SERVICES ***/
 
 #skarpy {
-    width:75%;
+    width:72%;
     float:left;
     font-size:1.5em;
 }
