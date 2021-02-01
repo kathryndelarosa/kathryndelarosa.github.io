@@ -174,10 +174,11 @@ a#kdlr {
 }
 
 #offerings {
-    width:50%;
+    width:45%;
     font-size:1.75em;
-    float:right;
+    float:left;
     text-align:center;
+    margin-left:10%;
 }
 
 #offerings h1 {
