@@ -1,26 +1,8 @@
 :root {
-    --bg:#00d695;
-    --hov:#0000ff;
+    --bg:#ffffff;
+    --acc:#e446fc;
     --txt:#000;
   }
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('/fonts/TimesNow-SemiLightItalic.woff2') format('woff2'),
-        url('/fonts/TimesNow-SemiLightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-SemiLight.woff2') format('woff2'),
-        url('fonts/TimesNow-SemiLight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'Times Now';
@@ -40,9 +22,31 @@
     font-display: swap;
 }
 
-em {
-    font-weight:300;
-    font-family:'Times Now';
+@font-face {
+    font-family: 'Times Now';
+    src: url('TimesNow-SemiBold.woff2') format('woff2'),
+        url('TimesNow-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('fonts/TimesNow-SemiLightItalic.woff2') format('woff2'),
+        url('fonts/TimesNow-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('fonts/TimesNow-SemiLight.woff2') format('woff2'),
+        url('fonts/TimesNow-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
@@ -50,25 +54,24 @@ body {
     color:var(--txt);
     font-family: 'Times Now', 'Times New Roman', serif;
     font-weight:300;
-    font-size: 21px;
+    font-size: 36px;
     line-height:1.25;
     text-align:left;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🔮</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-p.dent {
-    text-indent:2em;
+img {
+    border-radius:50%;
+    width:75%;
 }
 
 a:link, a:active, a:visited {
     color: inherit;
-    text-decoration:none;
     border-bottom:none;
 }
 
 a:hover {
-    color:var(--hov);
-    border-bottom:.01em solid var(--hov);
+    text-decoration:none;
 }
 
 a.vis:link, a.vis:active, a.vis:visited {
@@ -82,117 +85,33 @@ a.vis:hover {
     color:var(--hov);
 }
 
-.brick {
-    width:98%;
-    margin:5% 1% 1%;
-    display:inline-block;
-}
-
-p {
-    margin:0;
-}
-
-h1 {
-    font-size:1em;
-    margin:0;
-    font-weight:bold;
-}
-
-h2 {
-    font-size:1em;
-    margin:0;
-    font-weight:300;
-    font-style:italic;
-}
-
-/***NAVIGATION***/
-
-#barre {
-    position:fixed;
-    width:96%;
+#scoot {
+    background-color:var(--acc);
+    position:absolute;
     top:0;
     left:0;
-    margin:1% 1.5%;
-    font-family:'Space Grotesk', sans-serif;
-    font-weight:500;
-    font-size:1.1em;
+    width:25%;
+    padding:10% 5%;
 }
 
-#barre a {
-    color: inherit;
-    text-decoration:none;
-    border-bottom:none;
-    margin:0 10% 0 0;
+#scoot a:hover {
+    opacity:.5;
 }
 
-#barre a:hover {
-    color:var(--hov);
-    border-bottom:.01em solid var(--hov);
+b {
+    font-weight:bold;
+    font-family:'Times Now';
 }
-
-a#jup {
-    display:none;
-}
-
-a#kdlr {
-    display:inline;
-}
-
-/*** HOME PAGE ***/
-
-#chonk {
-    width:72%;
-    float:left;
-    font-size:2em;
-}
-
-#card {
-    float:right;
-    width:20%;
-}
-
-#card p {
-    margin:.5em 0 1em;
-}
-
-#recent {
-    width:60%;
-    float:left;
-}
-
-#clients {
-    width:24%;
-    float:left;
-}
-
-/***A STROLOTURGY ***/
-
-#scoot {
-    width:45%;
-    font-size:1.25em;
-    float:left;
-}
-
-#offerings {
-    width:50%;
-    font-size:1.75em;
-    float:left;
-    text-align:center;
-    margin-left:5%;
-}
-
-#offerings h1 {
-    margin:1em 0 0;
-}
-
-/*** SERVICES ***/
 
 #skarpy {
-    width:72%;
-    float:left;
-    font-size:1.5em;
+    background-color:var(--bg);
+    position:absolute;
+    top:0;
+    right:0;
+    width:50%;
+    padding:10% 10% 10% 5%;
 }
 
-#skarpy h1 {
-    margin:1.5em 0 0;
+#skarpy a:hover {
+    color:var(--acc);
 }
