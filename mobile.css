@@ -9,13 +9,13 @@ img {
 #scoot {
     position:fixed;
     width:90%;
-    padding:5%;
-    z-index:-1;
+    padding:10% 5%;
     display:block;
+    height:100%;
 }
 
 #skarpy {
-    top:90%;
+    top:100%;
     width:90%;
     padding:5%;  
     z-index:999;
