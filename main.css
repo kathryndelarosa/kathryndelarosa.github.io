@@ -65,6 +65,10 @@ img {
     width:75%;
 }
 
+img#sparky {
+    display:none;
+}
+
 a:link, a:active, a:visited {
     color: inherit;
     border-bottom:none;
