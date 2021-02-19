@@ -1,6 +1,6 @@
 :root {
     --bg:#ffffff;
-    --acc:#ea8eff;
+    --acc:#ff9c45;
     --txt:#000;
   }
 
@@ -57,7 +57,7 @@ body {
     font-size: 36px;
     line-height:1.25;
     text-align:left;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🔮</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 img {
