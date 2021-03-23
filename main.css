@@ -1,135 +1,95 @@
 :root {
-    --bg:#ffffff;
-    --acc:#fbbd7b;
-    --txt:#000;
+    --blanc:#fff;
+    --gris:#444;
+    --noir:#222;
+    --sorbet:#fbbd7b;
   }
 
-@font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-BoldItalic.woff2') format('woff2'),
-        url('fonts/TimesNow-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-Bold.woff2') format('woff2'),
-        url('fonts/TimesNow-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('TimesNow-SemiBold.woff2') format('woff2'),
-        url('TimesNow-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-SemiLightItalic.woff2') format('woff2'),
-        url('fonts/TimesNow-SemiLightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Times Now';
-    src: url('fonts/TimesNow-SemiLight.woff2') format('woff2'),
-        url('fonts/TimesNow-SemiLight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
-    background-color:var(--bg);
-    color:var(--txt);
-    font-family: 'Times Now', 'Times New Roman', serif;
-    font-weight:300;
-    font-size: 28px;
-    text-transform:lowercase;
-    line-height:1.25;
+    background-color:var(--blanc);
+    color:var(--gris);
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 20px;
+    line-height:1.5;
     text-align:left;
+    height:100vh;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-img {
-    border-radius:50%;
-    width:75%;
-}
-
-img#sparky {
-    display:none;
+p {
+    margin:0 0 1.5em;
 }
 
 a:link, a:active, a:visited {
     color: inherit;
-    border-bottom:none;
+    border-bottom:.05em solid var(--gris);
+    text-decoration:none;
+
 }
 
 a:hover {
-    text-decoration:none;
-}
-
-a.vis:link, a.vis:active, a.vis:visited {
-    color: inherit;
-    text-decoration:none;
-    border-bottom:.01em solid var(--txt);
-}
-
-a.vis:hover {
+    color:var(--sorbet);
     border-bottom:none;
-    color:var(--hov);
-}
-
-#scoot {
-    background-color:var(--acc);
-    position:absolute;
-    top:0;
-    left:0;
-    width:25%;
-    padding:10% 5%;
-}
-
-#scoot a:hover {
-    opacity:.5;
-}
-
-b {
-    font-weight:bold;
-    font-family:'Times Now';
 }
 
 h1 {
-    font-weight:bold;
-    margin:1em 0 0;
-    font-size:1em;
+    font-weight:400;
+    font-size:3.25em;
+    line-height:1.1;
+    margin:1em 0;
+    color:var(--sorbet);
+    font-style:italic;
+    text-transform:lowercase;
 }
 
 h2 {
-    font-weight:300;
-    margin:0;
-    font-size:1em;
-    font-style:italic;
+    font-family:'Univers LT Std 53 Extended';
+    font-weight:600;
+    font-size:.8em;
+    line-height:1.1;
+    margin:2em 0;
+    color:var(--noir);
 }
 
-#skarpy {
-    background-color:var(--bg);
-    position:absolute;
+strong {
+    color:var(--noir);
+}
+
+#tete {
+    width:100%;
+    position:fixed;
     top:0;
-    right:0;
-    width:50%;
-    padding:10% 10% 10% 5%;
+    left:0;
+    text-align:center;
+    padding:2% 0;
 }
 
-#skarpy a:hover {
-    color:var(--acc);
+
+#toute {
+    width:90%;
+    margin:8% auto;
+    display:block;
+}
+
+#pied {
+    width:100%;
+    text-align:center;
+    padding:5% 0 0;
+    margin:1% auto;
+    display:block;
+    clear:both;
+}
+
+#gauche {
+    width:48%;
+    float:left;
+}
+
+#gauche img {
+    width:100%;
+}
+
+#droite {
+    width:48%;
+    float:right;
 }
