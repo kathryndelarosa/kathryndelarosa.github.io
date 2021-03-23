@@ -16,3 +16,7 @@ body {
 #tete, #pied {
     padding:5% 0;
 }
+
+#deux {
+    column-width: 100%;
+}

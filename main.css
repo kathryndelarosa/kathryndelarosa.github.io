@@ -1,7 +1,7 @@
 :root {
     --blanc:#fff;
-    --gris:#444;
-    --noir:#222;
+    --gris:#333;
+    --noir:#111;
     --sorbet:#fbbd7b;
   }
 
@@ -12,7 +12,7 @@ body {
     font-size: 20px;
     line-height:1.5;
     text-align:left;
-    height:100vh;
+    padding:2% 0;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
@@ -32,10 +32,15 @@ a:hover {
     border-bottom:none;
 }
 
+a.bouton:link, a.bouton:active, a.bouton:visited {
+    display:block;
+    font-size:.9em;
+    font-style:italic;
+}
+
 h1 {
+    font-size:1.25em;
     font-weight:400;
-    font-size:3.25em;
-    line-height:1.1;
     margin:1em 0;
     color:var(--sorbet);
     font-style:italic;
@@ -44,10 +49,7 @@ h1 {
 
 h2 {
     font-family:'Univers LT Std 53 Extended';
-    font-weight:600;
     font-size:.8em;
-    line-height:1.1;
-    margin:2em 0;
     color:var(--noir);
 }
 
@@ -62,6 +64,11 @@ strong {
     left:0;
     text-align:center;
     padding:2% 0;
+    color:var(--noir);
+}
+
+#tete:hover {
+    color:var(--sorbet);
 }
 
 
@@ -69,6 +76,12 @@ strong {
     width:90%;
     margin:8% auto;
     display:block;
+}
+
+#deux {
+    width:100%;
+    column-count: 2;
+    column-gap:4%;
 }
 
 #pied {
