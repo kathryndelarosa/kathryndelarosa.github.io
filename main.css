@@ -3,6 +3,9 @@
     --gris:#333;
     --noir:#111;
     --sorbet:#fbbd7b;
+    --leaf:#a7b961;
+    --citron:#fd872a;
+    --melon:#ffd9b0;
   }
 
 body {
@@ -28,9 +31,19 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-    color:var(--sorbet);
+    color:var(--citron);
     border-bottom:none;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color:var(--noir);
+    background:var(--sorbet);
+  }
+  
+  ::selection {
+    color:var(--noir);
+    background:var(--sorbet);
+  }
 
 a.bouton:link, a.bouton:active, a.bouton:visited {
     display:block;
