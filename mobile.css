@@ -18,5 +18,5 @@ body {
 }
 
 #deux {
-    column-width: 100%;
+    column-count: 1;
 }

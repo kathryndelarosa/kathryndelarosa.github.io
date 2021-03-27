@@ -8,6 +8,26 @@
     --melon:#ffd9b0;
   }
 
+  @font-face {
+    font-family: 'Univers LT Std';
+    src: url('/fonts/UniversLTStd-BoldEx.woff2') format('woff2'),
+        url('/fonts/UniversLTStd-BoldEx.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('/fonts/UniversLTStd-Ex.woff2') format('woff2'),
+        url('fonts/UniversLTStd-Ex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body {
     background-color:var(--blanc);
     color:var(--gris);
@@ -46,24 +66,30 @@ a:hover {
   }
 
 a.bouton:link, a.bouton:active, a.bouton:visited {
-    display:block;
     font-size:.9em;
     font-style:italic;
+    padding:.25em;
+}
+
+a.bouton:hover {
+    border-bottom: .05em solid var(--citron);
 }
 
 h1 {
-    font-size:1.25em;
+    font-size:1.2em;
     font-weight:400;
-    margin:1em 0;
+    margin:1.75em 0 .5em;
     color:var(--sorbet);
     font-style:italic;
     text-transform:lowercase;
 }
 
 h2 {
-    font-family:'Univers LT Std 53 Extended';
+    font-family:'Univers LT Std', sans-serif;
+    font-weight:normal;
     font-size:.8em;
     color:var(--noir);
+    margin:.5em 0 1em;
 }
 
 strong {
