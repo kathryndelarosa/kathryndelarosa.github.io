@@ -1,99 +1,67 @@
 :root {
     --blanc:#fff;
-    --gris:#333;
-    --noir:#111;
+    --gris:#222;
+    --noir:#000;
     --sorbet:#fbbd7b;
-    --leaf:#a7b961;
-    --citron:#fd872a;
-    --melon:#ffd9b0;
+    --pulp:#f9e1c5;
   }
 
-  @font-face {
-    font-family: 'Univers LT Std';
-    src: url('/fonts/UniversLTStd-BoldEx.woff2') format('woff2'),
-        url('/fonts/UniversLTStd-BoldEx.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('/fonts/UniversLTStd-Ex.woff2') format('woff2'),
-        url('fonts/UniversLTStd-Ex.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
 body {
-    background-color:var(--blanc);
+    background-color:var(--sorbet);
     color:var(--gris);
-    font-family: 'Sorts Mill Goudy', serif;
-    font-size: 20px;
-    line-height:1.5;
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    line-height:1.75;
     text-align:left;
-    padding:2% 0;
+    height:100vh;
+    padding:7% 14%;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 p {
-    margin:0 0 1.5em;
+    width:70%;
 }
 
 a:link, a:active, a:visited {
     color: inherit;
-    border-bottom:.05em solid var(--gris);
+    border-bottom:.1em solid var(--gris);
     text-decoration:none;
 
 }
 
 a:hover {
-    color:var(--citron);
-    border-bottom:none;
-}
-
-::-moz-selection { /* Code for Firefox */
     color:var(--noir);
-    background:var(--sorbet);
-  }
-  
-  ::selection {
-    color:var(--noir);
-    background:var(--sorbet);
-  }
-
-a.bouton:link, a.bouton:active, a.bouton:visited {
-    font-size:.9em;
-    font-style:italic;
-    padding:.25em;
-}
-
-a.bouton:hover {
-    border-bottom: .05em solid var(--citron);
 }
 
 h1 {
-    font-size:1.1em;
-    font-weight:400;
-    margin:1.5em 0 .75em;
-    color:var(--sorbet);
-    font-style:italic;
-    text-transform:lowercase;
+    font-family:'Syne', sans-serif;
+    color:var(--noir);
+    font-weight:800;
+    font-size:2.5em;
+    line-height:1.1;
+    margin:1em 0;
+    width:80%;
 }
 
 h2 {
-    font-family:'Univers LT Std', sans-serif;
-    font-weight:normal;
-    font-size:.8em;
+    font-family:'Syne', sans-serif;
     color:var(--noir);
-    margin:0em 0 1em;
+    font-weight:700;
+    font-size:1.5em;
+    line-height:1.1;
+    margin:2em 0 3em;
+    width:80%;
 }
 
-strong {
-    color:var(--noir);
+em {
+    font-weight:700;
+    font-style:normal;
+}
+
+img {
+    width:100%;
+    border:.1em solid var(--noir);
+    margin:1em 0;
 }
 
 #tete {
@@ -103,30 +71,20 @@ strong {
     left:0;
     text-align:center;
     padding:2% 0;
-    color:var(--noir);
-}
-
-#tete:hover {
-    color:var(--sorbet);
 }
 
 
 #toute {
     width:90%;
-    margin:5% auto;
+    margin:8% auto;
     display:block;
-}
-
-#deux {
-    width:100%;
-    column-count: 2;
-    column-gap:4%;
 }
 
 #pied {
     width:100%;
     text-align:center;
     padding:5% 0 0;
+    margin:1% auto;
     display:block;
     clear:both;
 }

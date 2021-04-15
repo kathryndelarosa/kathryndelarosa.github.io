@@ -1,22 +1,8 @@
 body {
     font-size:18px;
+    padding:2%;
 }
 
-#gauche, #droite {
-    display:block;
+p, h1, h2 {
     width:100%;
-    margin:5% auto;
-}
-
-#toute {
-    width:98%;
-    margin:10% auto;
-}
-
-#tete, #pied {
-    padding:5% 0;
-}
-
-#deux {
-    column-count: 1;
 }
