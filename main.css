@@ -1,13 +1,13 @@
 :root {
     --blanc:#fff;
-    --gris:#222;
-    --noir:#000;
+    --gris:#333;
+    --noir:#111;
     --sorbet:#fbbd7b;
     --pulp:#f9e1c5;
   }
 
 body {
-    background-color:var(--sorbet);
+    background-color:var(--pulp);
     color:var(--gris);
     font-family: 'Syne', sans-serif;
     font-size: 22px;
@@ -31,6 +31,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     color:var(--noir);
+    order-bottom:.1em solid var(--noir);
 }
 
 h1 {
