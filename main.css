@@ -50,8 +50,13 @@ h2 {
     font-weight:700;
     font-size:1.5em;
     line-height:1.1;
-    margin:2em 0 3em;
+    margin:2em 0;
     width:80%;
+}
+
+h3 {
+    font-size:.8em;
+    margin:2em 0 3em;
 }
 
 em {
