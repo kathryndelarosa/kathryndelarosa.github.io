@@ -1,8 +1,16 @@
 body {
-    font-size:18px;
-    padding:2%;
+    font-size:30px;
 }
 
-p, h1, h2 {
-    width:100%;
+a.geumga:link, a.plaza:link {
+    font-size:.7em;
+    padding:5%;
+}
+
+h1 {
+    padding:5%;
+}
+
+p {
+    width:90%;
 }
