@@ -10,8 +10,8 @@ body {
     background-color:var(--blanc);
     color:var(--gris);
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 40px;
-    line-height:1.3;
+    font-size: 32px;
+    line-height:1.4;
     text-align:left;
     margin:auto;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
@@ -30,24 +30,28 @@ a:hover {
 }
 
 p {
-    margin:5%;
+    margin:1.5em 5%;
     width:60%;
 }
 
-.inzaghi {
-    font-size:.8em;
+h1 {
+    font-size:1.25em;
+    font-weight:400;
+    padding:5% 5% 0;
+    width:60%;
 }
 
-h1 {
-    font-size:.5em;
+
+h2 {
+    font-size:.6em;
     text-transform:uppercase;
     padding:2% 5%;
     margin:10% 0 0;
     border-bottom:.025em solid var(--gris);
 }
 
-h2 {
-    font-size:.4em;
+h3 {
+    font-size:.5em;
     padding:2% 5% 5%;
     text-transform:uppercase;
     font-weight:400;    
@@ -60,7 +64,7 @@ a.geumga:link, a.geumga:active, a.geumga:visited {
     padding:1.5% 5%;
     margin:0;
     border-bottom:.025em solid var(--gris);
-    font-size:.6em;
+    font-size:.75em;
 }
 
 a.geumga:hover, a.plaza:hover {
@@ -76,7 +80,7 @@ a.plaza:link, a.plaza:active, a.plaza:visited {
     padding:1.5% 5%;
     margin:0 0 10%;
     border-bottom:.025em solid var(--gris);
-    font-size:.6em;
+    font-size:.75em;
 }
 
 img {
