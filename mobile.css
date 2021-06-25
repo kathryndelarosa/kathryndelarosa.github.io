@@ -2,6 +2,10 @@ body {
     font-size:30px;
 }
 
+.inzaghi {
+    font-size:1em;
+}
+
 a.geumga:link, a.plaza:link {
     font-size:.7em;
     padding:5%;
