@@ -1,5 +1,5 @@
 body {
-    font-size:30px;
+    font-size:24px;
 }
 
 .inzaghi {
@@ -16,12 +16,17 @@ a.plaza:link {
 }
 
 h1 {
-    margin:20% 0 0;
+    margin:10% 0 0;
     padding:5%;
     width:90%;
+    font-size:1em;
+}
+
+h2 {
+    padding:5%;
 }
 
 p {
     width:90%;
-    margin:15% 5%;
+    margin:10% 5%;
 }
