@@ -11,7 +11,7 @@ body {
     color:var(--gris);
     font-family: 'Tenor Sans', sans-serif;
     font-size: 32px;
-    line-height:1.4;
+    line-height:1.5;
     text-align:left;
     margin:auto;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
@@ -39,6 +39,7 @@ h1 {
     font-weight:400;
     padding:5% 5% 0;
     width:60%;
+    line-height:1.4;
 }
 
 
