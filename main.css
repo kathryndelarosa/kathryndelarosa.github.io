@@ -1,23 +1,11 @@
 :root {
     --blanc:#fff;
-    --gris:#222;
     --noir:#000;
-    --pulp:#fa9835;
-    --rind:#ff8600;
-    --mango:#fddfc9;
+    --rind:#f8833a;
+    --leaf:#83d053;
   }
 
-body {
-    background:var(--blanc);
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    font-size: 24px;
-    line-height:1.6;
-    text-align:left;
-    margin:auto;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
-}
-
-@font-face {
+  @font-face {
     font-family: 'Helvetica Neue';
     src: url('HelveticaNeue.woff2') format('woff2'),
         url('HelveticaNeue.woff') format('woff');
@@ -28,89 +16,90 @@ body {
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('HelveticaNeue-Bold.woff2') format('woff2'),
-        url('HelveticaNeue-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('HelveticaNeue-BoldItalic.woff2') format('woff2'),
-        url('HelveticaNeue-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue';
     src: url('HelveticaNeue-Italic.woff2') format('woff2'),
         url('HelveticaNeue-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
+} 
+
+body {
+    background-color:var(--rind);
+    color:var(--noir);
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 24px;
+    line-height:1.4;
+    text-align:left;
+    margin:auto;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍊</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 a:link, a:active, a:visited {
     color: inherit;
-    text-decoration:none;
-    font-weight:600;
+    text-decoration:underline;
 }
 
 a:hover {
-    color:var(--pulp);
+    text-decoration:none;
 }
 
-p {
-    margin:1.5em 5%;
-    width:60%;
+#jipuragi {
+    width:34%;
+    float:left;
+    padding:3%;
+    position:fixed;
+}
+
+#jipuragi a:link, a:active, a:visited {
+    text-decoration:none;
+}
+
+#jipuragi a:hover {
+    background-color:var(--leaf);
+}
+
+#jipuragi p {
+    text-indent:-2em;
+    margin:0 0 1em 2em;
+}
+
+#geumga {
+    width:54%;
+    float:right;
+    padding:3%;
+}
+
+#geumga p {
+    text-indent:3em;
+    margin:0;
 }
 
 h1 {
-    font-size:1.6em;
     font-weight:400;
-    padding:5% 5% 0;
-    width:60%;
-    line-height:1.4;
+    line-height:1.2;
+    font-size:2em;
+    margin:0 0 1em;
 }
 
-
 h2 {
-    font-size:.7em;
-    text-transform:uppercase;
-    padding:2% 5%;
-    margin:10% 0 0;
+    font-weight:400;
+    line-height:1.2;
+    font-size:1em;
+    margin:3em 0;
 }
 
 h3 {
-    padding:2% 5% 5%;
+    font-weight:400;
+    line-height:1.2;
+    font-size:1em;
+    margin:0 0 3em;
 }
 
-a.geumga:link, a.geumga:active, a.geumga:visited {
-    color: inherit;
-    text-decoration:none;
-    display:block;
-    padding:1.5% 5%;
-    margin:0;
-    border-top:.15em solid var(--gris);
-    font-size:.9em;
-}
-
-a.geumga:hover, a.plaza:hover {
-    background-color:var(--pulp);
-    color:var(--noir);
-    opacity:1;
-}
-
-a.plaza:link, a.plaza:active, a.plaza:visited {
-    color: inherit;
-    text-decoration:none;
-    display:block;
-    padding:1.5% 5%;
-    margin:0 0 10%;
-    border-top:.15em solid var(--gris);
-    border-bottom:.15em solid var(--gris);
-    font-size:.9em;
+h4 {
+    font-weight:400;
+    line-height:1.2;
+    font-size:1em;
+    margin:1em 0 0;
+    font-style:italic;
+    text-transform:uppercase;
 }

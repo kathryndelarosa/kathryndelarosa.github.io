@@ -1,33 +1,17 @@
 body {
-    font-size:24px;
 }
 
-.inzaghi {
-    font-size:1em;
+#geumga, #jipuragi {
+    display:block;
+    width: 94%;
+    position:static;
+
 }
 
-a.geumga:link, a.plaza:link {
-    font-size:.7em;
-    padding:5%;
+#jipuragi {
+    margin:2em 0;
 }
 
-a.plaza:link {
-    margin:0 0 20%;
-}
-
-h1 {
-    margin:10% 0 0;
-    padding:5%;
-    width:90%;
-    font-size:1em;
-    line-height:1.5;
-}
-
-h2 {
-    padding:5%;
-}
-
-p {
-    width:90%;
-    margin:10% 5%;
+h3 {
+    display:none;
 }
