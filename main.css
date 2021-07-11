@@ -2,7 +2,6 @@
     --blanc:#fff;
     --noir:#000;
     --rind:#f8833a;
-    --leaf:#83d053;
   }
 
   @font-face {
@@ -24,7 +23,7 @@
 } 
 
 body {
-    background-color:var(--rind);
+    background-color:var(--blanc);
     color:var(--noir);
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
     font-size: 24px;
@@ -41,6 +40,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     text-decoration:none;
+    color:var(--rind)
 }
 
 #jipuragi {
@@ -55,12 +55,14 @@ a:hover {
 }
 
 #jipuragi a:hover {
-    background-color:var(--leaf);
+    background-color:var(--rind);
+    color: inherit;
+
 }
 
 #jipuragi p {
-    text-indent:-2em;
-    margin:0 0 1em 2em;
+    text-indent:-1em;
+    margin:0 0 1em 1em;
 }
 
 #geumga {
