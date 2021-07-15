@@ -1,7 +1,8 @@
 :root {
-    --blanc:#fff;
-    --noir:#000;
-    --rind:#f8833a;
+    --blanc:#ffc787;
+    --noir:#000000;
+    --rind:#e8731a;
+    --leaf:#7a8f0f;
   }
 
   @font-face {
@@ -23,7 +24,8 @@
 } 
 
 body {
-    background-color:var(--blanc);
+    background: rgb(233,203,89);
+    background: linear-gradient(0deg, rgba(233,203,89,1) 0%, rgba(255,247,199,1) 25%, rgba(255,178,103,1) 75%, rgba(255,141,156,1) 100%);  
     color:var(--noir);
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
     font-size: 24px;
@@ -40,7 +42,6 @@ a:link, a:active, a:visited {
 
 a:hover {
     text-decoration:none;
-    color:var(--rind)
 }
 
 #jipuragi {
@@ -55,8 +56,7 @@ a:hover {
 }
 
 #jipuragi a:hover {
-    background-color:var(--rind);
-    color: inherit;
+    text-decoration:underline;
 }
 
 #jipuragi p {
@@ -80,10 +80,6 @@ h1 {
     line-height:1.1;
     font-size:2em;
     margin:0 0 1em;
-}
-
-h1:hover, h4:hover, h3:hover {
-    color:var(--rind);
 }
 
 h2 {
