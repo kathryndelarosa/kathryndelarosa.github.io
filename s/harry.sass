@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: light)
+    html
+        --bg-color: #fdffdc
+        --fg-color: #674e78
+        --link: #9697ea
+        --hov-link: #b175ac
+        --vis-link: #db92f4
+
+@media (prefers-color-scheme: dark)
+    html
+        --bg-color: #4d3a5a
+        --fg-color: #fdffdc
+        --link: #9697ea
+        --hov-link: #b175ac
+        --vis-link: #db92f4
+
+html
+    background-color: var(--bg-color)
+    color: var(--fg-color)
+    font-family: sans-serif
+
+body
+    font-size: 18px
+    max-width: 24em
+    margin: auto
+    padding: 0.5em
+
+a:link, a:active
+    color: var(--link)
+
+a:hover
+    color: var(--hov-link)
+
+a:visited
+    color: var(--vis-link)
+
+nav, section
+    margin: 1em auto
