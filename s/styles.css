@@ -4,54 +4,73 @@
     --fg-color: #674e78;
     --link: #9697ea;
     --hov-link: #e637f9;
-    --vis-link: #db92f4; } }
+    --vis-link: #db92f4;
+  }
+}
 @media (prefers-color-scheme: dark) {
   html {
     --bg-color: #4d3a5a;
     --fg-color: #fdffdc;
     --link: #9697ea;
     --hov-link: #ff84fc;
-    --vis-link: #db92f4; } }
+    --vis-link: #db92f4;
+  }
+}
 @font-face {
   font-family: "Coconat Ext";
   src: url("Coconat-BoldExt.woff2") format("woff2"), url("Coconat-BoldExt.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 @font-face {
   font-family: "Coconat";
   src: url("Coconat-Regular.woff2") format("woff2"), url("Coconat-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 html {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 body {
   font-family: sans-serif;
   font-size: 56px;
   max-width: 40em;
-  padding: 0.5em; }
+  padding: 0.5em;
+  text-transform: lowercase;
+}
 
 a:link, a:active {
-  color: var(--link); }
+  color: var(--link);
+}
 
 a:hover {
-  color: var(--hov-link); }
+  color: var(--hov-link);
+}
 
 a:visited {
-  color: var(--vis-link); }
+  color: var(--vis-link);
+}
 
 section {
-  margin: auto; }
+  margin: auto;
+}
 
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
-  ol li {
-    display: inline; }
+  padding: 0;
+}
+ol li {
+  display: inline;
+}
+
+p {
+  font-size: 0.625em;
+}
 
 /*# sourceMappingURL=styles.css.map */
