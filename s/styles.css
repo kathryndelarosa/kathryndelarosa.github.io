@@ -5,6 +5,7 @@
     --link: #9697ea;
     --hov-link: #e637f9;
     --vis-link: #db92f4;
+    --code: #916ea9;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -14,6 +15,7 @@
     --link: #9697ea;
     --hov-link: #ff84fc;
     --vis-link: #db92f4;
+    --code: #b7aedd;
   }
 }
 @font-face {
@@ -51,8 +53,7 @@ html {
 
 body {
   font-family: "Spline Sans", sans-serif;
-  font-size: 56px;
-  line-height: 1.325em;
+  font-size: 48px;
   max-width: 40em;
   padding: 0.5em;
   text-transform: lowercase;
@@ -89,6 +90,16 @@ article {
 
 section {
   font-size: 0.4em;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+code {
+  color: var(--code);
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=styles.css.map */
