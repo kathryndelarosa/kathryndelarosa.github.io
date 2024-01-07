@@ -1,89 +1,89 @@
 @media (prefers-color-scheme: light)
     html
-        --bg-color: #fdffdc
+        --bg-color: #ffe3f8
         --fg-color: #674e78
-        --link: #9697ea
-        --hov-link: #e637f9
-        --vis-link: #db92f4
-        --code: #916ea9
+        --black:    #4d3a5a
+        --red:      #ff0083
+        --green:    #00a294
+        --yellow:   #ec8300
+        --blue:     #0c1eb8
+        --magenta:  #78008b
+        --cyan:     #ff69d3
+        --white:    #fff1fb
+        --accent:   #db92f4
+        --code:     #916ea9
 
 @media (prefers-color-scheme: dark)
     html
-        --bg-color: #4d3a5a
-        --fg-color: #fdffdc
-        --link: #9697ea
-        --hov-link: #ff84fc
-        --vis-link: #db92f4
-        --code: #b7aedd
+        --bg-color: #1b1b2c
+        --fg-color: #d2c9da
+        --black:    #25253c
+        --red:      #d90e7a
+        --green:    #378a6f
+        --yellow:   #ffbc4d
+        --blue:     #67a8e4
+        --magenta:  #bf56ca
+        --cyan:     #ff84fc
+        --white:    #b7aedd
+        --accent:   #9697ea
+        --code:     #b175ac
 
 @font-face
     font-display: swap
-    font-family: 'Spline Sans Mono'
+    font-family: 'Binchotan_Sharp'
     font-style: normal
     font-weight: 400
     src: url('../f/spline-sans-mono-v10-latin_latin-ext-regular.woff2') format('woff2')
-
-@font-face
-  font-display: swap
-  font-family: 'Spline Sans Mono'
-  font-style: italic
-  font-weight: 400
-  src: url('../f/spline-sans-mono-v10-latin_latin-ext-italic.woff2') format('woff2')
-
-@font-face
-  font-display: swap
-  font-family: 'Spline Sans'
-  font-style: normal
-  font-weight: 400
-  src: url('../f/spline-sans-v10-latin_latin-ext-regular.woff2') format('woff2')
-
-@font-face
-  font-display: swap
-  font-family: 'Spline Sans'
-  font-style: normal
-  font-weight: 700
-  src: url('../f/spline-sans-v10-latin_latin-ext-700.woff2') format('woff2')
 
 html
     background-color: var(--bg-color)
     color: var(--fg-color)
 
 body
-    font-family: 'Spline Sans', sans-serif
-    font-size: 48px
-    max-width: 40em
-    padding: 0.5em
-    text-transform: lowercase
+    align-items: center
+    display: flex
+    font-family: 'Binchotan_Sharp', monospace
+    font-size: 12px
+    height: 100vh
+    justify-content: center
+    position: absolute
+    width: 100vw
 
-a:link, a:active
-    color: var(--link)
-
-a:hover
-    color: var(--hov-link)
-
-a:visited
-    color: var(--vis-link)
-
-nav, section, article
-    margin: auto
+section
+    border: 1px solid var(--green)
+    border-radius: .5em
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    position: relative
+    min-height: 15vh
+    padding: 0em 1em
+    width: 20em
 
 ol
+    color: var(--green)
     list-style-type: none
-    margin: 0
+    margin: 1em 0
     padding: 0
+
     li
         display: inline
 
-article
-    font-size: 0.625em
+    a:link, a:visited
+        color: var(--green)
 
-section
-    font-size: 0.4em
+    a:hover
+        color: var(--accent)
+
+h1, h2, h3
+    color: var(--red)
+    font-size: 1em
+    font-weight: normal
+    margin: 1em 0
 
 p
-    line-height: 1.3em
+    color: var(--blue)
+    margin: 3em 0 
 
-code
-    color: var(--code)
-    font-family: 'Spline Sans Mono', monospace
-    font-size: 0.8em
+a:hover
+    color: var(--accent)
