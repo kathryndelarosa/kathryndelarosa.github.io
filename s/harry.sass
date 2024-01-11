@@ -11,7 +11,6 @@
         --cyan:     #ff69d3
         --white:    #ffe3f8
         --accent:   #db92f4
-        --code:     #916ea9
 
 @media (prefers-color-scheme: dark)
     html
@@ -22,11 +21,10 @@
         --green:    #378a6f
         --yellow:   #ff9500
         --blue:     #00a6e2
-        --magenta:  #bf56ca
+        --magenta:  #8865ca
         --cyan:     #ff84fc
         --white:    #b7aedd
         --accent:   #9697ea
-        --code:     #b175ac
 
 @font-face
     font-display: swap
@@ -41,26 +39,26 @@ html
 
 body
     display: flex
+    flex-direction: row
     justify-content: flex-start
     align-content: space-around
     align-items: center
-    gap: 10em
     font-family: 'Binchotan_Sharp', monospace
-    font-size: 12px
-    min-width: 150em
-    padding: 0 10em
+    font-size: 11px
     height: 90vh
+    gap: 20em
+    padding: 0 20em
     overflow-x: auto
 
 section
     display: inline-flex
     justify-content: space-between
     flex-direction: column
-    border-radius: .5em
-    min-height: 15vh
-    min-width: 20em
-    max-width: 20em
-    padding: 0em 1em
+    border-radius: .75em
+    min-height: 14em
+    min-width: 21em
+    max-width: 21em
+    padding: 0.75em 1.5em
 
 a:link, a:visited
     color: inherit
@@ -111,6 +109,9 @@ a:hover
         color: var(--accent)
 
 ol
+    display: flex
+    flex-direction: row
+    justify-content: space-between
     list-style-type: none
     margin: 1em 0
     padding: 0
