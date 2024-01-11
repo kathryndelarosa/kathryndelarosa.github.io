@@ -1,17 +1,16 @@
 @media (prefers-color-scheme: light)
     html
-        --bg-color: #ffe3f8
+        --bg-color: #fff1fb
         --fg-color: #674e78
-        --black:    #4d3a5a
+        --black:    #5a3a57
         --red:      #ff0083
         --green:    #00a294
         --yellow:   #ec8300
         --blue:     #0c1eb8
         --magenta:  #78008b
         --cyan:     #ff69d3
-        --white:    #fff1fb
+        --white:    #c09ebc
         --accent:   #db92f4
-        --code:     #916ea9
 
 @media (prefers-color-scheme: dark)
     html
@@ -19,14 +18,13 @@
         --fg-color: #d2c9da
         --black:    #25253c
         --red:      #d90e7a
-        --green:    #378a6f
-        --yellow:   #ffbc4d
-        --blue:     #67a8e4
-        --magenta:  #bf56ca
+        --green:    #009f85
+        --yellow:   #ff9500
+        --blue:     #00a6e2
+        --magenta:  #8865ca
         --cyan:     #ff84fc
         --white:    #b7aedd
         --accent:   #9697ea
-        --code:     #b175ac
 
 @font-face
     font-display: swap
@@ -40,50 +38,75 @@ html
     color: var(--fg-color)
 
 body
-    align-items: center
-    display: flex
     font-family: 'Binchotan_Sharp', monospace
     font-size: 12px
-    height: 100vh
-    justify-content: center
-    position: absolute
-    width: 100vw
-
-section
-    border: 1px solid var(--green)
-    border-radius: .5em
+    line-height: 1.4em
+    height: 98vh
+    width: 98vw
+    text-transform: lowercase
     display: flex
     flex-direction: column
+    align-items: center
+    justify-content: center
+
+section
+    border: 1px solid var(--fg-color) 
+    border-radius: 0.5em
+    padding: 0 1em
+    margin: 1em 0
+    display: flex
     justify-content: space-between
-    position: relative
-    min-height: 15vh
-    padding: 0em 1em
+    flex-direction: column
     width: 20em
+    min-height: 1em
+    max-height: 60vh
 
 ol
-    color: var(--green)
+    display: flex
+    flex-direction: row
+    justify-content: space-between
     list-style-type: none
     margin: 1em 0
     padding: 0
+    font-size: 1.25em
 
     li
         display: inline
 
-    a:link, a:visited
-        color: var(--green)
-
-    a:hover
-        color: var(--accent)
-
+    
 h1, h2, h3
-    color: var(--red)
     font-size: 1em
     font-weight: normal
     margin: 1em 0
 
-p
-    color: var(--blue)
-    margin: 3em 0 
+ul
+    margin: 1em 0
+    padding-left: 0
+    list-style-type: none
 
 a:hover
     color: var(--accent)
+
+a.tsuna
+    color: var(--black)
+
+a.rei
+    color: var(--red)
+
+a.mako
+    color: var(--green)
+
+a.mina
+    color: var(--yellow)
+
+a.ami
+    color: var(--blue)
+
+a.taru
+    color: var(--magenta)
+
+a.usa
+    color: var(--cyan)
+
+a.ruka
+    color: var(--white)
