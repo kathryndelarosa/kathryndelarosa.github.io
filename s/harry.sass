@@ -2,14 +2,14 @@
     html
         --bg-color: #fff1fb
         --fg-color: #674e78
-        --black:    #4d3a5a
+        --black:    #5a3a57
         --red:      #ff0083
         --green:    #00a294
         --yellow:   #ec8300
         --blue:     #0c1eb8
         --magenta:  #78008b
         --cyan:     #ff69d3
-        --white:    #ffe3f8
+        --white:    #c09ebc
         --accent:   #db92f4
 
 @media (prefers-color-scheme: dark)
@@ -18,7 +18,7 @@
         --fg-color: #d2c9da
         --black:    #25253c
         --red:      #d90e7a
-        --green:    #378a6f
+        --green:    #009f85
         --yellow:   #ff9500
         --blue:     #00a6e2
         --magenta:  #8865ca
@@ -35,78 +35,31 @@
 
 html
     background-color: var(--bg-color)
-    color: var(--blue)
+    color: var(--fg-color)
 
 body
-    display: flex
-    flex-direction: row
-    justify-content: flex-start
-    align-content: space-around
-    align-items: center
     font-family: 'Binchotan_Sharp', monospace
-    font-size: 11px
-    height: 90vh
-    gap: 20em
-    padding: 0 20em
-    overflow-x: auto
+    font-size: 12px
+    line-height: 1.4em
+    height: 98vh
+    width: 98vw
+    text-transform: lowercase
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
 
 section
-    display: inline-flex
+    border: 1px solid var(--fg-color) 
+    border-radius: 0.5em
+    padding: 0 1em
+    margin: 1em 0
+    display: flex
     justify-content: space-between
     flex-direction: column
-    border-radius: .75em
-    min-height: 14em
-    min-width: 21em
-    max-width: 21em
-    padding: 0.75em 1.5em
-
-a:link, a:visited
-    color: inherit
-
-a:hover
-    color: var(--accent)
-
-.rei
-    border: 1px solid var(--red)
-    a:link, a:visited, ul
-        color: var(--red)
-    a:hover
-        color: var(--accent)
-
-.mako
-    border: 1px solid var(--green)
-    a:link, a:visited, ul
-        color: var(--green)
-    a:hover
-        color: var(--accent)
-
-.mina
-    border: 1px solid var(--yellow)
-    a:link, a:visited, ul
-        color: var(--yellow)
-    a:hover
-        color: var(--accent)
-
-.ami
-    border: 1px solid var(--blue)
-    a:link, a:visited, ul
-        color: var(--blue)
-    a:hover
-        color: var(--accent)
-
-.taru
-    border: 1px solid var(--magenta)
-    a:link, a:visited, ul
-        color: var(--magenta)
-    a:hover
-        color: var(--accent)
-
-.usa
-    border: 1px solid var(--cyan)
-    a:link, a:visited, ul
-        color: var(--cyan)
-    a:hover
-        color: var(--accent)
+    width: 20em
+    min-height: 1em
+    max-height: 60vh
 
 ol
     display: flex
@@ -115,13 +68,13 @@ ol
     list-style-type: none
     margin: 1em 0
     padding: 0
+    font-size: 1.25em
 
     li
         display: inline
 
     
 h1, h2, h3
-    color: var(--red)
     font-size: 1em
     font-weight: normal
     margin: 1em 0
@@ -130,3 +83,30 @@ ul
     margin: 1em 0
     padding-left: 0
     list-style-type: none
+
+a:hover
+    color: var(--accent)
+
+a.tsuna
+    color: var(--black)
+
+a.rei
+    color: var(--red)
+
+a.mako
+    color: var(--green)
+
+a.mina
+    color: var(--yellow)
+
+a.ami
+    color: var(--blue)
+
+a.taru
+    color: var(--magenta)
+
+a.usa
+    color: var(--cyan)
+
+a.ruka
+    color: var(--white)
