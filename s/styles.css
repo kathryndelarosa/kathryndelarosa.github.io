@@ -1,7 +1,19 @@
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 14px;
+  }
+}
 @media (prefers-color-scheme: light) {
   html {
     --bg-color: #fff1fb;
-    --fg-color: #674e78;
+    --fg-main: #674e78;
+    --fg-link: #db92f4;
+    --fg-accent: #916ea9;
     --black: #5a3a57;
     --red: #ff0083;
     --green: #00a294;
@@ -10,13 +22,14 @@
     --magenta: #78008b;
     --cyan: #ff69d3;
     --white: #c09ebc;
-    --accent: #db92f4;
   }
 }
 @media (prefers-color-scheme: dark) {
   html {
     --bg-color: #1b1b2c;
-    --fg-color: #d2c9da;
+    --fg-main: #d2c9da;
+    --fg-link: #9697ea;
+    --fg-accent: #fddbff;
     --black: #25253c;
     --red: #d90e7a;
     --green: #009f85;
@@ -25,7 +38,6 @@
     --magenta: #8865ca;
     --cyan: #ff84fc;
     --white: #b7aedd;
-    --accent: #9697ea;
   }
 }
 @font-face {
@@ -33,17 +45,16 @@
   font-family: "Binchotan_Sharp";
   font-style: normal;
   font-weight: 400;
-  src: url("../f/spline-sans-mono-v10-latin_latin-ext-regular.woff2") format("woff2");
+  src: url("../f/binchotan_sharp.woff2") format("woff2");
 }
 html {
   background-color: var(--bg-color);
-  color: var(--fg-color);
+  color: var(--fg-main);
 }
 
 body {
   font-family: "Binchotan_Sharp", monospace;
-  font-size: 12px;
-  line-height: 1.4em;
+  line-height: 1.3em;
   height: 98vh;
   width: 98vw;
   text-transform: lowercase;
@@ -53,8 +64,8 @@ body {
   justify-content: center;
 }
 
-section {
-  border: 1px solid var(--fg-color);
+section, nav {
+  border: 1px solid var(--fg-main);
   border-radius: 0.5em;
   padding: 0 1em;
   margin: 1em 0;
@@ -66,16 +77,15 @@ section {
   max-height: 60vh;
 }
 
-ol {
+nav ol {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
   margin: 1em 0;
   padding: 0;
-  font-size: 1.25em;
 }
-ol li {
+nav li {
   display: inline;
 }
 
@@ -91,8 +101,11 @@ ul {
   list-style-type: none;
 }
 
-a:hover {
-  color: var(--accent);
+p a:link, p a:visited, ul a:link, ul a:visited {
+  color: var(--fg-link);
+}
+p a:hover, ul a:hover {
+  color: var(--fg-accent);
 }
 
 a.tsuna {
@@ -125,6 +138,26 @@ a.usa {
 
 a.ruka {
   color: var(--white);
+}
+
+#astrology, #colophon {
+  display: none;
+}
+
+#astrology:target, #colophon:target {
+  display: flex;
+}
+
+a.exit {
+  font-size: 0.8em;
+  text-align: right;
+  color: var(--fg-accent);
+  display: block;
+  margin: 1em 0;
+}
+
+a.exit:hover {
+  color: var(--fg-link);
 }
 
 /*# sourceMappingURL=styles.css.map */
