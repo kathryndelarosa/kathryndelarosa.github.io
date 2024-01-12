@@ -45,7 +45,7 @@
   font-family: "Binchotan_Sharp";
   font-style: normal;
   font-weight: 400;
-  src: url("../f/binchotan_sharp.woff2") format("woff2");
+  src: url("../f/Binchotan_Sharp.woff2") format("woff2"), url("../f/Binchotan_Sharp.woff") format("woff");
 }
 html {
   background-color: var(--bg-color);
