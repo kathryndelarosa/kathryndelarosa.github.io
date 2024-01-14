@@ -60,7 +60,7 @@ body
 section, nav
     border: 1px solid var(--fg-main) 
     border-radius: 0.5em
-    padding: 0 1em
+    padding: 0.5em 1em
     margin: 1em 0
     display: flex
     justify-content: space-between
@@ -75,7 +75,6 @@ nav
         flex-direction: row
         justify-content: space-between
         list-style-type: none
-        margin: 1em 0
         padding: 0
 
     li
@@ -88,9 +87,11 @@ h1, h2, h3
     margin: 1em 0
 
 ul
-    margin: 1em 0
     padding-left: 0
     list-style-type: none
+
+p, ul, ol
+    margin: 0.5em 0
 
 p, ul
     a:link, a:visited
@@ -123,10 +124,10 @@ a.usa
 a.ruka
     color: var(--white)
 
-#astrology, #colophon
+#astrology, #colophon, #research, #fun, #theater
     display: none
 
-#astrology:target, #colophon:target
+#astrology:target, #colophon:target, #research:target, #fun:target, #theater:target
     display: flex
 
 a.exit
