@@ -31,7 +31,6 @@
 @font-face
     font-display: swap
     font-family: 'Binchotan_Sharp'
-    font-size: 14px
     font-style: normal
     font-weight: 400
     src: url('../f/Binchotan_Sharp.woff2') format('woff2'), url('../f/Binchotan_Sharp.woff') format('woff')
@@ -42,6 +41,7 @@ html
 
 body
     font-family: 'Binchotan_Sharp', monospace
+    font-size: 14px
     line-height: 1.3em
     height: 98vh
     width: 98vw
@@ -54,11 +54,11 @@ section, nav
     border: 1px solid var(--fg-main) 
     border-radius: 0.5em
     padding: 0.5em 1em
-    margin: 1em 0
     display: flex
+    margin: 1em 0
     justify-content: space-between
     flex-direction: column
-    width: 20em
+    width: 18em
     min-height: 1em
     max-height: 60vh
 
@@ -74,16 +74,19 @@ nav
         display: inline
 
     
-h1, h2, h3
-    font-size: 1em
-    font-weight: normal
-    margin: 1em 0
-
 ul
-    padding-left: 0
+    padding-left: 1em
     list-style-type: none
+    margin: 0
 
-p, ul, ol
+    li::before
+        content: "⁎"
+        color: var(--fg-accent)
+        display: inline-block
+        width: 1em
+        margin-left: -1em
+
+p, ol, h1, h2, h3
     margin: 0.5em 0
 
 p, ul
@@ -92,6 +95,10 @@ p, ul
 
     a:hover
         color: var(--fg-accent)
+
+h1, h2, h3
+    font-size: 1em
+    font-weight: normal
 
 a.tsuna
     color: var(--black)
@@ -119,6 +126,10 @@ a.ruka
 
 #astrology, #colophon, #research, #fun, #theater
     display: none
+    width: 20em
+    padding: 0.5em  0
+    margin: 0
+    border: none
 
 #astrology:target, #colophon:target, #research:target, #fun:target, #theater:target
     display: flex
