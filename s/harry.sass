@@ -1,145 +1,63 @@
 @media (prefers-color-scheme: light)
     html
-        --bg-color:     #fff1fb
-        --fg-main:      #674e78
-        --fg-link:      #db92f4
-        --fg-accent:    #916ea9 
-        --black:        #5a3a57
-        --red:          #ff0083
-        --green:        #00a294
-        --yellow:       #ec8300
-        --blue:         #0c1eb8
-        --magenta:      #78008b
-        --cyan:         #ff69d3
-        --white:        #c09ebc
+        --bg-color:     white
+        --fg-main:      black
+        --fg-link:      blue
 
 @media (prefers-color-scheme: dark)
     html
-        --bg-color:     #1b1b2c
-        --fg-main:      #d2c9da
-        --fg-link:      #9697ea
-        --fg-accent:    #fddbff
-        --black:        #25253c
-        --red:          #d90e7a
-        --green:        #009f85
-        --yellow:       #ff9500
-        --blue:         #00a6e2
-        --magenta:      #8865ca
-        --cyan:         #ff84fc
-        --white:        #b7aedd
+        --bg-color:     black
+        --fg-main:      white
+        --fg-link:      cyan
 
-@font-face
+/* stix-two-text-regular - latin */
+@font-face 
     font-display: swap
-    font-family: 'Binchotan_Sharp'
+    font-family: 'STIX Two Text'
     font-style: normal
     font-weight: 400
-    src: url('../f/Binchotan_Sharp.woff2') format('woff2'), url('../f/Binchotan_Sharp.woff') format('woff')
+    src: url('../f/stix-two-text-v12-latin-regular.woff2') format('woff2')
+
+/* stix-two-text-italic - latin */
+@font-face 
+    font-display: swap
+    font-family: 'STIX Two Text'
+    font-style: italic
+    font-weight: 400
+    src: url('../f/stix-two-text-v12-latin-italic.woff2') format('woff2')
 
 html
     background-color: var(--bg-color)
     color: var(--fg-main)
 
 body
-    font-family: 'Binchotan_Sharp', monospace
-    font-size: 14px
-    line-height: 1.3em
+    font-family: 'STIX Two Text', 'Times New Roman', serif
+    font-size: 20px
+    line-height: 1.4em
     height: 98vh
     width: 98vw
     display: flex
-    flex-direction: column
     align-items: center
     justify-content: center
 
-section, nav
-    border: 1px solid var(--fg-main) 
-    border-radius: 0.5em
-    padding: 0.5em 1em
-    display: flex
-    margin: 1em 0
-    justify-content: space-between
-    flex-direction: column
-    width: 18em
-    min-height: 1em
-    max-height: 60vh
+a, a:visited
+    color: var(--fg-link)
+    text-decoration: none
+
+a:hover
+    color: var(--fg-main)
+
+section
+    width: 25em
+    margin: auto
 
 nav
+    width: 1em
+    margin: 1em
+
     ol
-        display: flex
-        flex-direction: row
-        justify-content: space-between
         list-style-type: none
         padding: 0
 
-    li
-        display: inline
-
-    
-ul
-    padding-left: 1em
-    list-style-type: none
-    margin: 0
-
-    li::before
-        content: "⁎"
-        color: var(--fg-accent)
-        display: inline-block
-        width: 1em
-        margin-left: -1em
-
-p, ol, h1, h2, h3
-    margin: 0.5em 0
-
-p, ul
-    a:link, a:visited
-        color: var(--fg-link)
-
-    a:hover
-        color: var(--fg-accent)
-
-h1, h2, h3
-    font-size: 1em
-    font-weight: normal
-
-a.tsuna
-    color: var(--black)
-
-a.rei
-    color: var(--red)
-
-a.mako
-    color: var(--green)
-
-a.mina
-    color: var(--yellow)
-
-a.ami
-    color: var(--blue)
-
-a.taru
-    color: var(--magenta)
-
-a.usa
-    color: var(--cyan)
-
-a.ruka
-    color: var(--white)
-
-#astrology, #colophon, #research, #fun, #theater
-    display: none
-    width: 20em
-    padding: 0.5em  0
-    margin: 0
-    border: none
-
-#astrology:target, #colophon:target, #research:target, #fun:target, #theater:target
-    display: flex
-
-a.exit
-    font-size: 0.8em
-    text-align: right
-    color: var(--fg-accent)
-    display: block
-    margin: 1em 0
-
-a.exit:hover
-    color: var(--fg-link)
+        li
+          margin: 1em 0
