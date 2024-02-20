@@ -1,15 +1,29 @@
 @media (prefers-color-scheme: light) {
   html {
     --bg-color: white;
+    --fg-black: darkorchid;
+    --fg-red: crimson;
+    --fg-green: lightseagreen;
+    --fg-yellow: darkorange;
+    --fg-blue: blue;
+    --fg-magenta: hotpink;
+    --fg-cyan: lightskyblue;
+    --fg-white: silver;
     --fg-main: black;
-    --fg-link: blue;
   }
 }
 @media (prefers-color-scheme: dark) {
   html {
     --bg-color: black;
+    --fg-black: mediumorchid;
+    --fg-red: red;
+    --fg-green: mediumturquoise;
+    --fg-yellow: orange;
+    --fg-blue: cyan;
+    --fg-magenta: hotpink;
+    --fg-cyan: dodgerblue;
+    --fg-white: snow;
     --fg-main: white;
-    --fg-link: cyan;
   }
 }
 /* stix-two-text-regular - latin */
@@ -44,8 +58,7 @@ body {
   justify-content: center;
 }
 
-a, a:visited {
-  color: var(--fg-link);
+a {
   text-decoration: none;
 }
 
@@ -57,10 +70,14 @@ section {
   width: 25em;
   margin: auto;
 }
+section a, section a:visited {
+  color: var(--fg-blue);
+}
 
 nav {
   width: 1em;
   margin: 1em;
+  text-align: center;
 }
 nav ol {
   list-style-type: none;
@@ -68,6 +85,34 @@ nav ol {
 }
 nav ol li {
   margin: 1em 0;
+}
+
+.rei {
+  color: var(--fg-red);
+}
+
+.mako {
+  color: var(--fg-green);
+}
+
+.mina {
+  color: var(--fg-yellow);
+}
+
+.ami {
+  color: var(--fg-cyan);
+}
+
+.usa {
+  color: var(--fg-magenta);
+}
+
+.mamo {
+  color: var(--fg-white);
+}
+
+.toru {
+  color: var(--fg-black);
 }
 
 /*# sourceMappingURL=styles.css.map */
