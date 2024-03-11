@@ -1,13 +1,13 @@
 @media (prefers-color-scheme: light)
     html
         --bg-color:     white
-        --fg-blue:      blue
+        --fg-accent:    deeppink
         --fg-main:      black
 
 @media (prefers-color-scheme: dark)
     html
         --bg-color:     black
-        --fg-blue:      cyan
+        --fg-accent:    hotpink
         --fg-main:      white
 
 html
@@ -15,40 +15,24 @@ html
     color: var(--fg-main)
 
 body
-    font-family: sans-serif
+    font-family: 'Arial', sans-serif
     font-size: 24px
     line-height: 1.4em
 
 a, a:visited
   color: var(--fg-main)
-  text-decoration-color: var(--fg-blue)
+  text-decoration-color: var(--fg-accent)
 
 a:hover
-    color: var(--fg-blue)
-    font-family: serif
+    color: var(--fg-accent)
+    font-family: 'Times New Roman', serif
     font-size: 1.1em
+
+.serif
+  font-family: 'Times New Roman', serif
+  font-size: 1.1em
+  color: var(--fg-accent)
 
 ul
     list-style-type: none
     padding-left: 0
-
-.rei
-  color: var(--fg-red)
-
-.mako
-  color: var(--fg-green)
-
-.mina
-  color: var(--fg-yellow)
-
-.ami
-  color: var(--fg-cyan)
-
-.usa
-  color: var(--fg-magenta)
-
-.mamo
-  color: var(--fg-white)
-
-.toru
-  color: var(--fg-black)
