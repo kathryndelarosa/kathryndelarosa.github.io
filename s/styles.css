@@ -8,7 +8,7 @@
 @media (prefers-color-scheme: dark) {
   html {
     --bg-color: black;
-    --fg-accent: hotpink;
+    --fg-accent: mediumspringgreen;
     --fg-main: white;
   }
 }
