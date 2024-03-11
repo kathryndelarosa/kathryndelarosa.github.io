@@ -1,83 +1,36 @@
 @media (prefers-color-scheme: light)
     html
         --bg-color:     white
-        --fg-black:    darkorchid
-        --fg-red:       crimson
-        --fg-green:     lightseagreen
-        --fg-yellow:    darkorange
         --fg-blue:      blue
-        --fg-magenta:   hotpink
-        --fg-cyan:      lightskyblue
-        --fg-white:     silver
         --fg-main:      black
 
 @media (prefers-color-scheme: dark)
     html
         --bg-color:     black
-        --fg-black:     mediumorchid
-        --fg-red:       red
-        --fg-green:     mediumturquoise
-        --fg-yellow:    orange
         --fg-blue:      cyan
-        --fg-magenta:   hotpink
-        --fg-cyan:      dodgerblue
-        --fg-white:     snow
         --fg-main:      white
-
-/* stix-two-text-regular - latin */
-@font-face 
-    font-display: swap
-    font-family: 'STIX Two Text'
-    font-style: normal
-    font-weight: 400
-    src: url('../f/stix-two-text-v12-latin-regular.woff2') format('woff2')
-
-/* stix-two-text-italic - latin */
-@font-face 
-    font-display: swap
-    font-family: 'STIX Two Text'
-    font-style: italic
-    font-weight: 400
-    src: url('../f/stix-two-text-v12-latin-italic.woff2') format('woff2')
 
 html
     background-color: var(--bg-color)
     color: var(--fg-main)
 
 body
-    font-family: 'STIX Two Text', 'Times New Roman', serif
-    font-size: 20px
+    font-family: sans-serif
+    font-size: 24px
     line-height: 1.4em
-    height: 98vh
-    width: 98vw
-    display: flex
-    align-items: center
-    justify-content: center
 
-a
-    text-decoration: none
+a, a:visited
+  color: var(--fg-main)
+  text-decoration-color: var(--fg-blue)
 
 a:hover
-    color: var(--fg-main)
+    color: var(--fg-blue)
+    font-family: serif
+    font-size: 1.1em
 
-section
-    width: 25em
-    margin: auto
-
-    a, a:visited
-        color: var(--fg-blue)
-
-nav
-    width: 1em
-    margin: 1em
-    text-align: center
-
-    ol
-        list-style-type: none
-        padding: 0
-
-        li
-          margin: 1em 0
+ul
+    list-style-type: none
+    padding-left: 0
 
 .rei
   color: var(--fg-red)
