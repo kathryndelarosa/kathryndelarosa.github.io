@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   html {
-    --bg-color: white;
+    --bg-color: gainsboro;
     --fg-main: deeppink;
   }
 }
@@ -44,11 +44,13 @@ html {
 }
 
 body {
-  font-family: "Times Now", sans-serif;
+  font-family: "Times Now", "Times New Roman", serif;
   font-weight: 300;
-  font-size: 54px;
+  font-size: 48px;
   line-height: 1.22em;
-  padding: 0 0.5em;
+  padding: 0 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a, a:visited {
@@ -59,18 +61,30 @@ a:hover {
   background-color: var(--fg-main);
   color: var(--bg-color);
   text-decoration: none;
-  font-style: italic;
+}
+
+p {
+  margin: 0.2em 0;
 }
 
 strong {
-  font-style: italic;
-  font-variant: small-caps;
-  font-weight: 500;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 ul {
+  font-family: "Arial", "Helvetica", sans-serif;
   list-style-type: none;
   padding-left: 0;
+  text-transform: uppercase;
+}
+ul a {
+  text-decoration: none;
+}
+
+.half {
+  font-size: 0.6em;
 }
 
 /*# sourceMappingURL=styles.css.map */
